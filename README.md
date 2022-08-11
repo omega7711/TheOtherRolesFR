@@ -1,8 +1,10 @@
-![eisbison banner](https://raw.githubusercontent.com/TheOtherRolesAU/TheOtherRoles/main/Images/TOR_logo.png)
+![eisbison banner](./Images/TOR_logo.png)
 <p align="center"><a href="https://github.com/omega7711/TheOtherRolesFR/releases"><img src="https://badgen.net/github/release/omega7711/TheOtherRolesFR"></a></p>
 
 <p align="center">
 Ce mod n'est pas affilié avec Among Us ou Innersloth LLC, et le contenu n'est pas fait ou sponsorisé par Innersloth LLC. Ce qu'il y a à l'intérieur de ce mod n'est pas la propriété d'Innersloth LLC. © Innersloth LLC.</p>
+<p align="center">
+Mod Original: [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)</p>
 
 [![Discord](./Images/TOR_server.png)](https://discord.gg/77RkMJHWsM)
 ![eisbison infographic](./Images/TOR_Roles.png)
@@ -689,27 +691,27 @@ Le mod ajoute quelques paramètres à Among Us (en plus des paramètres de rôle
 - **Maximum Number Of Meetings:** Vous pouvez régler le nombre maximum de meetings pouvant être convoquées au total (Chaque joueur a toujours un maximum personnel de boutons, mais si le nombre maximum de meetings est atteint, vous ne pouvez pas utiliser vos meetings même s'il vous en reste. Les meetings des Impostor et Jackal comptent aussi).
 - **Allow Skips On Emergency Meetings:** Si celle-ci est réglée sur `false`, il n'y aura pas de bouton skip dans les meetings d'urgence. Si un joueur ne vote pas, il se votera lui-même.
 - **Hide Player Names:** Cache les noms de tous les joueurs qui ont un rôle qui vous est inconnu. les Teams Lovers/Impostors/Jackal voient toujours les noms de leurs partenaires. Les Impostors peuvent toujours voir les noms des Spy et tout le monde peut toujours voir l'age du mini.
-- **Allow Parallel MedBay Scans:** Allows players to perform their MedBay scans at the same time.
-- **Shield Last Game First Kill** The first killed player of the previous round will be shielded for all players visible until the first meeting.
-- **Play On A Random Map** If enabled it allows you to set a rotation of all current maps, except ehT dlekS 
+- **Allow Parallel MedBay Scans:** Autorise les jouerus à faire leur scan MedBay en même temps.
+- **Shield Last Game First Kill** Le premier joueur tué à la dernière partie sera protégé pour tous les joueurs visibles jusqu'au premier meeting.
+- **Play On A Random Map** Si activé cela va vous laisser choisir une rotation pour toutes les cartes actuelles, exepté ehT dlekS 
 - **Ghosts Can See Roles**
 - **Ghosts Can See Votes**
 - **Ghosts Can Additionally See Modifier**
 - **Ghosts Can See The Number Of Remaining Tasks**
 - **The map is accessable during a meeting and will show your last location when a body gets reported/meeting gets called**
 - **When you're a ghost and done with tasks, you'll get a zoom out/overview function**
-- **Task Counts:** You are now able to select more tasks.
-- **Role Summary:** When a game ends there will be a list of all players and their roles and their task progress
-- **Darker/Lighter:** Displays color type of each player in meetings
+- **Task Counts:** Vous êtes maintenant capable de sélectionner plus de tâches.
+- **Role Summary:** Quand une partie se termine il y aura une liste de tous les joueurs, leur rôle et leur progression des tâches
+- **Darker/Lighter:** Affiche le type de couleurs de chaque joueurs dans les meetings
 
-### Task Count Limits per map
-You can configure:
-- Up to 4 common tasks
-- Up to 23 short tasks
-- Up to 15 long tasks
+### Limites du nombre de tâches par carte
+Vous pouvez configurer:
+- Jusqu'à 4 tâches communes
+- Jusqu'à 23 tâches courtes
+- Jusqu'à 15 tâches longues
 
-Please note, that if the configured option exceeds the available number of tasks of a map, the tasks will be limited to that number of tasks. \
-Example: If you configure 4 common tasks on Airship crewmates will only receive 2 common tasks, as airship doesn't offer more than 2 common tasks.
+Veuillez noter que si l'option configurée dépasse le nombre de tâches disponibles d'une carte, les tâches seront limitées à ce nombre de tâches. \
+Exemple: Si vous configurez 4 tâches communes sur Airship, les Crewmates recevront uniquement 2 tâches communes,parce que Airship n'offre pas plus que 2 tâches communes.
 
 | Map | Common Tasks | Short Tasks | Long Tasks |
 |----------|:-------------:|:-------------:|:-------------:|
