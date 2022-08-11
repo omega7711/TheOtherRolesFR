@@ -1,17 +1,16 @@
-![eisbison banner](./Images/TOR_logo.png)
-<p align="center"><a href="https://github.com/Eisbison/TheOtherRoles/releases/"><img src="https://badgen.net/github/release/eisbison/theotherroles"></a></p>
+![eisbison banner](https://raw.githubusercontent.com/TheOtherRolesAU/TheOtherRoles/main/Images/TOR_logo.png)
+<p align="center"><a href="https://github.com/omega7711/TheOtherRolesFR/releases"><img src="https://badgen.net/github/release/omega7711/TheOtherRolesFR"></a></p>
 
 <p align="center">
-This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.</p>
+Ce mod n'est pas affilié avec Among Us ou Innersloth LLC, et le contenu n'est pas fait ou sponsorisé par Innersloth LLC. Ce qu'il y a à l'intérieur de ce mod n'est pas la propriété d'Innersloth LLC. © Innersloth LLC.</p>
 
 [![Discord](./Images/TOR_server.png)](https://discord.gg/77RkMJHWsM)
 ![eisbison infographic](./Images/TOR_Roles.png)
 
-
 # The Other Roles
 
-The **The Other Roles**, is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new roles, new [Settings](#settings) and new [Custom Hats](#custom-hats) to the game.
-Even more roles are coming soon. :)
+**The Other Roles**, est un mod pour [Among Us](https://store.steampowered.com/app/945360/Among_Us) qui ajoute beaucoup de rôles, des nouveaux [Paramètres](#settings) et des nouveaux [Chapeaux Custom](#custom-hats) au jeu.
+Plus de rôles sont en cours de développement. :)
 
 | Impostors | Crewmates | Neutral | Modifier |
 |----------|-------------|-----------------|----------------|
@@ -35,96 +34,96 @@ Even more roles are coming soon. :)
 |  | [Medium](#medium) |  |  |
 |  | [Nice Guesser](#guesser) |  |
 
-The [Role Assignment](#role-assignment) sections explains how the roles are being distributed among the players.
+La section [Role Assignment](#role-assignment) explique comment les rôles sont distribués parmis les joueurs.
 
-# Releases
-| Among Us - Version| Mod Version | Link |
+# Versions
+| Among Us - Version| Version du mod | Lien |
 |----------|-------------|-----------------|
-| 2022.6.21, 2022.7.12| v4.1.6| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.6/TheOtherRoles.zip)
-| 2022.6.21, 2022.7.12| v4.1.5| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.5/TheOtherRoles.zip)
-| 2022.3.29| v4.1.4| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.4/TheOtherRoles.zip)
-| 2022.3.29| v4.1.3| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.3/TheOtherRoles.zip)
-| 2022.3.29| v4.1.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.2/TheOtherRoles.zip)
-| 2022.3.29| v4.1.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.1/TheOtherRoles.zip)
-| 2022.3.29| v4.1.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.0/TheOtherRoles.zip)
-| 2022.3.29s| v4.0.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.0.0/TheOtherRoles.zip)
-| 2022.3.29s| v3.4.5| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.5/TheOtherRoles.zip)
-| 2022.2.23s| v3.4.4| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.4/TheOtherRoles.zip)
-| 2021.12.15s| v3.4.3| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.3/TheOtherRoles.zip)
-| 2021.12.15s| v3.4.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.2/TheOtherRoles.zip)
-| 2021.12.15s| v3.4.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.1/TheOtherRoles.zip)
-| 2021.12.15s| v3.4.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.0/TheOtherRoles.zip)
-| 2021.12.15s| v3.3.3| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.3/TheOtherRoles.zip)
-| 2021.12.15s| v3.3.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.2/TheOtherRoles.zip)
-| 2021.12.14s| v3.3.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.1/TheOtherRoles.zip)
-| 2021.12.14s| v3.3.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.0/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.2.4| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.4/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.2.3| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.3/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.2.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.2/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.2.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.1/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.2.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.0/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.1.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.1.2/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.1.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.1.1/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.1.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.1.0/TheOtherRoles.zip)
-| 2021.11.9.5s| v3.0.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.0.0/TheOtherRoles.zip)
-| 2021.6.30s| v2.9.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.9.2/TheOtherRoles.zip)
-| 2021.6.30s| v2.9.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.9.1/TheOtherRoles.zip)
-| 2021.6.30s| v2.9.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.9.0/TheOtherRoles.zip)
-| 2021.6.30s| v2.8.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.8.1/TheOtherRoles.zip)
-| 2021.6.30s| v2.8.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.8.0/TheOtherRoles.zip)
-| 2021.6.30s| v2.7.3| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.7.3/TheOtherRoles.zip)
-| 2021.6.15s| v2.7.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.7.1/TheOtherRoles.zip)
-| 2021.6.15s| v2.7.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.7.0/TheOtherRoles.zip)
-| 2021.5.25.2s| v2.6.7| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.7/TheOtherRoles.zip)
-| 2021.5.10s| v2.6.6| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.6/TheOtherRoles.zip)
-| 2021.5.10s| v2.6.5| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.5/TheOtherRoles.zip)
-| 2021.5.10s| v2.6.4| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.4/TheOtherRoles.zip)
-| 2021.5.10s| v2.6.3| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.3/TheOtherRoles.zip)
-| 2021.5.10s| v2.6.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.2/TheOtherRoles.zip)
-| 2021.4.14s| v2.6.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.1/TheOtherRoles.zip)
-| 2021.4.14s| v2.6.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.0/TheOtherRoles.zip)
-| 2021.4.14s| v2.5.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.5.1/TheOtherRoles.zip)
-| 2021.4.14s| v2.5.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.5.0/TheOtherRoles.zip)
-| 2021.4.14s| v2.4.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.4.0/TheOtherRoles.zip)
-| 2021.4.14s| v2.3.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.3.0/TheOtherRoles.zip)
-| 2021.4.14s| v2.2.2| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.2.2/TheOtherRoles.zip)
-| 2021.4.12s| v2.2.1| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.2.1/TheOtherRoles.zip)
-| 2021.4.12s| v2.2.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.2.0/TheOtherRoles.zip)
-| 2021.3.31.3s| v2.1.0| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.1.0/TheOtherRoles.zip)
-| 2021.3.31.3s| v2.0.1 beta| [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.0.1/TheOtherRoles.zip)
-| 2021.3.31.3s | v2.0.0 beta | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.0.0/TheOtherRoles.zip)
-| 2021.3.5s | v1.8.2 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.8.2/TheOtherRoles.zip)
-| 2021.3.5s | v1.8.1 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.8.1/TheOtherRoles.zip)
-| 2021.3.5s | v1.8 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.8/TheOtherRoles.zip)
-| 2021.3.5s | v1.7 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.7/TheOtherRoles.zip)
-| 2021.3.5s | v1.6 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.6/TheOtherRoles.zip)
-| 2021.3.5s | v1.5 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.5/TheOtherRoles.zip)
-| 2021.3.5s | v1.4 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.4/TheOtherRoles.zip)
-| 2021.3.5s | v1.3 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.3/TheOtherRoles.zip)
-| 2020.12.19s | v1.1 | [Download](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.1/TheOtherRoles.zip)
-| 2020.12.19s | v1.0 | [Download](https://github.com/Eisbison/TheOtherRoles/files/6097191/TheOtherRoles.zip)
+| 2022.6.21, 2022.7.12| v4.1.6| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.6/TheOtherRoles.zip)
+| 2022.6.21, 2022.7.12| v4.1.5| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.5/TheOtherRoles.zip)
+| 2022.3.29| v4.1.4| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.4/TheOtherRoles.zip)
+| 2022.3.29| v4.1.3| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.3/TheOtherRoles.zip)
+| 2022.3.29| v4.1.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.2/TheOtherRoles.zip)
+| 2022.3.29| v4.1.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.1/TheOtherRoles.zip)
+| 2022.3.29| v4.1.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.0/TheOtherRoles.zip)
+| 2022.3.29s| v4.0.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.0.0/TheOtherRoles.zip)
+| 2022.3.29s| v3.4.5| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.5/TheOtherRoles.zip)
+| 2022.2.23s| v3.4.4| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.4/TheOtherRoles.zip)
+| 2021.12.15s| v3.4.3| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.3/TheOtherRoles.zip)
+| 2021.12.15s| v3.4.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.2/TheOtherRoles.zip)
+| 2021.12.15s| v3.4.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.1/TheOtherRoles.zip)
+| 2021.12.15s| v3.4.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.4.0/TheOtherRoles.zip)
+| 2021.12.15s| v3.3.3| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.3/TheOtherRoles.zip)
+| 2021.12.15s| v3.3.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.2/TheOtherRoles.zip)
+| 2021.12.14s| v3.3.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.1/TheOtherRoles.zip)
+| 2021.12.14s| v3.3.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.3.0/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.2.4| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.4/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.2.3| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.3/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.2.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.2/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.2.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.1/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.2.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.2.0/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.1.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.1.2/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.1.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.1.1/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.1.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.1.0/TheOtherRoles.zip)
+| 2021.11.9.5s| v3.0.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v3.0.0/TheOtherRoles.zip)
+| 2021.6.30s| v2.9.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.9.2/TheOtherRoles.zip)
+| 2021.6.30s| v2.9.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.9.1/TheOtherRoles.zip)
+| 2021.6.30s| v2.9.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.9.0/TheOtherRoles.zip)
+| 2021.6.30s| v2.8.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.8.1/TheOtherRoles.zip)
+| 2021.6.30s| v2.8.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.8.0/TheOtherRoles.zip)
+| 2021.6.30s| v2.7.3| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.7.3/TheOtherRoles.zip)
+| 2021.6.15s| v2.7.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.7.1/TheOtherRoles.zip)
+| 2021.6.15s| v2.7.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.7.0/TheOtherRoles.zip)
+| 2021.5.25.2s| v2.6.7| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.7/TheOtherRoles.zip)
+| 2021.5.10s| v2.6.6| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.6/TheOtherRoles.zip)
+| 2021.5.10s| v2.6.5| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.5/TheOtherRoles.zip)
+| 2021.5.10s| v2.6.4| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.4/TheOtherRoles.zip)
+| 2021.5.10s| v2.6.3| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.3/TheOtherRoles.zip)
+| 2021.5.10s| v2.6.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.2/TheOtherRoles.zip)
+| 2021.4.14s| v2.6.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.1/TheOtherRoles.zip)
+| 2021.4.14s| v2.6.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.6.0/TheOtherRoles.zip)
+| 2021.4.14s| v2.5.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.5.1/TheOtherRoles.zip)
+| 2021.4.14s| v2.5.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.5.0/TheOtherRoles.zip)
+| 2021.4.14s| v2.4.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.4.0/TheOtherRoles.zip)
+| 2021.4.14s| v2.3.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.3.0/TheOtherRoles.zip)
+| 2021.4.14s| v2.2.2| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.2.2/TheOtherRoles.zip)
+| 2021.4.12s| v2.2.1| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.2.1/TheOtherRoles.zip)
+| 2021.4.12s| v2.2.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.2.0/TheOtherRoles.zip)
+| 2021.3.31.3s| v2.1.0| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.1.0/TheOtherRoles.zip)
+| 2021.3.31.3s| v2.0.1 beta| [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.0.1/TheOtherRoles.zip)
+| 2021.3.31.3s | v2.0.0 beta | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v2.0.0/TheOtherRoles.zip)
+| 2021.3.5s | v1.8.2 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.8.2/TheOtherRoles.zip)
+| 2021.3.5s | v1.8.1 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.8.1/TheOtherRoles.zip)
+| 2021.3.5s | v1.8 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.8/TheOtherRoles.zip)
+| 2021.3.5s | v1.7 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.7/TheOtherRoles.zip)
+| 2021.3.5s | v1.6 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.6/TheOtherRoles.zip)
+| 2021.3.5s | v1.5 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.5/TheOtherRoles.zip)
+| 2021.3.5s | v1.4 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.4/TheOtherRoles.zip)
+| 2021.3.5s | v1.3 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.3/TheOtherRoles.zip)
+| 2020.12.19s | v1.1 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/releases/download/v1.1/TheOtherRoles.zip)
+| 2020.12.19s | v1.0 | [Télécharger](https://github.com/Eisbison/TheOtherRoles/files/6097191/TheOtherRoles.zip)
 
-# Changelog
+# Changements
 <details>
-  <summary>Click to show the Changelog</summary>
+  <summary>Cliquez pour voir les infos de mise à jour</summary>
   
 **Version 4.1.6**  
-- Added Sound Effects: Most buttons / role funcionalities now have a sound!
-- Added a mod option: Enable Sound Effects  
-- Added an option: Hide After Death Modifiers: Modifiers which will have an effect after your death will be hidden while the player is alive so they cant be claimed / called
-- Added lobby timer sync, so that each player can see when the lobby will close on Vanilla Servers
-- Added a credits screen to the main menu
-- Re-Added the player's last position to the map in meetings
-- Changed the custom region ui   
-- Fixed a bug where the Spy's Name appearing in white to the impostors in the intro cutscene
-- Fixed a bug where the zoom function for ghosts would zoom in too far
-- Fixed a bug where custom color names did not work (TOR is now compatible with colorblind mode)
-- Fixed a bug where the ninjas color name did not become invisible in colorblind mode
-- Fixed a bug where Morphling & Camouflager did not work correctly for skins with adaptive color
-- Fixed a bug where the first kill shield was given to the wrong lover
-- Fixed a bug where Pursuer appeared in the GuesserUI even when Lawyer was disabled
-- Fixed a bug where a guessed Guesser could still guess if they had the guesser ui open
-- Fixed a bug where the role assignment did not work properly (fingers crossed)
+- Ajout de sons: La plupart des boutons / fonctionnalités de rôles ont maintenant du son!
+- Ajout d'une option de mod: Activer les effets de son  
+- Ajout d'une option: Masquer les modificateurs après la mort : les modificateurs qui auront un effet après votre mort seront cachés pendant que le joueur est en vie afin qu'ils ne puissent pas être réclamés / appelés
+- Ajout du timer de lobby synchronisé, donc chaque joueur peut voir quand le lobby seraz fermé sur les serveurs Vanilla
+- Ajout d'un écran de crédits au menu principal
+- Ré-Ajout de la dernière position du joueur sur la carte pendant les réunions
+- Changement du UI de région custom 
+- Correction du bug où le nom des espions apparaît en blanc pour les imposteurs dans la scène d'intro
+- Correction d'un bug où le zoom pour les fantômes zoomait trop loin
+- Correction d'un bug où les couleurs de noms personnalisés ne fonctionnait pas (TOR est maintenant compatible avec le mode daltonien)
+- Correction d'un bug où le nom de la couleur des ninjas ne devenait pas invisible en mode daltonien
+- Correction d'un bug où Morphling & Camouflager ne fonctionnait pas correctement pour les skins avec une couleur personnalisée
+- Correction d'un bug où le premier bouclier de mise à mort était donné au mauvais Lover
+- Correction d'un bug où Pursuer apparaissait dans le UI du Guesser même lorsque Lawyer était désactivé
+- Correction d'un bug où un Guesser deviné pouvait encore deviner s'il avait le UI du Guesser ouverte
+- Correction d'un bug où l'attribution des rôles ne fonctionnait pas correctement (doigts croisés)
 
 **Version 4.1.5**
 - Updated to Among Us version 2022.6.21
@@ -224,10 +223,10 @@ The [Role Assignment](#role-assignment) sections explains how the roles are bein
 - Changed that the lighter/darker color indicator can be displayed as dead
 
 **Version 3.4.2**
-- Fixed a game breaking bug
+- Correction d'un bug de plantage du jeu
   
 **Version 3.4.2**
-- Fixed a game breaking bug
+- Correction d'un bug de plantage du jeu
   
 **Version 3.4.1**
 - Added a new mod option "Show Lighter/Darker" for meetings
@@ -301,15 +300,15 @@ The [Role Assignment](#role-assignment) sections explains how the roles are bein
 - Bug fix: The Warlock is again able to kill with the curse abilty
 
 **Version 3.2.0**
-- **New Role:** [Witch](#witch) created by [Alex2911](https://github.com/Alex2911)
-- **New Role:** [Lawyer](#lawyer)
+- **Nouveau rôle:** [Witch](#witch) créé par [Alex2911](https://github.com/Alex2911)
+- **Nouveau rôle:** [Lawyer](#lawyer)
 - Bug fix: Choosing an Impostor as a Sidekick won't resulted in an Impostor/Sidekick mix anymore.
 - Bug fix: The Guesser info now shows the right information, when the Guesser guesses the wrong role and kills himself.
 - Bug fix: Hats are being displayed in alphabetic order. Hats demo in freeplay is working again. Fixed a bug where hats would not load when accessed from the main menu.
 - Bug fix: The Detective now shows the name of the players in any case.
 
 **Hotfix 3.1.2**
-- Don't ask, just update. I messed up.
+- Ne demandez pas, juste une mise à jour. J'ai foiré.
 
 **Hotfix 3.1.1**
 - Bug fix: You're again able to connect to custom servers
@@ -602,94 +601,94 @@ The [Role Assignment](#role-assignment) sections explains how the roles are bein
 # Installation
 
 ## Windows Installation Steam
-1. Download the newest [release](https://github.com/Eisbison/TheOtherRoles/releases/latest)
-2. Find the folder of your game. You can right click on the game in your library, a menu will appear, click on properties, local data, browse
-3. Go back one folder to common and make a copy of your Among Us game folder and paste it somewhere on the same drive.
-4. Now unzip and drag or extract the files from the .zip into your Among Us game folder that you just copied, at the `.exe` level (just into the folder).
-5. Run the game by starting the .exe from this folder (the first launch might take a while).
+1. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest)
+2. Trouvez le dossier de votre jeu. Vous pouvez faire clique droit sur le jeu dans votre Bibliothèque, un menu devrait apparaître, cliquez sur propriétées, fichiers locaux, parcourir
+3. Repartez un dossier en arrière vers "common" et faites une copie de votre dossier Among Us et copiez le quelque part dans le même disque.
+4. Maintenant dézippez et déplacez ou extrayez les fichiers du .zip dans le dossier Among Us que vous venez de créer, au niveau du `.exe` (juste dans le dossier).
+5. Lancez le jeu juste en ouvrant le .exe de ce dossier (le premier démarrage peut être long).
 
-Not working? You might want to install the dependency [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+Cela ne marche pas? Vous devriez installer la dépendance [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
 
 ## Windows Installation Epic
-1. Download the newest [release](https://github.com/Eisbison/TheOtherRoles/releases/latest)
-2. Find the folder of your game. Should be stored in "Epic/AmongUs" (wherever you installed Epic on your PC)
-3. Now unzip and drag or extract the files from the .zip into the original Epic Among Us game folder.
-4. Run the game by starting the game in your Epic Games launcher (the first launch might take a while).
+1. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest)
+2. Trouvez le dossier de votre jeu. Cela devrait être dans "Epic/AmongUs" (Là où vous avez installé Epic sur votre ordinateur)
+3. aintenant dézippez et déplacez ou extrayez les fichiers du .zip dans le dossier original Among Us d'Epic.
+4. Lancez le jeu à partir du Epic Games launcher (le premier démarrage peut être long).
 
-Not working? You might want to install the dependency [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+Cela ne marche pas? Vous devriez installer la dépendance [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
 
-![Install](https://i.imgur.com/pvBAyZN.png)
+![Installer](https://i.imgur.com/pvBAyZN.png)
 
 ## Linux Installation
-1. Install Among Us via Steam
-2. Download newest [release](https://github.com/Eisbison/TheOtherRoles/releases/latest) and extract it to ~/.steam/steam/steamapps/common/Among Us
-3. Enable `winhttp.dll` via the proton winecfg (https://docs.bepinex.dev/articles/advanced/steam_interop.html#open-winecfg-for-the-target-game)
-4. Launch the game via Steam
+1. Installez Among Us via Steam
+2. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest) et extrayez là dans "~/.steam/steam/steamapps/common/Among Us"
+3. Activez `winhttp.dll` via le winecfg de proton (https://docs.bepinex.dev/articles/advanced/steam_interop.html#open-winecfg-for-the-target-game)
+4. Lancez le jeu via Steam
 
 ## The Other Roles Custom Servers
-**A custom server is not necessary and official servers are working just fine with the mod, but in case you want to set up and host your own server, here's a guide for you to follow.**
+**Un serveur custom n'est pas nécessaire et les serveurs officiels fonctionnent parfaitement avec le mod, mais au cas où vous voulez préparer et host votre propre serveur, Il y a un guide que vous devriez suivre.**
 
-**Setup the Server:**
-1. Get the Impostor release (https://github.com/Impostor/Impostor)
-2. Follow the steps (using the server release you just downloaded) on the official Impostor-Documentation (https://github.com/Impostor/Impostor/wiki/Running-the-server)
-3. Make sure to set the following values to false in the config.json file:
+**Paramètrer le serveur:**
+1. Prenez la version de Impostor (https://github.com/Impostor/Impostor)
+2. Suis les étapes (utilise la version du serveur que tu viens de télécharger) sur le documentation officielle de Imposter (https://github.com/Impostor/Impostor/wiki/Running-the-server)
+3. Soyez sûr d'avoir mis en "false" les configurations suivantes dans le fichier config.json:
 ```    ...
      'AntiCheat': {
        'Enabled': false,
       'BanIpFromGame': false
     }
 ```
-4. Make sure to forward the right ports on the hosting machine.
-5. Run the server and setup the client.
-Setting up Server as Docker Container:
-If you want to run the server as a docker container you'll need to use the image
+4. Soyez sur de régler les bons ports sur votre machine serveur.
+5. Lancez le server et préparez le client.
+Préparer le server comme Docker container:
+Si vous voulez lancer le serveur comme un docker container vous devriez utiliser l'image
 aeonlucid/impostor:nightly
 
-(Currently only the 'nightly' tag is starting a server supporting 2021.3.31 or later)
-In addition to running it we need to set the environment variables to disable the AntiCheat feature.
+(Pour l'instant, seul le tag 'nightly' peut lancer un serveur supportant la version 2021.3.31 ou plus)
+En plus pour le lancer nous avons besoin de régler les variables d'environnement pour désactiver la fonction d'Anticheat.
 IMPOSTOR_AntiCheatEnabled=false
 IMPOSTOR_AntiCheatBanIpFromGame=false
 
-Example to docker run command:
+Exemple de commande Docker pour le lancer:
 docker run -p 22023:22023/udp --env IMPOSTOR_AntiCheatEnabled=false --env IMPOSTOR_AntiCheatBanIpFromGame=false aeonlucid/impostor:nightly
 
-Or use to run it in the background
+Ou utilisez celle-ci pour le lancer en arrière-plan
 docker run -d -p 22023:22023/udp --env IMPOSTOR_AntiCheatEnabled=false --env IMPOSTOR_AntiCheatBanIpFromGame=false aeonlucid/impostor:nightly
 
-**If you have any problems regarding custom servers, please contact https://github.com/Impostor/Impostor or https://discord.gg/ThJUGAsz**
+**Si vous avez n'importe quel problème avec les serveurs custom, s'il vous plaît contactez https://github.com/Impostor/Impostor ou https://discord.gg/ThJUGAsz**
 
 
-# Credits & Resources
-[OxygenFilter](https://github.com/NuclearPowered/Reactor.OxygenFilter) - For all the version v2.3.0 to v2.6.1, we were using the OxygenFilter for automatic deobfuscation\
-[Reactor](https://github.com/NuclearPowered/Reactor) - The framework used for all version before v2.0.0\
-[BepInEx](https://github.com/BepInEx) - Used to hook game functions\
-[Essentials](https://github.com/DorCoMaNdO/Reactor-Essentials) - Custom game options by **DorCoMaNdO**:
-- Before v1.6: We used the default Essentials release
-- v1.6-v1.8: We slightly changed the default Essentials. The changes can be found on this [branch](https://github.com/Eisbison/Reactor-Essentials/tree/feature/TheOtherRoles-Adaption) of our fork.
-- v2.0.0 and later: As we're not using Reactor anymore, we are using our own implementation, inspired by the one from **DorCoMaNdO**
+# Credits & Ressources
+[OxygenFilter](https://github.com/NuclearPowered/Reactor.OxygenFilter) - pour toutes les versions allant de v2.3.0 à v2.6.1, on utilisait OxygenFilter pour un désobscurcissement automatique\
+[Reactor](https://github.com/NuclearPowered/Reactor) - le framework utilisé pour la version v2.0.0\
+[BepInEx](https://github.com/BepInEx) - Utilisé pour hook les fonctions de jeu\
+[Essentials](https://github.com/DorCoMaNdO/Reactor-Essentials) - Options de jeu custom par **DorCoMaNdO**:
+- Before v1.6: On utilisait la version par défaut d'Essentials
+- v1.6-v1.8: On a légèrement changé la version par défaut d'Essentials. Les changements peuvent être trouvés dans la [branche](https://github.com/Eisbison/Reactor-Essentials/tree/feature/TheOtherRoles-Adaption) de notre fork.
+- v2.0.0 et après: Comme on n'utilise plus Reactor, on utilise notre propre implémentation, inspiré de celle de **DorCoMaNdO**
 
-[Jackal and Sidekick](https://www.twitch.tv/dhalucard) - Original idea for the Jackal and Sidekick comes from **Dhalucard**\
-[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - Idea for the Lovers role comes from **Woodi-dev**\
-[Jester](https://github.com/Maartii/Jester) - Idea for the Jester role comes from **Maartii**\
-[ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - Idea for the Engineer and Medic role comes from **NotHunter101**. Also some code snippets come of the implementation were used.\
-[Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - Idea for the Sheriff role comes from **Woodi-dev**\
-[TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - Idea for the Detective and Time Master roles comes from **Hardel-DW**. Also some code snippets of the implementation were used.\
-[TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for the Swapper, Shifter, Arsonist and a similar Mayor role come from **Slushiegoose**\
-[Ottomated](https://twitter.com/ottomated_) - Idea for the Morphling, Snitch and Camouflager role come from **Ottomated**\
-[Crowded-Mod](https://github.com/CrowdedMods/CrowdedMod) - Our implementation for 10+ player lobbies is inspired by the one from the **Crowded Mod Team**\
-[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role come from **Slushygoose**
+[Jackal and Sidekick](https://www.twitch.tv/dhalucard) - Idée originale du Jackal et du Sidekick vanant de **Dhalucard**\
+[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - Idée des rôles Lovers venant de **Woodi-dev**\
+[Jester](https://github.com/Maartii/Jester) - Idée du rôle Jester venant de **Maartii**\
+[ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - Idée des rôles Engineer et Medic venant de **NotHunter101**. De plus, certains extraits de code issus de l'implémentation ont été utilisés.\
+[Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - Idée du rôle Sheriff venant de **Woodi-dev**\
+[TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - Idée des rôles Detective et Time Master venant de **Hardel-DW**. De plus, certains extraits de code issus de l'implémentation ont été utilisés.\
+[TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idée des rôles Swapper, Shifter, Arsonist et similaire au Mayor venant de **Slushiegoose**\
+[Ottomated](https://twitter.com/ottomated_) - Idée des rôles Morphling, Snitch et Camouflager venant de **Ottomated**\
+[Crowded-Mod](https://github.com/CrowdedMods/CrowdedMod) - Notre implémentation pour les lobby de 10+ joueurs est inspiré de celle de venant de la **Crowded Mod Team**\
+[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idée pour le rôle Vulture venant de **Slushygoose**
 
-# Settings
-The mod adds a few new settings to Among Us (in addition to the role settings):
-- **Streamer Mode:** You can activate the streamer mode in the Among Us settings. It hides the lobby code, the custom server ip and the custom server port. You can set a custom lobby code replacement text, by changing the *Streamer Mode Replacement Text* in the `BepInEx\config\me.eisbison.theotherroles.cfg` file.
-- **Number of Crewmates:** The number of Crewmate roles can be set inside a lobby.
-- **Number of Neutrals:** The number of Neutral roles can be set inside a lobby.
-- **Number of Impostors:** The number of Impostor roles can be set inside a lobby.
-- **Number of Modifiers:** The number of Modifiers can be set inside a lobby.
-- **Map:** The map can be changed inside a lobby.
-- **Maximum Number Of Meetings:** You can set the maximum number of meetings that can be called in total (Every player still has personal maximum of buttons, but if the maximum number of meetings is reached you can't use your meetings even if you have some left. Impostor and Jackal meetings also count).
-- **Allow Skips On Emergency Meetings:** If set to false, there will not be a skip button in emergency meetings. If a player does not vote, they'll vote themself.
-- **Hide Player Names:** Hides the names of all players that have role which is unknown to you. Team Lovers/Impostors/Jackal still see the names of their teammates. Impostors can also see the name of the Spy and everyone can still see the age of the mini.
+# Paramètres
+Le mod ajoute quelques paramètres à Among Us (en plus des paramètres de rôle):
+- **Streamer Mode:** Vous pouvez activer le mode streamer dans les paramètres d'Among Us. Cela cache le code du lobby, l'ip du serveur custom et son port. Vous pouvez mettre un texte de remplacement du code du lobby personnalisé, en changeant *Streamer Mode Replacement Text* dans le fichier `BepInEx\config\me.eisbison.theotherroles.cfg`.
+- **Number of Crewmates:** Le nombre de rôles Crewmates peut être réglé dans un lobby.
+- **Number of Neutrals:** Le nombre de rôles Neutral peut être réglé dans un lobby.
+- **Number of Impostors:** Le nombre de rôles Impostors peut être réglé dans un lobby.
+- **Number of Modifiers:** Le nombre de Modifiers peut être réglé dans un lobby.
+- **Map:** La carte peut être changée dans un lobby.
+- **Maximum Number Of Meetings:** Vous pouvez régler le nombre maximum de meetings pouvant être convoquées au total (Chaque joueur a toujours un maximum personnel de boutons, mais si le nombre maximum de meetings est atteint, vous ne pouvez pas utiliser vos meetings même s'il vous en reste. Les meetings des Impostor et Jackal comptent aussi).
+- **Allow Skips On Emergency Meetings:** Si celle-ci est réglée sur `false`, il n'y aura pas de bouton skip dans les meetings d'urgence. Si un joueur ne vote pas, il se votera lui-même.
+- **Hide Player Names:** Cache les noms de tous les joueurs qui ont un rôle qui vous est inconnu. les Teams Lovers/Impostors/Jackal voient toujours les noms de leurs partenaires. Les Impostors peuvent toujours voir les noms des Spy et tout le monde peut toujours voir l'age du mini.
 - **Allow Parallel MedBay Scans:** Allows players to perform their MedBay scans at the same time.
 - **Shield Last Game First Kill** The first killed player of the previous round will be shielded for all players visible until the first meeting.
 - **Play On A Random Map** If enabled it allows you to set a rotation of all current maps, except ehT dlekS 
@@ -837,8 +836,8 @@ If a victim is near a garlic, the "Bite Button" turns into the default "Kill But
 - The cooldown is the same as the default kill cooldown (+ the kill delay if the Vampire bites the target).
 - If there is a Vampire in the game, there can't be a Warlock.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
 | Vampire Spawn Chance | -
 | Vampire Kill Delay | -
