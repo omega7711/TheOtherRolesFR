@@ -3,7 +3,7 @@
 
 <p align="center">
 Ce mod n'est pas affilié avec Among Us ou Innersloth LLC, et le contenu n'est pas fait ou sponsorisé par Innersloth LLC. Ce qu'il y a à l'intérieur de ce mod n'est pas la propriété d'Innersloth LLC. © Innersloth LLC.</p>
-Mod Original: [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)
+Mod Original: ![TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)
 
 [![Discord](./Images/TOR_server.png)](https://discord.gg/77RkMJHWsM)
 ![eisbison infographic](./Images/TOR_Roles.png)
