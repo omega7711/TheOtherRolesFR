@@ -804,7 +804,7 @@ Le Morphling est un Imposteur qui peut en plus scanner l'apparence d'un joueur. 
 | Durée de métamorphose | Temps où le Morphling reste métamorphosé
 -----------------------
 
-## Camouflager
+## Camoufleur
 ### **Team: Imposteurs**
 Le Camouflager est un Imposteur qui peut en plus activer un mode camouflage.\
 Le mode camouflage dure 10s et tant qu'il est actif, tous les noms de joueurs/animaux/chapeaux\
@@ -842,10 +842,10 @@ Si une victime est près d'un ail, le "Bite Button" se transforme en "Kill Butto
 | Taux d'apparition du Vampire | -
 | Délai de Kill du Vampire | -
 | Cooldown du Vampire | Règle le cooldown de kill/morsure
-| Vampire Peut Tuer Proche de Oignons | Le Vampire ne peut jamais mordre quelqu'un quand leur victim est proch d'un Oignon. Si cette options est activée, Il peuvent toujours faire un kill normal.
+| Vampire Peut Tuer Proche des Oignons | Le Vampire ne peut jamais mordre quelqu'un quand leur victim est proch d'un Oignon. Si cette options est activée, Il peuvent toujours faire un kill normal.
 -----------------------
 
-## Eraser
+## Effaceur
 ### **Team: Imposteurs**
 The Eraser est un Imposteur qui peut effacer le rôle de chaque joueur.\
 Les joueurs ciblés perdront leur rôle après la réunion juste avant qu'un joueur ne soit exilé.\
@@ -869,27 +869,27 @@ ex-Lover à survivre, car le partenariat a été effacé auparavant. De plus, un
 | L'Effaceur Peut Effacer n'Importe Qui | Si cette option est désactivée, il ne peut pas effacer le Spy ni les autres Imposteurs
 -----------------------
 
-## Trickster
+## Filou
 ### **Team: Imposteurs**
-Le Trickster est un Imposteur qui peut placer 3 jack-in-the-box qui sont d'abord invisibles pour les autres joueurs.\
-Si le Trickster a placé toutes ses boîtes, elles seront converties en un réseau de vents utilisable uniquement par le Trickster lui-même, mais les boîtes sont révélées aux autres.\
-Si les boîtes sont converties en un réseau de vents, le Trickster gagne une nouvelle capacité "Lights out" pour limiter la visibilité des non-imposteurs, qui ne peut pas être corrigée par les autres joueurs. Les lumières sont automatiquement restaurées après un certain temps.\
+Le Filou est un Imposteur qui peut placer 3 jack-in-the-box qui sont d'abord invisibles pour les autres joueurs.\
+Si le Filou a placé toutes ses boîtes, elles seront converties en un réseau de vents utilisable uniquement par le Filou lui-même, mais les boîtes sont révélées aux autres.\
+Si les boîtes sont converties en un réseau de vents, le Filou gagne une nouvelle capacité "Lights out" pour limiter la visibilité des non-imposteurs, qui ne peut pas être corrigée par les autres joueurs. Les lumières sont automatiquement restaurées après un certain temps.\
 \
 **NOTE:**
-- Les imposteurs recevront un indicateur de texte en bas de l'écran pour les avertir si les lumières sont éteintes en raison de la capacité du Trickster, car il n'y a pas de flèches de sabotage ou de tâche pour saboter le texte pour les en informer autrement.
+- Les imposteurs recevront un indicateur de texte en bas de l'écran pour les avertir si les lumières sont éteintes en raison de la capacité du Filou, car il n'y a pas de flèches de sabotage ou de tâche pour saboter le texte pour les en informer autrement.
 
 ### Options de jeu
 | Nom | Description |
 |----------|:-------------:|
-| Taux d'apparition du Trickster | -
-| Cooldown des boîtes du Trickster | Cooldown pour placer les jack-in-the-boxes
-| Cooldown de l'abilité Lights Out du Trickster | Cooldown pour leur abilité "lights out"
+| Taux d'apparition du Filou | -
+| Cooldown des boîtes du Filou | Cooldown pour placer les jack-in-the-boxes
+| Cooldown de l'abilité Lights Out du Filou | Cooldown pour leur abilité "lights out"
 | Durée de l'abilité Lights Out | Durée après laquelle les lumières sont automatiquement restorées
 -----------------------
 
-## Cleaner
+## Nettoyeur
 ### **Team: Imposteurs**
-Le Cleaner est un Imposteur que a l'abilité de nettoyer les cadavres.\
+Le Nettoyeur est un Imposteur que a l'abilité de nettoyer les cadavres.\
 \
 **NOTE:**
 - Le cooldown de Kill et de Nettoyage sont paratagés, pour éviter qu'ils nettoient immédiatement leur kills.
@@ -898,28 +898,28 @@ Le Cleaner est un Imposteur que a l'abilité de nettoyer les cadavres.\
 ### Options de jeu
 | Nom | Description |
 |----------|:-------------:|
-| Taux d'Apparition du Cleaner | -
-| Cooldown du Cleaner | Cooldown pour nettoyer les cadavres
+| Taux d'Apparition du Nettoyeur | -
+| Cooldown du Nettoyeur | Cooldown pour nettoyer les cadavres
 -----------------------
 
 ## Sorcier
 ### **Team: Imposteurs**
-Le Warlock est un imposteur, qui peut maudire un autre joueur (le joueur maudit n'est pas averti).\
-Si la personne maudite se tient à côté d'un autre joueur, le Warlock est capable de tuer ce joueur (quelle que soit sa distance).\
-Effectuer une mise à mort avec l'aide d'un joueur maudit lèvera la malédiction et empêchera le Warlock de bouger pendant un laps de temps configurable.\
-Le Warlock peut toujours effectuer des éliminations normales, mais les deux boutons partagent le même temps de recharge.\
+Le Sorcier est un imposteur, qui peut maudire un autre joueur (le joueur maudit n'est pas averti).\
+Si la personne maudite se tient à côté d'un autre joueur, le Sorcier est capable de tuer ce joueur (quelle que soit sa distance).\
+Effectuer une mise à mort avec l'aide d'un joueur maudit lèvera la malédiction et empêchera le Sorcier de bouger pendant un laps de temps configurable.\
+Le Sorcier peut toujours effectuer des éliminations normales, mais les deux boutons partagent le même temps de recharge.\
 \
 **NOTE:**
-- Le Warlock peut toujours tuer ses compagnons imposteurs (et même lui-même) en utilisant le "tueur maudit"
-- S'il y a un Warlock dans le jeu, il ne peut pas y avoir de vampire
+- Le Sorcier peut toujours tuer ses compagnons imposteurs (et même lui-même) en utilisant le "tueur maudit"
+- S'il y a un Sorcier dans le jeu, il ne peut pas y avoir de vampire
 - Effectuer une mise à mort normale, ne lève pas la malédiction
 
 ### Options
 | Nom | Description |
 |----------|:-------------:|
-| Taux d'Apparition du Warlock | -
-| Cooldown du Warlock | Cooldown pour utiliser la Malédition et le Kill Maudit
-| Warlock Root Time | Time the Warlock is rooted in place after killing using the curse
+| Taux d'Apparition du Sorcier | -
+| Cooldown du Sorcier | Cooldown pour utiliser la Malédition et le Kill Maudit
+| Temps Enraciné | Temps pendant lequel le Sorcier est enraciné après avoir tué en utilisant la malédiction
 -----------------------
 
 ## Mandalorian
@@ -963,12 +963,12 @@ En fonction des options, vous pouvez choisir si le fait de rejeter la Sorcière 
 | Nom | Description |
 |----------|:-------------:|
 | Taux d'Apparition de la Sorcière | -
-| Cooldown des sorts | -
+| Cooldown entre les sorts | -
 | Cooldown Additionnel | Le Cooldown d'incantation sera augmenté du montant que vous avez défini ici après chaque sort
 | les Sorcières peuvent ensorceller tout le monde | Si cette option est désactivée, La sorcière ne peut pas ensorceller les Espions et les Imposteurs
 | Durée d'incantation | Le temps que vous avez besoin de rester à côté de la cible pour faire l'incantation
 | Cooldown partagés | Si cette options est activée, faire une incantation va aussi déclencher le cooldown du bouton kill et vice versa (mais les deux cooldown peuvent varier)
-| Voting The Witch Saves All The Targets | Si cette option est activée, toutes les cibles maudites survivront à la fin du meeting
+| Voter les Sorcière Sauve Toutes les Cibles | Si cette option est activée, toutes les cibles maudites survivront à la fin du meeting
 -----------------------
 
 ## Ninja
