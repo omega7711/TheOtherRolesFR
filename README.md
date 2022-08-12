@@ -748,7 +748,7 @@ Voici quelques instructions, sur comment créer un chapeau personnalisé:
 
 - **Envoi:** Si vous avez un design de chapeau, vous pouvez l'envoyer dans notre [Serveur Discord](https://discord.gg/77RkMJHWsM). We'll look at all the hats and add all the good ones to the game.
 
-# Colors
+# Couleurs
 ![TOR Colors](./Images/TOR_colors.jpg)
 
 # Rôles
@@ -902,7 +902,7 @@ Le Cleaner est un Imposteur que a l'abilité de nettoyer les cadavres.\
 | Cooldown du Cleaner | Cooldown pour nettoyer les cadavres
 -----------------------
 
-## Warlock
+## Sorcier
 ### **Team: Imposteurs**
 Le Warlock est un imposteur, qui peut maudire un autre joueur (le joueur maudit n'est pas averti).\
 Si la personne maudite se tient à côté d'un autre joueur, le Warlock est capable de tuer ce joueur (quelle que soit sa distance).\
@@ -946,29 +946,29 @@ Selon les options, il y aura une flèche pointant vers la cible actuelle.\
 | Intervalle de Mise à Jour de la Flèche | Définis quand la position est mise à jour
 -----------------------
 
-## Witch
-### **Team: Impostors**
-The Witch is an Impostor who has the ability to cast a spell on other players.\
-During the next meeting, the spellbound player will be highlighted and they'll die right after the meeting.\
-There are multiple options listed down below with which you can configure to fit your taste.\
-Similar to the Vampire, shields and blanks will be checked twice (at the end of casting the spell on the player and at the end of the meeting, when the spell will be activated).\
-This can result in players being marked as spelled during the meeting, but not dying in the end (when they get a shield or the Witch gets blanked after they were spelled by the Witch).\
-If the Witch dies before the meeting starts or if the Witch is being guessed during the meeting, the spellbound players will be highlighted but they'll survive in any case.\
-Depending on the options you can choose whether voting the Witch out will save all the spellbound players or not.\
+## Sorcière
+### **Team: Imposteurs**
+La Sorcière est un imposteur qui a la capacité de lancer un sort sur d'autres joueurs.\
+Lors du prochain meeting, le joueur envoûté sera mis en surbrillance et il mourra juste après le meeting.\
+Il existe plusieurs options répertoriées ci-dessous avec lesquelles vous pouvez configurer selon vos goûts.\
+Semblable au vampire, les boucliers seront vérifiés deux fois (à la fin du lancement du sort sur le joueur et à la fin du meeting, lorsque le sort sera activé).\
+Cela peut faire en sorte que les joueurs soient marqués comme épelés pendant le meeting, mais ne meurent pas à la fin (quand ils obtiennent un bouclier ou que la sorcière est masquée après avoir été épelée par la sorcière).\
+Si la sorcière meurt avant le début de la réunion ou si la sorcière est devinée pendant la réunion, les joueurs envoûtés seront mis en évidence mais ils survivront dans tous les cas.\
+En fonction des options, vous pouvez choisir si le fait de rejeter la Sorcière sauvera ou non tous les joueurs envoûtés.\
 \
 **NOTE:**
-- The spellbound players will die before the voted player dies (which might trigger e.g. trigger an Impostor win condition, even if the Witch is the one being voted)
+- Les joueurs envoûtés mourront avant que le joueur élu ne meure (ce qui pourrait déclencher, par exemple, une condition de victoire d'imposteur, même si la sorcière est celle qui est votée)
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Witch Spawn Chance | -
-| Witch Spell Casting Cooldown | -
-| Witch Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each spell
-| Witch Can Spell Everyone | If set to false, the witch can't spell the Spy and other Impostors
-| Witch Spell Casting Duration | The time that you need to stay next to the target in order to cast a spell on it
-| Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary)
-| Voting The Witch Saves All The Targets | If set to true, all the cursed targets will survive at the end of the meeting
+| Taux d'Apparition de la Sorcière | -
+| Cooldown des sorts | -
+| Cooldown Additionnel | Le Cooldown d'incantation sera augmenté du montant que vous avez défini ici après chaque sort
+| les Sorcières peuvent ensorceller tout le monde | Si cette option est désactivée, La sorcière ne peut pas ensorceller les Espions et les Imposteurs
+| Durée d'incantation | Le temps que vous avez besoin de rester à côté de la cible pour faire l'incantation
+| Cooldown partagés | Si cette options est activée, faire une incantation va aussi déclencher le cooldown du bouton kill et vice versa (mais les deux cooldown peuvent varier)
+| Voting The Witch Saves All The Targets | Si cette option est activée, toutes les cibles maudites survivront à la fin du meeting
 -----------------------
 
 ## Ninja
