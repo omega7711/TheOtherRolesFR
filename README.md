@@ -726,157 +726,157 @@ Nous attendons vos designs de chapeau créatifs et nous intègreront les meilleu
 Voici quelques instructions, sur comment créer un chapeau personnalisé:
 
 - **Création:** Un chapeau se compose de trois textures. Le rapport d'aspect des textures doit être `4:5`, nous recommendons `300px:375px`:
-  - `texture principale (requis)`:
+  - `Texture principale (requis)`:
     - C'est la texture principale de votre chapeau. Elle devrait habituellement être rendue au devant de votre joueur, si vous réglez le paramètre `behind` elle sera rendu derrière le joueur.
     - Le nom de la texture doit suivre le pattern *nomduchapeau.png*, mais vous pouvez aussi régler quelques paramètres additionnels dans le nom du fichier en ajoutant `_parametername` (avant le *.png*).
     - Paramètre `bounce`: Ce paramètre détermine si le chapeaux rebondit ou non lorsque vous marchez.
     - Paramètre `adaptive`: Si ce paramètre est réglé, me Among Us coloring shader sera appliqué (Le shader remplace quelques couleurs avec la couleurs que votre personnage porte dans le jeu). La couleur rouge (`#ff0000`) sera remplacée par la couleur primaire de votre joueur et la couleur bleue (`#0000ff`) avec la couleur secondaire. Quelques autres couleurs sont aussi affectées et changées, vous pouvez aller voir la texture du [Chapeau Crewmate](https://static.wikia.nocookie.net/among-us-wiki/images/e/e0/Crewmate_hat.png) pour voir comment cette fonctionnalité devrait  utilisée.
-    - Parameter `behind`: If this parameter is set, the main texture will be rendered behind the player.
-  - `Flipped texture (optional)`:
-    - This texture will be rendered instead of the Main texture, when facing the left.
-    - The name of the texture needs to follow the pattern `hatname_flip.png`.
-  - `Back texture (optional)`:
-    - This texture will be rendered behind the player.
-    - The name of the texture needs to follow the pattern `hatname_back.png`.
-  - `Flipped Back texture (optional)`:
-    - This texture will be rendered instead of the Back texture, when facing the left.
-    - The name of the texture needs to follow the pattern `hatname_back_flip.png`.
-  - `Climb texture (optional)`:
-    - This texture will be rendered in front of the player, when they're climbing.
-    - The name of the texture needs to follow the pattern `hatname_climb.png`.
-- **Testing:** You can test your hat design by putting all the files in the `\TheOtherHats\Test` subfolder of your mod folder. Then whenever you start a Freeplay game, you and all the dummies will be wearing the new hat. You don't need to restart Among Us if you change the hat files, just exit and reenter the Freeplay mode.
+    - Paramètre `behind`: Si ce paramètre est réglé, la Texture principale sera rendue derrière le joueur.
+  - `Texture retournée (optional)`:
+    - Cette texture sera rendue à la place de la Texture principale, quand le joueur est orienté à gauche.
+    - Le nom de la texture doit suivre le pattern `hatname_flip.png`.
+  - `Texture arrière (optional)`:
+    - Cette texture sera rendu derrière le joueur.
+    - Le nom de la texture doit suivre le pattern `hatname_back.png`.
+  - `Texture arrière retournée (optional)`:
+    - Cette texture sera rendue à la place de la Texture arrière, quand le joueur est orienté à gauche.
+    - Le nom de la texture doit suivre le pattern `hatname_back_flip.png`.
+  - `Texture de montée (optional)`:
+    - Cette texture sera rendu devant le joueur, quand il grimpe.
+    - Le nom de la texture doit suivre le pattern `hatname_climb.png`.
+- **Test:** Vous pouvez tester vos designs de chapeaux en mettant les fichiers dans le sous-dossier `\TheOtherHats\Test` de votre dossier de mod. Puis chaque fois que vous lancer une partie Freeplay, vous et tous les mannequins porterons le nouveau chapeau. Vous n'avez pas besoin de redémarrer Among Us si vous changez les fichiers du chapeau, juste quittez et revenez dans le mode Freeplay.
 
-- **Submission:** If you got a hat design, you can submit it on our [Discord server](https://discord.gg/77RkMJHWsM). We'll look at all the hats and add all the good ones to the game.
+- **Envoi:** Si vous avez un design de chapeau, vous pouvez l'envoyer dans notre [Serveur Discord](https://discord.gg/77RkMJHWsM). We'll look at all the hats and add all the good ones to the game.
 
 # Colors
 ![TOR Colors](./Images/TOR_colors.jpg)
 
-# Roles
+# Rôles
 
 ## Assignement des rôles
 
-First you need to choose how many special roles of each kind (Impostor/Neutral/Crewmate) you want in the game.
-The count you set will only be reached, if there are enough Crewmates/Impostors in the game and if enough roles are set to be in the game (i.e. they are set to > 0%). The roles are then being distributed as follows:
-- First all roles that are set to 100% are being assigned to arbitrary players.
-- After that each role that has 10%-90% selected adds 1-9 tickets to a ticket pool (there exists a ticket pool for Crewmates, Neutrals and Impostors). Then the roles will be selected randomly from the pools as long it's possible (until the selected number is reached, until there are no more Crewmates/Impostors or until there are no more tickets). If a role is selected from the pool, obviously all the tickets of that role are being removed.
-- The Mafia, Lovers and Mini are being selected independently (without using the ticket system) according to the spawn chance you selected. After that the Crewmate, Neutral and Impostor roles are selected and assigned in a random order.
+En premier vous devez choisir le nombre de rôles spéciaux pour chaque équipe (Imposteur/Neutre/Crewmate) que vous voulez dans le jeu.
+Le compte que vous allez mettre ne sera atteint que, si il y a assez de Crewmates/Imposteurs dans le jeu et si assez de rôles sont réglés dans la partie (i.e. il sont réglés à > 0%). Les rôles sont distribués en suivant:
+- Tout d'abord, tous les rôles définis sur 100% sont assignés à des joueurs arbitraires.
+- Après cela, chaque rôle sélectionné entre 10 % et 90 % ajoute 1 à 9 tickets à un ticketpool (il existe un ticketpool pour les coéquipiers, les neutres et les imposteurs). Ensuite, les rôles seront sélectionnés au hasard parmi les pools aussi longtemps que possible (jusqu'à ce que le nombre sélectionné soit atteint, jusqu'à ce qu'il n'y ait plus de Crewmates/Impostors ou jusqu'à ce qu'il n'y ait plus de tickets). Si un rôle est sélectionné dans le pool, tous les tickets de ce rôle sont évidemment supprimés.
+- La Mafia, Les Amoureux et le Mini sont séléctionnés indépendamment (sans utiliser le système de ticket) selon la chance d'apparition que vous avez sélectionnée. Après cela, les rôles de Crewmate, Neutre et Imposteur sont sélectionnés et attribués dans un ordre aléatoire.
 
 **Example:**\
-Settings: 2 special Crewmate roles, Snitch: 100%, Hacker: 10%, Tracker: 30%\
-Result: Snitch is assigned, then one role out of the pool [Hacker, Tracker, Tracker, Tracker] is being selected\
-Note: Changing the settings to Hacker: 20%, Tracker: 60% would statistically result in the same outcome .
+Paramètres : 2 rôles spéciaux de coéquipier, Snitch : 100 %, Hacker : 10 %, Tracker : 30 %\
+Résultat : Snitch est attribué, puis un rôle hors du pool [Hacker, Tracker, Tracker, Tracker] est sélectionné\
+Remarque : La modification des paramètres sur Hacker : 20 %, Tracker : 60 % entraînerait statistiquement le même résultat .
 
 
 ## Mafia
-### **Team: Impostors**
-The Mafia are a group of three Impostors.\
-The Godfather works like a normal Impostor.\
-The Mafioso is an Impostor who cannot kill until the Godfather is dead.\
-The Janitor is an Impostor who cannot kill, but they can hide dead bodies instead.\
+### **Team: Imposteurs**
+La mafia est un groupe de trois imposteurs.\
+Le Godfather fonctionne comme un imposteur normal.\
+Le Mafioso est un imposteur qui ne peut pas tuer tant que le parrain n'est pas mort.\
+Le Janitor est un imposteur qui ne peut pas tuer, mais il peut cacher des cadavres à la place.\
 \
 **NOTE:**
-- There have to be 3 Impostors activated for the mafia to spawn.
-
-### Game Options
-| Name | Description |
-|----------|:-------------:|
-| Mafia Spawn Chance | -
-| Janitor Cooldown | -
------------------------
-
-## Morphling
-### **Team: Impostors**
-The Morphling is an Impostor which can additionally scan the appearance of a player. After an arbitrary time they can take on that appearance for 10s.\
-\
-**NOTE:**
-- They shrink to the size of the Mini when they copy its look.
-- The Hacker sees the new color on the admin table.
-- The color of the footprints changes accordingly (also the ones that were already on the ground).
-- The other Impostor still sees that they are an Impostor (the name remains red).
-- The shield indicator changes accordingly (the Morphling gains or loses the shield indicator).
-- Tracker and Snitch arrows keep working.
-
-### Game Options
-| Name | Description |
-|----------|:-------------:|
-| Morphling Spawn Chance | -
-| Morphling Cooldown | -
-| Morph Duration | Time the Morphling stays morphed
------------------------
-
-## Camouflager
-### **Team: Impostors**
-The Camouflager is an Impostor which can additionally activate a camouflage mode.\
-The camouflage mode lasts for 10s and while it is active, all player names/pets/hats\
-are hidden and all players have the same color.\
-\
-**NOTE:**
-- The Mini will look like all the other players
-- The color of the footprints turns gray (also the ones that were already on the ground).
-- The Hacker sees gray icons on the admin table
-- The shield is not visible anymore
-- Tracker and Snitch arrows keep working
-
-### Game Options
-| Name | Description |
-|----------|:-------------:|
-| Camouflager Spawn Chance | -
-| Camouflager Cooldown | -
-| Camo Duration | Time players stay camouflaged
------------------------
-
-## Vampire
-### **Team: Impostors**
-The Vampire is an Impostor, that can bite other player. Bitten players die after a configurable amount of time.\
-If the Vampire spawn chance is greater 0 (even if there is no Vampire in the game), all players can place one garlic.\
-If a victim is near a garlic, the "Bite Button" turns into the default "Kill Button" and the Vampire can only perform a normal kill.\
-\
-**NOTE:**
-- If a bitten player is still alive when a meeting is being called, they die at the start of the meeting.
-- The cooldown is the same as the default kill cooldown (+ the kill delay if the Vampire bites the target).
-- If there is a Vampire in the game, there can't be a Warlock.
+- Il doit y avoir 3 Imposteurs activé pour que la Mafia puiss apparaître.
 
 ### Options de jeu
 | Nom | Description |
 |----------|:-------------:|
-| Vampire Spawn Chance | -
-| Vampire Kill Delay | -
-| Vampire Cooldown | Sets the kill/bite cooldown
-| Vampire Can Kill Near Garlics | The Vampire can never bite when their victim is near a garlic. If this option is set to true, they can still perform a normal kill there.
+| Taux d'apparition de la Mafia | -
+| Cooldown du Janitor | -
+-----------------------
+
+## Morphling
+### **Team: Imposteurs**
+Le Morphling est un Imposteur qui peut en plus scanner l'apparence d'un joueur. Après un temps arbitraire il peut prendre son apprence pendant 10s.\
+\
+**NOTE:**
+- Ils rétrécissent à la taille du Mini lorsqu'ils copient son look.
+- Le Hacker voit la nouvelle couleur sur la table d'administration.
+- La couleur des empreintes change en conséquence (également celles qui étaient déjà au sol).
+- L'autre imposteur voit toujours qu'il est un imposteur (le nom reste rouge).
+- L'indicateur de bouclier change en conséquence (le Morphling gagne ou perd l'indicateur de bouclier).
+- Les flèches Tracker et Snitch continuent de fonctionner.
+
+### Options de jeu
+| Nom | Description |
+|----------|:-------------:|
+| Taux d'apparition du Morphling | -
+| Cooldown du Morphling | -
+| Durée de métamorphose | Temps où le Morphling reste métamorphosé
+-----------------------
+
+## Camouflager
+### **Team: Imposteurs**
+Le Camouflager est un imposteur qui peut en plus activer un mode camouflage.\
+Le mode camouflage dure 10s et tant qu'il est actif, tous les noms de joueurs/animaux/chapeaux\
+sont cachés et tous les joueurs ont la même couleur.\
+\
+**NOTE:**
+- Le Mini ressemblera à tous les autres joueurs
+- La couleur des empreintes devient grise (également celles qui étaient déjà au sol).
+- Le Hacker voit des icônes grises sur la table d'administration
+- Le bouclier n'est plus visible
+- Les flèches Tracker et Snitch continuent de fonctionner
+
+### Game Options
+| Nom | Description |
+|----------|:-------------:|
+| Taux d'apparition du Camouflager | -
+| Cooldown du Camouflager | -
+| Durée de Camo | Temps où les joueurs restent camouflés
+-----------------------
+
+## Vampire
+### **Team: Imposteurs**
+Le vampire est un imposteur, qui peut mordre un autre joueur. Les joueurs mordus meurent après un laps de temps configurable.\
+Si la chance d'apparition du vampire est supérieure à 0 (même s'il n'y a pas de vampire dans le jeu), tous les joueurs peuvent placer un ail.\
+Si une victime est près d'un ail, le "Bite Button" se transforme en "Kill Button" par défaut et le vampire ne peut effectuer qu'une mise à mort normale.\
+\
+**NOTE:**
+- Si un joueur mordu est toujours en vie lorsqu'un meeting est convoquée, il meurt au début du meeting.
+- Le temps de recharge est le même que le temps de recharge par défaut (+ le délai de mise à mort si le vampire mord la cible).
+- S'il y a un vampire dans le jeu, il ne peut pas y avoir de Warlock.
+
+### Options de jeu
+| Nom | Description |
+|----------|:-------------:|
+| Taux d'apparition du Vampire | -
+| Délai de Kill du Vampire | -
+| Cooldown du Vampire | Règle le cooldown de kill/morsure
+| Vampire Peut Tuer Proche de Oignons | Le Vampire ne peut jamais mordre quelqu'un quand leur victim est proch d'un Oignon. Si cette options est activée, Il peuvent toujours faire un kill normal.
 -----------------------
 
 ## Eraser
-### **Team: Impostors**
-The Eraser is an Impostor that can erase the role of every player.\
-The targeted players will lose their role after the meeting right before a player is exiled.\
-After every erase, the cooldown increases by 10 seconds.\
-The erase will be performed, even if the Eraser or their target die before the next meeting.\
-By default the Eraser can erase everyone but the Spy and other Impostors.\
-Depending on the options they can also erase them (Impostors will lose their special Impostor ability).\
+### **Team: Imposteurs**
+The Eraser est un imposteur qui peut effacer le rôle de chaque joueur.\
+Les joueurs ciblés perdront leur rôle après la réunion juste avant qu'un joueur ne soit exilé.\
+Après chaque effacement, le temps de recharge augmente de 10 secondes.\
+L'effacement sera effectué, même si l'effaceur ou sa cible meurt avant la prochaine rencontre.\
+Par défaut, la gomme peut effacer tout le monde sauf l'espion et les autres imposteurs.\
+Selon les options, ils peuvent également les effacer (les imposteurs perdront leur capacité spéciale d'imposteur).\
 \
 **NOTE:**
-- The Shifter shift will always be triggered before the Erase (hence either the new role of the Shifter will be erased or the Shifter saves the role of their target, depending on whom the Eraser erased)
-- Erasing a Lover automatically erases the other Lover as well (if the second Lover is an ImpLover, they will turn into an Impostor)
-- Erasing a Jackal that has a Sidekick, triggers the Sidekick promotion if it's activated in the settings
-- As the erase is being triggered before the ejection of a player, erasing and voting out a Lover in the same round, would result in the
-ex-Lover surviving, as the partnership was erased before. Also a Jester win would not happen, as the erase will be triggered before.
+- Le changement du Shifter sera toujours déclenché avant l'effacement (donc soit le nouveau rôle du Shifter sera effacé, soit le Shifter enregistre le rôle de sa cible, en fonction de qui l'Eraser a effacé)
+- Effacer un amant efface automatiquement l'autre amant également (si le deuxième amant est un ImpLover, il se transformera en imposteur)
+- Effacer un Jackal qui a un Sidekick, déclenche la promotion Sidekick si elle est activée dans les paramètres
+- Comme l'effacement est déclenché avant l'éjection d'un joueur, l'effacement et l'élimination d'un Amant dans le même tour entraînerait le
+ex-Lover à survivre, car le partenariat a été effacé auparavant. De plus, une victoire de Jester ne se produirait pas, car l'effacement sera déclenché avant.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Eraser Spawn Chance | -
-| Eraser Cooldown | The Eraser's cooldown will increase by 10 seconds after every erase.
-| Eraser Can Erase Anyone | If set to false, they can't erase the Spy and other Impostors
+| Taux d'Apparition de l'Eraser | -
+| Cooldown de l'Eraser | Le cooldown de l'Eraser augmentera de 10 secondes après chaque effacement.
+| L'Effaceur Peut Effacer n'Importe Qui | Si cette option est désactivée, il ne peut pas effacer le Spy ni les autres Imposteurs
 -----------------------
 
 ## Trickster
-### **Team: Impostors**
-The Trickster is an Impostor that can place 3 jack-in-the-boxes that are invisible at first to other players.\
-If the Trickster has placed all of their boxes they will be converted into a vent network usable only by the Trickster themself, but the boxes are revealed to the others.\
-If the boxes are converted to a vent network, the Trickster gains a new ability "Lights out" to limit the visibility of Non-Impostors, that cannot be fixed by other players. Lights are automatically restored after a while.\
+### **Team: Imposteurs**
+Le Trickster est un imposteur qui peut placer 3 jack-in-the-box qui sont d'abord invisibles pour les autres joueurs.\
+Si le Trickster a placé toutes ses boîtes, elles seront converties en un réseau de vents utilisable uniquement par le Trickster lui-même, mais les boîtes sont révélées aux autres.\
+Si les boîtes sont converties en un réseau de vents, le Trickster gagne une nouvelle capacité "Lights out" pour limiter la visibilité des non-imposteurs, qui ne peut pas être corrigée par les autres joueurs. Les lumières sont automatiquement restaurées après un certain temps.\
 \
 **NOTE:**
-- Impostors will get a text indicator at the bottom of the screen to notify them if the lights are out due to the Trickster ability, as there is no sabotage arrows or task to sabotage text to otherwise notify them about it.
+- Les imposteurs recevront un indicateur de texte en bas de l'écran pour les avertir si les lumières sont éteintes en raison de la capacité du Trickster, car il n'y a pas de flèches de sabotage ou de tâche pour saboter le texte pour les en informer autrement.
 
 ### Game Options
 | Name | Description |
