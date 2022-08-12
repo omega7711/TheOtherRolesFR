@@ -769,7 +769,7 @@ Remarque : La modification des paramètres sur Hacker : 20 %, Tracker : 60 
 
 ## Mafia
 ### **Team: Imposteurs**
-La mafia est un groupe de trois imposteurs.\
+La Mafia est un groupe de trois Imposteurs.\
 Le Godfather fonctionne comme un imposteur normal.\
 Le Mafioso est un imposteur qui ne peut pas tuer tant que le parrain n'est pas mort.\
 Le Janitor est un imposteur qui ne peut pas tuer, mais il peut cacher des cadavres à la place.\
@@ -806,7 +806,7 @@ Le Morphling est un Imposteur qui peut en plus scanner l'apparence d'un joueur. 
 
 ## Camouflager
 ### **Team: Imposteurs**
-Le Camouflager est un imposteur qui peut en plus activer un mode camouflage.\
+Le Camouflager est un Imposteur qui peut en plus activer un mode camouflage.\
 Le mode camouflage dure 10s et tant qu'il est actif, tous les noms de joueurs/animaux/chapeaux\
 sont cachés et tous les joueurs ont la même couleur.\
 \
@@ -827,7 +827,7 @@ sont cachés et tous les joueurs ont la même couleur.\
 
 ## Vampire
 ### **Team: Imposteurs**
-Le vampire est un imposteur, qui peut mordre un autre joueur. Les joueurs mordus meurent après un laps de temps configurable.\
+Le vampire est un Imposteur, qui peut mordre un autre joueur. Les joueurs mordus meurent après un laps de temps configurable.\
 Si la chance d'apparition du vampire est supérieure à 0 (même s'il n'y a pas de vampire dans le jeu), tous les joueurs peuvent placer un ail.\
 Si une victime est près d'un ail, le "Bite Button" se transforme en "Kill Button" par défaut et le vampire ne peut effectuer qu'une mise à mort normale.\
 \
@@ -847,7 +847,7 @@ Si une victime est près d'un ail, le "Bite Button" se transforme en "Kill Butto
 
 ## Eraser
 ### **Team: Imposteurs**
-The Eraser est un imposteur qui peut effacer le rôle de chaque joueur.\
+The Eraser est un Imposteur qui peut effacer le rôle de chaque joueur.\
 Les joueurs ciblés perdront leur rôle après la réunion juste avant qu'un joueur ne soit exilé.\
 Après chaque effacement, le temps de recharge augmente de 10 secondes.\
 L'effacement sera effectué, même si l'effaceur ou sa cible meurt avant la prochaine rencontre.\
@@ -871,54 +871,54 @@ ex-Lover à survivre, car le partenariat a été effacé auparavant. De plus, un
 
 ## Trickster
 ### **Team: Imposteurs**
-Le Trickster est un imposteur qui peut placer 3 jack-in-the-box qui sont d'abord invisibles pour les autres joueurs.\
+Le Trickster est un Imposteur qui peut placer 3 jack-in-the-box qui sont d'abord invisibles pour les autres joueurs.\
 Si le Trickster a placé toutes ses boîtes, elles seront converties en un réseau de vents utilisable uniquement par le Trickster lui-même, mais les boîtes sont révélées aux autres.\
 Si les boîtes sont converties en un réseau de vents, le Trickster gagne une nouvelle capacité "Lights out" pour limiter la visibilité des non-imposteurs, qui ne peut pas être corrigée par les autres joueurs. Les lumières sont automatiquement restaurées après un certain temps.\
 \
 **NOTE:**
 - Les imposteurs recevront un indicateur de texte en bas de l'écran pour les avertir si les lumières sont éteintes en raison de la capacité du Trickster, car il n'y a pas de flèches de sabotage ou de tâche pour saboter le texte pour les en informer autrement.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Trickster Spawn Chance | -
-| Trickster Box Cooldown | Cooldown for placing jack-in-the-boxes
-| Trickster Lights Out Cooldown | Cooldown for their "lights out" ability
-| Trickster Lights Out Duration | Duration after which the light is automatically restored
+| Taux d'apparition du Trickster | -
+| Cooldown des boîtes du Trickster | Cooldown pour placer les jack-in-the-boxes
+| Cooldown de l'abilité Lights Out du Trickster | Cooldown pour leur abilité "lights out"
+| Durée de l'abilité Lights Out | Durée après laquelle les lumières sont automatiquement restorées
 -----------------------
 
 ## Cleaner
-### **Team: Impostors**
-The Cleaner is an Impostor who has the ability to clean up dead bodies.\
+### **Team: Imposteurs**
+Le Cleaner est un Imposteur que a l'abilité de nettoyer les cadavres.\
 \
 **NOTE:**
-- The Kill and Clean cooldown are shared, preventing them from immediately cleaning their own kills.
-- If there is a Cleaner in the game, there can't be a Vulture.
+- Le cooldown de Kill et de Nettoyage sont paratagés, pour éviter qu'ils nettoient immédiatement leur kills.
+- Si il y a un Cleaner dans la partie, il ne peut pas il y avoir de Vulture.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Cleaner Spawn Chance | -
-| Cleaner Cooldown | Cooldown for cleaning dead bodies
+| Taux d'Apparition du Cleaner | -
+| Cooldown du Cleaner | Cooldown pour nettoyer les cadavres
 -----------------------
 
 ## Warlock
-### **Team: Impostors**
-The Warlock is an Impostor, that can curse another player (the cursed player doesn't get notified).\
-If the cursed person stands next to another player, the Warlock is able to kill that player (no matter how far away they are).\
-Performing a kill with the help of a cursed player, will lift the curse and it will result in the Warlock being unable to move for a configurable amount of time.\
-The Warlock can still perform normal kills, but the two buttons share the same cooldown.\
+### **Team: Imposteurs**
+Le Warlock est un imposteur, qui peut maudire un autre joueur (le joueur maudit n'est pas averti).\
+Si la personne maudite se tient à côté d'un autre joueur, le Warlock est capable de tuer ce joueur (quelle que soit sa distance).\
+Effectuer une mise à mort avec l'aide d'un joueur maudit lèvera la malédiction et empêchera le Warlock de bouger pendant un laps de temps configurable.\
+Le Warlock peut toujours effectuer des éliminations normales, mais les deux boutons partagent le même temps de recharge.\
 \
 **NOTE:**
-- The Warlock can always kill their Impostor mates (and even themself) using the "cursed kill"
-- If there is a Warlock in the game, there can't be a Vampire
-- Performing a normal kill, doesn't lift the curse
+- Le Warlock peut toujours tuer ses compagnons imposteurs (et même lui-même) en utilisant le "tueur maudit"
+- S'il y a un Warlock dans le jeu, il ne peut pas y avoir de vampire
+- Effectuer une mise à mort normale, ne lève pas la malédiction
 
-### Game Options
-| Name | Description |
+### Options
+| Nom | Description |
 |----------|:-------------:|
-| Warlock Spawn Chance | -
-| Warlock Cooldown | Cooldown for using the Curse and curse Kill
+| Taux d'Apparition du Warlock | -
+| Cooldown du Warlock | Cooldown pour utiliser la Malédition et le Kill Maudit
 | Warlock Root Time | Time the Warlock is rooted in place after killing using the curse
 -----------------------
 
