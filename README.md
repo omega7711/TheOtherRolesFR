@@ -35,7 +35,7 @@ Plus de rôles sont en cours de développement. :)
 |  | [Medium](#medium) |  |  |
 |  | [Nice Guesser](#guesser) |  |
 
-La section [Role Assignment](#role-assignment) explique comment les rôles sont distribués parmis les joueurs.
+La section [Assignement des rôles](#role-assignment) explique comment les rôles sont distribués parmis les joueurs.
 
 # Versions
 | Among Us - Version| Version du mod | Lien |
@@ -600,7 +600,7 @@ La section [Role Assignment](#role-assignment) explique comment les rôles sont 
 
 # Installation
 
-## Windows Installation Steam
+## Installation Steam Windows
 1. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest)
 2. Trouvez le dossier de votre jeu. Vous pouvez faire clique droit sur le jeu dans votre Bibliothèque, un menu devrait apparaître, cliquez sur propriétées, fichiers locaux, parcourir
 3. Repartez un dossier en arrière vers "common" et faites une copie de votre dossier Among Us et copiez le quelque part dans le même disque.
@@ -609,7 +609,7 @@ La section [Role Assignment](#role-assignment) explique comment les rôles sont 
 
 Cela ne marche pas? Vous devriez installer la dépendance [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
 
-## Windows Installation Epic
+## Installation Epic Windows
 1. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest)
 2. Trouvez le dossier de votre jeu. Cela devrait être dans "Epic/AmongUs" (Là où vous avez installé Epic sur votre ordinateur)
 3. aintenant dézippez et déplacez ou extrayez les fichiers du .zip dans le dossier original Among Us d'Epic.
@@ -753,7 +753,7 @@ Here are a few instructions, on how to create a custom hat:
 
 # Roles
 
-## Role Assignment
+## Assignement des rôles
 
 First you need to choose how many special roles of each kind (Impostor/Neutral/Crewmate) you want in the game.
 The count you set will only be reached, if there are enough Crewmates/Impostors in the game and if enough roles are set to be in the game (i.e. they are set to > 0%). The roles are then being distributed as follows:
