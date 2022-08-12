@@ -13,7 +13,7 @@ Ce mod n'est pas affilié avec Among Us ou Innersloth LLC, et le contenu n'est p
 **The Other Roles**, est un mod pour [Among Us](https://store.steampowered.com/app/945360/Among_Us) qui ajoute beaucoup de rôles, des nouveaux [Paramètres](#settings) et des nouveaux [Chapeaux Personnalisés](#chapeaux-personnalisés) au jeu.
 Plus de rôles sont en cours de développement. :)
 
-| Impostors | Crewmates | Neutral | Modifier |
+| Imposteurs | Crewmates | Neutres | Modificateurs |
 |----------|-------------|-----------------|----------------|
 | [Godfather (Mafia)](#mafia) | [Shifter](#shifter) | [Jester](#jester) | [Bloody](#bloody) |
 | [Mafioso (Mafia)](#mafia) | [Mayor](#mayor) | [Arsonist](#arsonist) | [Anti Teleport](#anti-teleport) |
@@ -25,7 +25,7 @@ Plus de rôles sont en cours de développement. :)
 | [Trickster](#trickster) | [Time Master](#time-master) | | [VIP](#vip) |
 | [Cleaner](#cleaner) | [Medic](#medic) |  | [Invert](#invert) |
 | [Warlock](#warlock) | [Swapper](#swapper) |
-| [Bounty Hunter](#bounty-hunter) | [Seer](#seer) |  |
+| [Mandalorian](#Mandalorian) | [Seer](#seer) |  |
 | [Witch](#witch) | [Hacker](#hacker) |  |  |
 | [Ninja](#ninja) | [Tracker](#tracker) |  |  |
 | [Evil Guesser](#guesser) | [Snitch](#snitch) |  |  |
@@ -922,27 +922,27 @@ Le Warlock peut toujours effectuer des éliminations normales, mais les deux bou
 | Warlock Root Time | Time the Warlock is rooted in place after killing using the curse
 -----------------------
 
-## Bounty Hunter
+## Mandalorian
 ### **Team: Imposteurs**
 \
-Le Bounty Hunter est un Imposteur, qui reçoit continuellement des primes (le joueur ciblé n'est pas averti).\
-La cible du Bounty Hunter change après chaque réunion et après un laps de temps configurable.\
-Si le Bounty Hunter tue sa cible, son temps de recharge sera beaucoup moins important que d'habitude.\
+Le Mandalorian est un Imposteur, qui reçoit continuellement des primes (le joueur ciblé n'est pas averti).\
+La cible du Mandalorian change après chaque réunion et après un laps de temps configurable.\
+Si le Mandalorian tue sa cible, son temps de recharge sera beaucoup moins important que d'habitude.\
 Tuer un joueur qui n'est pas sa cible actuelle entraîne une augmentation du temps de recharge.\
 Selon les options, il y aura une flèche pointant vers la cible actuelle.\
 \
 **NOTE:**
-- La cible ne sera pas un Imposteur, un Spy ou l'amoureux du Bounty Hunter.
+- La cible ne sera pas un Imposteur, un Spy ou l'amoureux du Mandalorian.
 - Tuer la cible réinitialise le chronomètre et une nouvelle cible sera sélectionnée.
 
 ### Options de jeu
 | Nom | Description |
 |----------|:-------------:|
-| Taux d'Apparition du Bounty Hunter | -
+| Taux d'Apparition du Mandalorian | -
 | Durée Après laquelle la prime change | -
 | Cooldown Après avoir Tué la Prime | -
-| Cooldown Additionnel Après avoir Tué les Autres | Le temps sera ajouté au cooldown normal de l'Imposteur si le Bounty Hunter tu un joueur non-prime
-| Montrer un Flèche Pointant vers la Prime | Si cette option est activée une flèche apparaîtra (seulement visible par le Bounty Hunter)
+| Cooldown Additionnel Après avoir Tué les Autres | Le temps sera ajouté au cooldown normal de l'Imposteur si le Mandalorian tu un joueur non-prime
+| Montrer un Flèche Pointant vers la Prime | Si cette option est activée une flèche apparaîtra (seulement visible par le Mandalorian)
 | Intervalle de Mise à Jour de la Flèche | Définis quand la position est mise à jour
 -----------------------
 
