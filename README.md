@@ -690,8 +690,8 @@ Le mod ajoute quelques paramètres à Among Us (en plus des paramètres de rôle
 - **Autoriser les skips dans les Emergency Meetings:** Si celle-ci est réglée sur `false`, il n'y aura pas de bouton skip dans les meetings d'urgence. Si un joueur ne vote pas, il se votera lui-même.
 - **Cacher le nom des joueurs:** Cache les noms de tous les joueurs qui ont un rôle qui vous est inconnu. les Teams Lovers/Impostors/Jackal voient toujours les noms de leurs partenaires. Les Impostors peuvent toujours voir les noms des Spy et tout le monde peut toujours voir l'age du mini.
 - **Autoriser les scans MedBay parallèles:** Autorise les jouerus à faire leur scan MedBay en même temps.
-- **Protèger le premier kill de la dernière game** Le premier joueur tué à la dernière partie sera protégé pour tous les joueurs visibles jusqu'au premier meeting.
-- **Jouer sur une carte aléatoire** Si activé cela va vous laisser choisir une rotation pour toutes les cartes actuelles, exepté ehT dlekS 
+- **Protèger le premier kill de la dernière game:** Le premier joueur tué à la dernière partie sera protégé pour tous les joueurs visibles jusqu'au premier meeting.
+- **Jouer sur une carte aléatoire:** Si activé cela va vous laisser choisir une rotation pour toutes les cartes actuelles, exepté ehT dlekS 
 - **Les fantômes peuvent voir les rôles**
 - **Les fantômes peuvent voir les votes**
 - **Les fantômes peuvent en plus voir les Modificateurs**
@@ -709,7 +709,7 @@ Vous pouvez configurer:
 - Jusqu'à 15 tâches longues
 
 Veuillez noter que si l'option configurée dépasse le nombre de tâches disponibles d'une carte, les tâches seront limitées à ce nombre de tâches. \
-Exemple: Si vous configurez 4 tâches communes sur Airship, les Crewmates recevront uniquement 2 tâches communes,parce que Airship n'offre pas plus que 2 tâches communes.
+Exemple: Si vous configurez 4 tâches communes sur Airship, les Crewmates recevront uniquement 2 tâches communes, parce que Airship n'offre pas plus que 2 tâches communes.
 
 | Carte | Tâches Communes | Tâches Courtes | Tâches Longues |
 |----------|:-------------:|:-------------:|:-------------:|
@@ -721,16 +721,16 @@ Exemple: Si vous configurez 4 tâches communes sur Airship, les Crewmates recevr
 
 
 # Chapeaux personnalisés
-## Create and submit new hat designs
-We're awaiting your creative hat designs and we'll integrate all the good ones in our mod.
-Here are a few instructions, on how to create a custom hat:
+## Créez et envoyez des nouveaux designs de chapeau
+Nous attendons vos designs de chapeau créatifs et nous intègreront les meilleurs dans notre mod.
+Voici quelques instructions, sur comment créer un chapeau personnalisé:
 
-- **Creation:** A hat consists of up to three textures. The aspect ratio of the textures has to be `4:5`, we recommend `300px:375px`:
-  - `Main texture (required)`:
-    - This is the main texture of your hat. It will usually be rendered in front of the player, if you set the `behind` parameter it will be rendered behind the player.
-    - The name of the texture needs to follow the pattern *hatname.png*, but you can also set some additional parameters in the file name by adding `_parametername` to the file name (before the *.png*).
-    - Parameter `bounce`: This parameter determines whether the hat will bounce while you're walking or not.
-    - Parameter `adaptive`: If this parameter is set, the Among Us coloring shader will be applied (the shader that replaces some colors with the colors that your character is wearing in the game). The color red (#ff0000) will be replaced with the primary color of your player and the color blue (#0000ff) with the secondary color. Also other colors will be affected and changed, you can have a look at the texture of the [Crewmate Hat](https://static.wikia.nocookie.net/among-us-wiki/images/e/e0/Crewmate_hat.png) to see how this feature should be used.
+- **Création:** Un chapeau se compose de trois textures. Le rapport d'aspect des textures doit être `4:5`, nous recommendons `300px:375px`:
+  - `texture principale (requis)`:
+    - C'est la texture principale de votre chapeau. Elle devrait habituellement être rendue au devant de votre joueur, si vous réglez le paramètre `behind` elle sera rendu derrière le joueur.
+    - Le nom de la texture doit suivre le pattern *nomduchapeau.png*, mais vous pouvez aussi régler quelques paramètres additionnels dans le nom du fichier en ajoutant `_parametername` (avant le *.png*).
+    - Paramètre `bounce`: Ce paramètre détermine si le chapeaux rebondit ou non lorsque vous marchez.
+    - Paramètre `adaptive`: Si ce paramètre est réglé, me Among Us coloring shader sera appliqué (Le shader remplace quelques couleurs avec la couleurs que votre personnage porte dans le jeu). La couleur rouge (#ff0000) sera remplacée par la couleur primaire de votre joueur et la couleur bleue (#0000ff) avec la couleur secondaire. Quelques autres couleurs sont aussi affectées et changées, vous pouvez aller voir la texture du [Chapeau Crewmate](https://static.wikia.nocookie.net/among-us-wiki/images/e/e0/Crewmate_hat.png) pour voir comment cette fonctionnalité devrait  utilisée.
     - Parameter `behind`: If this parameter is set, the main texture will be rendered behind the player.
   - `Flipped texture (optional)`:
     - This texture will be rendered instead of the Main texture, when facing the left.
