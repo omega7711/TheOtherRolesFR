@@ -1038,7 +1038,7 @@ Le Bouffon n'a aucune tâche. Ils finissent la partie en solo, si ils sont éjec
 -----------------------
 
 ## Arsonist
-### **Team: Neutral**
+### **Team: Neutral**w
 The Arsonist does not have any tasks, they have to win the game as a solo.\
 The Arsonist can douse other players by pressing the douse button and remaining next to the player for a few seconds.\
 If the player that the Arsonist douses walks out of range, the cooldown will reset to 0.\
