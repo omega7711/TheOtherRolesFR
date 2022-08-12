@@ -972,69 +972,69 @@ En fonction des options, vous pouvez choisir si le fait de rejeter la Sorcière 
 -----------------------
 
 ## Ninja
-### **Team: Impostors**
-The Ninja is an Impostor who has the ability to kill another player all over the map.\
-You can mark a player with your ability and by using the ability again, you jump to the position of the marked player and kill it.\
-Depending on the options you know where your marked player is.\
-If the Ninja uses its ability, it will leave a trace (leaves) for a configurable amount of time where it activated the ability and additionally where it killed the before marked player.\
-When performing a ninja ability kill, the ninja can be invisible for some seconds (depends on options)\
+### **Team: Imposteurs**
+Le Ninja est un imposteur qui a la capacité de tuer un autre joueur partout sur la carte.\
+Vous pouvez marquer un joueur avec votre capacité et en utilisant à nouveau la capacité, vous sautez à la position du joueur marqué et le tuez.\
+Selon les options, vous savez où se trouve votre joueur marqué.\
+Si le Ninja utilise sa capacité, il laissera une trace (feuilles) pendant une durée configurable où il a activé la capacité et en plus où il a tué le joueur marqué auparavant.\
+Lors de l'exécution d'une capacité de ninja, le ninja peut être invisible pendant quelques secondes (selon les options)\
 \
 **NOTE:**
-- The Ninja has a 5 second cooldown after marking a player
-- The trace has a darker (black) or lighter (white) color depending on the players color that will fade into green
-- The mark on the marked player will reset after a meeting or after using the ability to kill the marked player. Performing a normal kill will **NOT** reset the mark
-- If the Ninja tries to kill a shielded player (e.g. Medic shield, Shield last game first kill ), the kill will not be performed
-- If the Ninja tries to kill the Time Master while the shield is active, the Ninja won't teleport to the players position, but the Time Master shield will still be activated
-- If the marked target is on a different floor on Submerged, the arrow will always point to the elevator
+- Le Ninja a un cooldown de 5 secondes après avoir marqué un joueur
+- La trace a une couleur plus foncée (noir) ou plus claire (blanc) selon la couleur des joueurs qui passera au vert
+- La marque sur le joueur marqué sera réinitialisée après un meeting ou après avoir utilisé la capacité de tuer le joueur marqué. Effectuer une mise à mort normale ne réinitialisera **PAS** la marque
+- Si le Ninja essaie de tuer un joueur protégé (par exemple, Medic shield, Protégé car premier kill de la dernière game ), la mise à mort ne sera pas effectuée
+- Si le Ninja essaie de tuer le Maître du Temps alors que le bouclier est actif, le Ninja ne se téléportera pas à la position du joueur, mais le bouclier du Maître du Temps sera toujours activé
+- Si la cible marquée se trouve à un étage différent en submergé, la flèche pointera toujours vers l'ascenseur
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Ninja Spawn Chance | -
-| Ninja Mark Cooldown | -
-| Ninja Knows Location Of Target | -
-| Trace Duration | -
-| Time Till Trace Color Has Faded | -
-| Time The Ninja Is Invisible | -
+| Taux d'Apparition du Ninja | -
+| Cooldown pour Marquer | -
+| Le Ninja Connaît la Position de la Cible | -
+| Durée de la Trace | -
+| Temps Avant que la Couleur de la Trace Change | -
+| Temps où le Ninja est Invisible | -
 -----------------------
 
-## Guesser
-### **Team: Crewmates or Impostors**
-The Guesser can be a Crewmate or an Impostor (depending on the settings).\
-The Guesser can shoot players during the meeting, by guessing its role. If the guess is wrong, the Guesser dies instead.\
-You can select how many players can be shot per game and if multiple players can be shot during a single meeting.\
-The guesses Impostor and Crewmate are only right, if the player is part of the corresponding team and has no special role.\
-You can only shoot during the voting time.\
-Depending on the options, the Guesser can't guess the shielded player and depending on the Medic options the Medic/shielded player might be notified (no one will die, independently of what the Guesser guessed).\
+## Devin
+### **Team: Crewmates or Imposteurs**
+Le Devin peut être un Crewmate ou un Imposteur (selon les paramètres).\
+Le Devin peut tirer sur les joueurs pendant le meeting, en devinant son rôle. Si la supposition est fausse, le Devin meurt à la place.\
+Vous pouvez sélectionner le nombre de joueurs pouvant être abattus par match et si plusieurs joueurs peuvent être abattus au cours d'un même meeting.\
+Les suppositions Imposteur et Crewmate ne sont justes que si le joueur fait partie de l'équipe correspondante et n'a pas de rôle particulier.\
+Vous ne pouvez tirer que pendant le vote.\
+Selon les options, le Devin ne peut pas deviner le joueur protégé et selon les options Medic, le Medic/le joueur protégé peut être notifié (personne ne mourra, indépendamment de ce que le Devin a deviné).\
 \
 **NOTE:**
-- If a player gets shot, you'll get back your votes
-- Jester wins won't be triggered, if the Guesser shoots the Jester before the Jester gets voted out
+- Si un joueur se fait tirer dessus, vous retournez au vote
+- La victoire du Bouffon ne sera pas déclenchée si le Devin tire sur le Bouffon avant que le Bouffon ne soit éjecté
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Guesser Spawn Chance | -
-| Chance That The Guesser Is An Impostor | -
-| Guesser Number Of Shots Per Game | -
-| Guesser Can Shoot Multiple Times Per Meeting |  -
-| Guesses Visible In Ghost Chat | -
-| Guesses Ignore The Medic Shield | -
-| Evil Guesser Can Guess The Spy | -
-| Both Guesser Spawn Rate | -
-| Guesser Can't Guess Snitch When Tasks Completed | -
+| Taux d'Apparition du Devin | -
+| Chance Que le Devin Soit Un Imposteur | -
+| Nombre de Tirs par Parti | -
+| Le Devin Peut Tirer Plusieurs Fois par Meeting |  -
+| Les Suppositioons sont Visible dans le Chat Fantômes | -
+| Les Suppositions ignorent le Bouclier du Médecin | -
+| Le Devin Maléfique Peut Deviner l'Espion | -
+| Taux d'Apparition des Deux Devins | -
+| Le Devin ne Peut pas Deviner le Mouchard Quand il a Fini ses Tâches | -
 
 -----------------------
 
-## Jester
-### **Team: Neutral**
-The Jester does not have any tasks. They win the game as a solo, if they get voted out during a meeting.
+## Bouffon
+### **Team: Neutre**
+Le Bouffon n'a aucune tâche. Ils finissent la partie en solo, si ils sont éjectés pendant un meeting.
 
 ### Game Options
-| Name | Description |
+| Nom | Description |
 |----------|:-------------:|
-| Jester Spawn Chance | -
-| Jester Can Call Emergency Meeting | Option to disable the emergency button for the Jester
+| Taux d'Apparition du Bouffon | -
+| Le Bouffon Peut Faire des de Meetings d'Urgence | Option pour désactiver le bouton de meeting d'urgence pour le Bouffon
 -----------------------
 
 ## Arsonist
