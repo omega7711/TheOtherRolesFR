@@ -4,13 +4,13 @@
 <p align="center">
 Ce mod n'est pas affilié avec Among Us ou Innersloth LLC, et le contenu n'est pas fait ou sponsorisé par Innersloth LLC. Ce qu'il y a à l'intérieur de ce mod n'est pas la propriété d'Innersloth LLC. © Innersloth LLC.</p>
 <p align="center"><a href="https://github.com/TheOtherRolesAU/TheOtherRoles"><img src="https://badgen.net/badge/Mod%20original/TheOtherRoles/red?icon=github"></a></p>
-
+ 
 [![Discord](./Images/TOR_server.png)](https://discord.gg/77RkMJHWsM)
 ![eisbison infographic](./Images/TOR_Roles.png)
 
 # The Other Roles
 
-**The Other Roles**, est un mod pour [Among Us](https://store.steampowered.com/app/945360/Among_Us) qui ajoute beaucoup de rôles, des nouveaux [Paramètres](#settings) et des nouveaux [Chapeaux Custom](#custom-hats) au jeu.
+**The Other Roles**, est un mod pour [Among Us](https://store.steampowered.com/app/945360/Among_Us) qui ajoute beaucoup de rôles, des nouveaux [Paramètres](#settings) et des nouveaux [Chapeaux Personnalisés](#chapeaux-personnalisés) au jeu.
 Plus de rôles sont en cours de développement. :)
 
 | Impostors | Crewmates | Neutral | Modifier |
@@ -115,7 +115,7 @@ La section [Role Assignment](#role-assignment) explique comment les rôles sont 
 - Ajout du timer de lobby synchronisé, donc chaque joueur peut voir quand le lobby seraz fermé sur les serveurs Vanilla
 - Ajout d'un écran de crédits au menu principal
 - Ré-Ajout de la dernière position du joueur sur la carte pendant les réunions
-- Changement du UI de région custom 
+- Changement du UI de région personnalisée
 - Correction du bug où le nom des espions apparaît en blanc pour les imposteurs dans la scène d'intro
 - Correction d'un bug où le zoom pour les fantômes zoomait trop loin
 - Correction d'un bug où les couleurs de noms personnalisés ne fonctionnait pas (TOR est maintenant compatible avec le mode daltonien)
@@ -127,22 +127,21 @@ La section [Role Assignment](#role-assignment) explique comment les rôles sont 
 - Correction d'un bug où l'attribution des rôles ne fonctionnait pas correctement (doigts croisés)
 
 **Version 4.1.5**
-- Updated to Among Us version 2022.6.21
-- Added Custom servers (Modded EU & Modded NA). Thanks to [miniduikboot](https://github.com/miniduikboot) & GD
-- Changed that the Guesser can only guess roles > 0%
-- Changed min/max default values
-- Fixed a bug where the Lighter's vision did not work properly
-- Fixed a bug where a Mini Ninja revealed themself
-- Fixed a bug where a Mini Ninja's cooldown did not work properly
-- Fixed a bug where a camouflaged Ninja revealed themself
-- Fixed a bug where a Vampire reported the Bait multiple times
-- Fixed a bug where a last second guess locked the Meeting
-- Fixed a bug where the version handshake did not work properly 
-- Fixed a bug where players with Anti TP were stuck on Airship 
-- Removed streamer mode
+- Ajout de serveurs personnalisés (Modded EU & Modded NA). Merci a [miniduikboot](https://github.com/miniduikboot) & GD
+- Modification que le Guesser peut seulement deviner les rôles > 0%
+- Modification des valeurs par défaut min/max
+- Correction d’un bug ou la vision du Lighter ne fonctionnait pas correctement 
+- Correction d’un bug ou le Mini Ninja se révélait lui même 
+- Correction d’un bug ou le cooldown du Mini Ninja ne fonctionnait pas correctement
+- Correction d’un bug ou le Ninja camouflé ne révèle lui même
+- Correction d’un bug ou le Vampire rapportait l'appât plusieurs fois
+- Correction d’un bug ou la dernière seconde du ‘’guess’’ bloque le meeting 
+- Correction d’un bug ou la version de la poignée de main ne fonctionnait pas correctement 
+- Correction d’un bug où les joueurs avec l’anti TP était bloqué sur AirShip 
+- Mode Streamer retiré
   
 **Version 4.1.4**
-- Added auto updating for BepInEx
+- Ajout des mises à jours automatiques pour BepInEx
 - Fixed hat testing in freeplay for meetings / exile etc.
 - Fixed players not being able to move
 - Fixed getting stuck on the polus laboratory vent
@@ -421,7 +420,7 @@ La section [Role Assignment](#role-assignment) explique comment les rôles sont 
 **Version 2.6.3**
 - Changed the role limits options to allow for minimum and maximum bounds
 - Changed the role assignment to be more random when assigning roles (previously assigned the neutral roles before assigning the crewmate roles)
-- Added new `flip` option to [Custom Hats](#custom-hats)
+- Added new `flip` option to [Chapeaux Personnalisés](#chapeaux-personnalisés)
 
 **Version 2.6.2**
 - The Other Roles now supports the new Among Us version **2021.5.10s**
@@ -626,8 +625,8 @@ Cela ne marche pas? Vous devriez installer la dépendance [vc_redist](https://ak
 3. Activez `winhttp.dll` via le winecfg de proton (https://docs.bepinex.dev/articles/advanced/steam_interop.html#open-winecfg-for-the-target-game)
 4. Lancez le jeu via Steam
 
-## The Other Roles Custom Servers
-**Un serveur custom n'est pas nécessaire et les serveurs officiels fonctionnent parfaitement avec le mod, mais au cas où vous voulez préparer et host votre propre serveur, Il y a un guide que vous devriez suivre.**
+## The Other Roles Serveurs Personnalisés
+**Un serveur personnalisé n'est pas nécessaire et les serveurs officiels fonctionnent parfaitement avec le mod, mais au cas où vous voulez préparer et host votre propre serveur, Il y a un guide que vous devriez suivre.**
 
 **Paramètrer le serveur:**
 1. Prenez la version de Impostor (https://github.com/Impostor/Impostor)
@@ -661,10 +660,10 @@ docker run -d -p 22023:22023/udp --env IMPOSTOR_AntiCheatEnabled=false --env IMP
 
 # Credits & Ressources
 [OxygenFilter](https://github.com/NuclearPowered/Reactor.OxygenFilter) - pour toutes les versions allant de v2.3.0 à v2.6.1, on utilisait OxygenFilter pour un désobscurcissement automatique\
-[Reactor](https://github.com/NuclearPowered/Reactor) - le framework utilisé pour la version v2.0.0\
+[Reactor](https://github.com/NuclearPowered/Reactor) - le framework utilisé pour toutes les versions avant la v2.0.0\
 [BepInEx](https://github.com/BepInEx) - Utilisé pour hook les fonctions de jeu\
 [Essentials](https://github.com/DorCoMaNdO/Reactor-Essentials) - Options de jeu custom par **DorCoMaNdO**:
-- Before v1.6: On utilisait la version par défaut d'Essentials
+- Avant v1.6: On utilisait la version par défaut d'Essentials
 - v1.6-v1.8: On a légèrement changé la version par défaut d'Essentials. Les changements peuvent être trouvés dans la [branche](https://github.com/Eisbison/Reactor-Essentials/tree/feature/TheOtherRoles-Adaption) de notre fork.
 - v2.0.0 et après: Comme on n'utilise plus Reactor, on utilise notre propre implémentation, inspiré de celle de **DorCoMaNdO**
 
@@ -712,7 +711,7 @@ Vous pouvez configurer:
 Veuillez noter que si l'option configurée dépasse le nombre de tâches disponibles d'une carte, les tâches seront limitées à ce nombre de tâches. \
 Exemple: Si vous configurez 4 tâches communes sur Airship, les Crewmates recevront uniquement 2 tâches communes,parce que Airship n'offre pas plus que 2 tâches communes.
 
-| Map | Common Tasks | Short Tasks | Long Tasks |
+| Carte | Tâches Communes | Tâches Courtes | Tâches Longues |
 |----------|:-------------:|:-------------:|:-------------:|
 | Skeld / Dleks | 2 | 19 | 8
 | Mira HQ | 2 | 13 | 11
@@ -721,7 +720,7 @@ Exemple: Si vous configurez 4 tâches communes sur Airship, les Crewmates recevr
 -----------------------
 
 
-# Custom Hats
+# Chapeaux personnalisés
 ## Create and submit new hat designs
 We're awaiting your creative hat designs and we'll integrate all the good ones in our mod.
 Here are a few instructions, on how to create a custom hat:
