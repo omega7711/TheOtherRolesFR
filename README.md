@@ -112,7 +112,7 @@ La section [Assignement des rôles](#role-assignment) explique comment les rôle
 - Ajout de sons: La plupart des boutons / fonctionnalités de rôles ont maintenant du son!
 - Ajout d'une option de mod: Activer les effets de son  
 - Ajout d'une option: Masquer les modificateurs après la mort : les modificateurs qui auront un effet après votre mort seront cachés pendant que le joueur est en vie afin qu'ils ne puissent pas être réclamés / appelés
-- Ajout du timer de lobby synchronisé, donc chaque joueur peut voir quand le lobby seraz fermé sur les serveurs Vanilla
+- Ajout du timer de lobby synchronisé, donc chaque joueur peut voir quand le lobby sera fermé sur les serveurs Vanilla
 - Ajout d'un écran de crédits au menu principal
 - Ré-Ajout de la dernière position du joueur sur la carte pendant les réunions
 - Changement du UI de région personnalisée
@@ -601,7 +601,7 @@ La section [Assignement des rôles](#role-assignment) explique comment les rôle
 # Installation
 
 ## Installation Steam Windows
-1. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest)
+1. Téléchargez la dernière [version](https://github.com/omega7711/TheOtherRolesFR/releases/latest)
 2. Trouvez le dossier de votre jeu. Vous pouvez faire clique droit sur le jeu dans votre Bibliothèque, un menu devrait apparaître, cliquez sur propriétées, fichiers locaux, parcourir
 3. Repartez un dossier en arrière vers "common" et faites une copie de votre dossier Among Us et copiez le quelque part dans le même disque.
 4. Maintenant dézippez et déplacez ou extrayez les fichiers du .zip dans le dossier Among Us que vous venez de créer, au niveau du `.exe` (juste dans le dossier).
@@ -610,7 +610,7 @@ La section [Assignement des rôles](#role-assignment) explique comment les rôle
 Cela ne marche pas? Vous devriez installer la dépendance [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
 
 ## Installation Epic Windows
-1. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest)
+1. Téléchargez la dernière [version](https://github.com/omega7711/TheOtherRolesFR/releases/latest)
 2. Trouvez le dossier de votre jeu. Cela devrait être dans "Epic/AmongUs" (Là où vous avez installé Epic sur votre ordinateur)
 3. aintenant dézippez et déplacez ou extrayez les fichiers du .zip dans le dossier original Among Us d'Epic.
 4. Lancez le jeu à partir du Epic Games launcher (le premier démarrage peut être long).
@@ -619,13 +619,13 @@ Cela ne marche pas? Vous devriez installer la dépendance [vc_redist](https://ak
 
 ![Installer](https://i.imgur.com/pvBAyZN.png)
 
-## Linux Installation
+## Installation Linux
 1. Installez Among Us via Steam
-2. Téléchargez la dernière [version](https://github.com/Eisbison/TheOtherRoles/releases/latest) et extrayez là dans "~/.steam/steam/steamapps/common/Among Us"
+2. Téléchargez la dernière [version](https://github.com/omega7711/TheOtherRolesFR/releases/latest) et extrayez là dans "~/.steam/steam/steamapps/common/Among Us"
 3. Activez `winhttp.dll` via le winecfg de proton (https://docs.bepinex.dev/articles/advanced/steam_interop.html#open-winecfg-for-the-target-game)
 4. Lancez le jeu via Steam
 
-## The Other Roles Serveurs Personnalisés
+## The Other Roles FR  Serveurs Personnalisés
 **Un serveur personnalisé n'est pas nécessaire et les serveurs officiels fonctionnent parfaitement avec le mod, mais au cas où vous voulez préparer et host votre propre serveur, Il y a un guide que vous devriez suivre.**
 
 **Paramètrer le serveur:**
@@ -680,27 +680,27 @@ docker run -d -p 22023:22023/udp --env IMPOSTOR_AntiCheatEnabled=false --env IMP
 
 # Paramètres
 Le mod ajoute quelques paramètres à Among Us (en plus des paramètres de rôle):
-- **Streamer Mode:** Vous pouvez activer le mode streamer dans les paramètres d'Among Us. Cela cache le code du lobby, l'ip du serveur custom et son port. Vous pouvez mettre un texte de remplacement du code du lobby personnalisé, en changeant *Streamer Mode Replacement Text* dans le fichier `BepInEx\config\me.eisbison.theotherroles.cfg`.
-- **Number of Crewmates:** Le nombre de rôles Crewmates peut être réglé dans un lobby.
-- **Number of Neutrals:** Le nombre de rôles Neutral peut être réglé dans un lobby.
-- **Number of Impostors:** Le nombre de rôles Impostors peut être réglé dans un lobby.
-- **Number of Modifiers:** Le nombre de Modifiers peut être réglé dans un lobby.
-- **Map:** La carte peut être changée dans un lobby.
-- **Maximum Number Of Meetings:** Vous pouvez régler le nombre maximum de meetings pouvant être convoquées au total (Chaque joueur a toujours un maximum personnel de boutons, mais si le nombre maximum de meetings est atteint, vous ne pouvez pas utiliser vos meetings même s'il vous en reste. Les meetings des Impostor et Jackal comptent aussi).
-- **Allow Skips On Emergency Meetings:** Si celle-ci est réglée sur `false`, il n'y aura pas de bouton skip dans les meetings d'urgence. Si un joueur ne vote pas, il se votera lui-même.
-- **Hide Player Names:** Cache les noms de tous les joueurs qui ont un rôle qui vous est inconnu. les Teams Lovers/Impostors/Jackal voient toujours les noms de leurs partenaires. Les Impostors peuvent toujours voir les noms des Spy et tout le monde peut toujours voir l'age du mini.
-- **Allow Parallel MedBay Scans:** Autorise les jouerus à faire leur scan MedBay en même temps.
-- **Shield Last Game First Kill** Le premier joueur tué à la dernière partie sera protégé pour tous les joueurs visibles jusqu'au premier meeting.
-- **Play On A Random Map** Si activé cela va vous laisser choisir une rotation pour toutes les cartes actuelles, exepté ehT dlekS 
-- **Ghosts Can See Roles**
-- **Ghosts Can See Votes**
-- **Ghosts Can Additionally See Modifier**
-- **Ghosts Can See The Number Of Remaining Tasks**
-- **The map is accessable during a meeting and will show your last location when a body gets reported/meeting gets called**
-- **When you're a ghost and done with tasks, you'll get a zoom out/overview function**
-- **Task Counts:** Vous êtes maintenant capable de sélectionner plus de tâches.
-- **Role Summary:** Quand une partie se termine il y aura une liste de tous les joueurs, leur rôle et leur progression des tâches
-- **Darker/Lighter:** Affiche le type de couleurs de chaque joueurs dans les meetings
+- **Mode Streamer:** Vous pouvez activer le mode streamer dans les paramètres d'Among Us. Cela cache le code du lobby, l'ip du serveur custom et son port. Vous pouvez mettre un texte de remplacement du code du lobby personnalisé, en changeant *Streamer Mode Replacement Text* dans le fichier `BepInEx\config\me.eisbison.theotherroles.cfg`.
+- **Nombre de Crewmates:** Le nombre de rôles Crewmates peut être réglé dans un lobby.
+- **Nombre de Neutres:** Le nombre de rôles Neutral peut être réglé dans un lobby.
+- **Nombre d'Imposteurs:** Le nombre de rôles Impostors peut être réglé dans un lobby.
+- **Nombre de Modificateurs:** Le nombre de Modifiers peut être réglé dans un lobby.
+- **Carte:** La carte peut être changée dans un lobby.
+- **Nombre maximum de Meetings:** Vous pouvez régler le nombre maximum de meetings pouvant être convoquées au total (Chaque joueur a toujours un maximum personnel de boutons, mais si le nombre maximum de meetings est atteint, vous ne pouvez pas utiliser vos meetings même s'il vous en reste. Les meetings des Impostor et Jackal comptent aussi).
+- **Autoriser les skips dans les Emergency Meetings:** Si celle-ci est réglée sur `false`, il n'y aura pas de bouton skip dans les meetings d'urgence. Si un joueur ne vote pas, il se votera lui-même.
+- **Cacher le nom des joueurs:** Cache les noms de tous les joueurs qui ont un rôle qui vous est inconnu. les Teams Lovers/Impostors/Jackal voient toujours les noms de leurs partenaires. Les Impostors peuvent toujours voir les noms des Spy et tout le monde peut toujours voir l'age du mini.
+- **Autoriser les scans MedBay parallèles:** Autorise les jouerus à faire leur scan MedBay en même temps.
+- **Protèger le premier kill de la dernière game** Le premier joueur tué à la dernière partie sera protégé pour tous les joueurs visibles jusqu'au premier meeting.
+- **Jouer sur une carte aléatoire** Si activé cela va vous laisser choisir une rotation pour toutes les cartes actuelles, exepté ehT dlekS 
+- **Les fantômes peuvent voir les rôles**
+- **Les fantômes peuvent voir les votes**
+- **Les fantômes peuvent en plus voir les Modificateurs**
+- **Les fantômes peuvent voir le nombre de tâches restantes**
+- **La map est accessible pendant un meeting et vous montrera votre dernière position quand un corps est report/meeting est appellé**
+- **Quand vous êtes un fantômes et que vous avez fini avec les tâches, vous aurez la fonction dézoomer/overview**
+- **Nombre de tâches:** Vous êtes maintenant capable de sélectionner plus de tâches.
+- **Résumé des rôles:** Quand une partie se termine il y aura une liste de tous les joueurs, leur rôle et leur progression des tâches
+- **Sombre/Clair:** Affiche le type de couleurs de chaque joueurs dans les meetings
 
 ### Limites du nombre de tâches par carte
 Vous pouvez configurer:
