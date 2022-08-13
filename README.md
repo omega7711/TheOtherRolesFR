@@ -1361,61 +1361,61 @@ L'autre fonctionnalité du Médecin montre quand il signale un cadavre : il verr
 | Le Médecin Voit les Tentatives de Meurtre sur un Joueur Protégé | Si quelqu'un essaie de blesser un joueur protégé (Imposteur, Shérif, Devin, ...), le Médecin verra un flash rouge| Oui/Non
 -----------------------
 
-## Swapper
+## Swapeur
 ### **Team: Crewmates**
-During meetings the Swapper can exchange votes that two people get (i.e. all votes
-that player A got will be given to player B and vice versa).\
-Because of the Swapper's strength in meetings, they might not start emergency meetings and can't fix lights and comms.\
-The Swapper now has initial swap charges and can recharge those charges after completing a configurable amount of tasks.\
+Pendant les meetings, le Swapeur peut échanger les votes que deux personnes ont faits (c'est-à-dire tous les votes
+que le joueur A a obtenu sera donné au joueur B et vice versa).\
+En raison de la force du Swapeur dans les meetings, il se peut qu'il ne démarre pas les réunions d'urgence et qu'il ne puisse pas réparer les lumières et les communications.\
+Le Swapeur a maintenant des charges d'échange initiaux et peut recharger ces charges après avoir terminé un nombre configurable de tâches.\
 \
-**NOTE:**
-- The remaining charges will be displayed in brackets next to the players role while not in a meeting
-- In a meeting the charges will appear next to the Confirm Swap button
+**REMARQUE:**
+- Les charges restantes seront affichées entre parenthèses à côté du rôle du joueur lorsqu'il n'est pas en réunion
+- Lors d'un meeting, les frais apparaîtront à côté du bouton Confirmer l'échange
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Swapper Spawn Chance | -
-| Swapper can call emergency meeting | Option to disable the emergency button for the Swapper
-| Swapper can only swap others | Sets whether the Swapper can swap themself or not
-| Initial Swap Charges | -
-| Number Of Tasks Needed For Recharging | -
+| Taux d'Apparition du Swapeur | -
+| Le Swapeur Peut Faire des Meetings d'Urgenge | Option pour désactiver le bouton d'urgence pour le Swapeur
+| Le Swapeur peux seulement échanger les autres | Défini si le Swapeur peut s'échanger lui-même avec quelqu'un d'autre ou non
+| Nombre d'échanges initial | -
+| Nombre de Tâches Requis Pour Recharger | -
 -----------------------
 
-## Seer
+## Voyant
 ### **Team: Crewmates**
-The Seer has two abilities (one can activate one of them or both in the options).\
-The Seer sees the souls of players that died a round earlier, the souls slowly fade away.\
-The Seer gets a blue flash on their screen, if a player dies somewhere on the map.
+Le Voyant a deux capacités (on peut activer l'une d'elles ou les deux dans les options).\
+Le Voyant voit les âmes des joueurs qui sont morts un tour plus tôt, les âmes disparaissent lentement.\
+Le Voyant obtient un flash bleu sur son écran, si un joueur meurt quelque part sur la carte.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Seer Spawn Chance | -
-| Seer Mode | Options: Show death flash and souls, show death flash, show souls
-| Seer Limit Soul Duration | Toggle if souls should turn invisible after a while
-| Seer Soul Duration | Sets how long it will take the souls to turn invisible after a meeting
+| Taux d'Apparition du Voyant | -
+| Mode du Voyant | Options: Voir le flash et les âmes, voir les flashs de mort, voir les âmes
+| La vue des Âmes a Une Durée | Défini si les âmes deviennent invisible après un moment
+| Durée de vue des Âmes | Défini le temps que cela va prendre aux âmes de devenir invisible
 -----------------------
 
 ## Hacker
 ### **Team: Crewmates**
-If the Hacker activates the "Hacker mode", the Hacker gets more information than others from the admin table and vitals for a set duration.\
-Otherwise they see the same information as everyone else.\
-**Admin table:** The Hacker can see the colors (or color types) of the players on the table.\
-**Vitals**: The Hacker can see how long dead players have been dead for.\
-The Hacker can access his mobile gadgets (vitals & admin table), with a maximum of charges (uses) and a configurable amount of tasks needed to recharge.\
-While accessing those mobile gadgets, the Hacker is not able to move.
+Si le Hacker active le "mode Hacker", le Hacker obtient plus d'informations que les autres à partir de la table d'administration et des données vitales pendant une durée définie.\
+Sinon, il voit les mêmes informations que tout le monde.\
+**Table d'administration:** Le Hacker peut voir les couleurs (ou types de couleur) des joueurs sur la table.\
+**Vitals**: Le Hacker peut voir depuis combien de temps les joueurs morts sont morts.\
+Le Hacker peut accéder à ses gadgets mobiles (vitals et table d'administration), avec un maximum de charges (utilisations) et un nombre configurable de tâches nécessaires pour les recharger.\
+Lorsqu'il accède à ces gadgets mobiles, le Hacker ne peut pas se déplacer.
 
-**NOTE:**
-- If the Morphling morphs or the Camouflager camouflages, the colors on the admin table change accordingly
-- More information about the [colors](#colors)
+**REMARQIE:**
+- Si le Morphling se transforme ou si le Camoufleur camoufle, les couleurs de la table d'administration changent en conséquence.
+- Plus d'informations sur les [couleurs](#couleurs)
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Hacker Spawn Chance | -
-| Hacker Cooldown | -
-| Hacker Duration | Sets how long the "Hacker mode" remains active
+| Taux d'Apparition du Hacker | -
+| Cooldown du Hacker | -
+| Durée du Hack | Défini combien de temps le "Mode Hack" reste actif
 | Hacker Only Sees Color Type | Sets if the Hacker sees the player colors on the admin table or only white/gray (for Lighter and darker colors)
 | Max Mobile Gadget Charges | -
 | Number Of Tasks Needed For Recharging | Number of tasks to get a charge
@@ -1557,7 +1557,7 @@ What is your killers role?
 | Medium Each Soul Can Only Be Questioned Once | If set to true, souls can only be questioned once and then disappear
 -----------------------
 
-# Modificateur
+# Modificateurs
 Le modificateur est un ajout à votre rôle d'Imposteur/Neutre/Crewmate.
 Certains modificateurs peuvent être utilisés plusieurs fois dans le jeu (option Quantité).
 
