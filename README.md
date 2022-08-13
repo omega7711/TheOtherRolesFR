@@ -1557,170 +1557,170 @@ What is your killers role?
 | Medium Each Soul Can Only Be Questioned Once | If set to true, souls can only be questioned once and then disappear
 -----------------------
 
-# Modifier
-A modifier is an addition to your Impostor/Neutral/Crewmate role.
-Some modifiers can be ingame more than once (Quantity option).
+# Modificateur
+Le modificateur est un ajout à votre rôle d'Imposteur/Neutre/Crewmate.
+Certains modificateurs peuvent être utilisés plusieurs fois dans le jeu (option Quantité).
 
 ## Sanglant
 ### Sanglant
 
-Si il est tué, the Bloody Modifier will leave a trail for x-seconds on their killer. The trail will have the color of the killed person. Impostor,
-Neutral or Crewmate roles can have this Modifier.
+Si il est tué, le modificateur sanglant laissera une trace pendant x secondes sur son tueur. La traînée aura la couleur de la personne tuée. 
+Les Imposteur, Neutres ou Crewmates peuvent avoir ce modificateur.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Bloody Spawn Chance | -
-| Bloody Quantity | -
-| Trail duration | -
+| Chance d'apparition de Sanglant | -
+| Quantité de Sanglant | -
+| Durée de la trainée | -
 -----------------------
 
 ## Anti Teleport
 
-The Anti Teleport Modifier prevents the player from getting teleported to the Meeting Table if a body gets reported or an Emergency Meeting is called.\
-The player will start the round where the previous one ended (Emergency Meeting Call/Body Report).
+Le modificateur anti-teleport empêche le joueur d'être téléporté à la table de meeting si un corps est signalé ou si un meeting d'urgence est convoqué.\
+Le joueur commencera le tour là où le précédent s'est terminé (appel de meeting d'urgence/report de corps).
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Anti Teleport Spawn Chance | -
-| Anti Teleport Quantity | -
+| Chance d'apparition de l'Anti Teleport | -
+| Quantité d'Anti Teleport | -
 -----------------------
 
-## Tie Breaker
+## Casseur d'égalité
 
-If the Voting ends in a tie, the Tie Breaker takes place and the player with the Tie Breaker Modifier gets an extra vote thats not visible to anyone.\
-Everyone will know if the Tie Breaker was involved in the Meeting or not.
+Si le vote se termine par une égalité, le casseur d'égalité a lieu et le joueur avec le modificateur de casseur d'égalité obtient un vote supplémentaire qui n'est visible par personne.\
+Tout le monde saura si le Casseur d'égalité a été impliqué dans la réunion ou non.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Tie Breaker Spawn Chance | -
+| Chance d'apparition de Casseur d'égalité | -
 -----------------------
 
-## Bait
+## Appât
 
-The Bait forces the killer to self report the body (you can configure a delay in the options).\
-There can be more than one Bait.
+L'Appât force le tueur à signaler lui-même le corps (vous pouvez configurer un délai dans les options).\
+Il peut y avoir plus d'un Appât.
 
-**NOTE:**
-- If the Sheriff has the Bait modifier and dies while trying to kill a Crewmate, the Sheriff will *NOT* report themself.
+**REMARQUE:**
+- Si le shérif a le modificateur d'appât et meurt en essayant de tuer un coéquipier, le shérif ne se signalera *PAS*.
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Bait Spawn Chance | -
-| Bait Quantity | -
-| Bait Report Delay Min | -
-| Bait Report Delay Max | -
-| Warn The Killer With A Flash | -
+| Chance d'apparition d'appâts | -
+| Quantité d'appâts | -
+| Delai du report min de l'appat | -
+| Delai du report max de l'appatx | -
+| Avertir le tueur avec un flash | -
 -----------------------
 
-## Lovers
+## Les Amoureux
 
-There are always two Lovers which are linked together.\
-Their primary goal is it to stay alive together until the end of the game.\
-If one Lover dies (and the option is activated), the other Lover suicides.\
-You can specify the chance of one Lover being an Impostor.\
-The Lovers never know the role of their partner, they only see who their partner is.\
-The Lovers win, if they are both alive when the game ends. They can also win with their original team (e.g. a dead Impostor Lover can win with the Impostors, an Arsonist Lover can still achieve an Arsonist win).\
-If one of the Lovers is a killer (i.e. Jackal/Sidekick/Impostor), they can achieve a "Lovers solo win" where only the Lovers win.\
-If there is no killer among the Lovers (e.g. an Arsonist Lover + Crewmate Lover) and they are both alive when the game ends, they win together with the Crewmates.\
-If there's an Impostor/Jackal + Crewmate Lover in the game, the tasks of a Crewmate Lover won't be counted (for a task win) as long as they're alive.\
-If the Lover dies, their tasks will also be counted.\
-You can enable an exclusive chat only for Lovers.
+Il y a toujours deux amoureux qui sont liés ensemble.\
+Leur objectif principal est de rester en vie ensemble jusqu'à la fin de la partie.\
+Si un Amoureux meurt (et que l'option est activée), l'autre amoureux se suicide.\
+Vous pouvez spécifier la probabilité qu'un amoureux soit un Imposteur.\
+Les Amoureux ne connaissent jamais le rôle de leur partenaire, ils ne voient que qui est leur partenaire.\
+Les Amoureux gagnent s'ils sont tous les deux vivants à la fin de la partie. Ils peuvent également gagner avec leur équipe d'origine (par exemple, un Imposteur Amoureux mort peut gagner avec les Imposteurs, un Incendiaire Amoureux peut toujours remporter une victoire incendiaire).\
+Si l'un des Amoureux est un tueur (c'est-à-dire un Chacal/un Acolyte/un Imposteur), il peut réaliser une "victoire en solo des Amoureux" où seuls les Amoureux gagnent.\
+S'il n'y a pas de tueur parmi les Amoureux (par exemple, un Amoureux Incendiaire + un Amoureux Crewmate) et qu'ils sont tous les deux en vie à la fin de la partie, ils gagnent avec les Crewmates.\
+S'il y a un Imposteur/Chacal + Crewmate Amoureux dans le jeu, les tâches d'un Crewmate Amoureux ne seront pas comptées (pour une victoire par tâches terminées) tant qu'il est en vie.\
+Si l'Amoureux meurt, ses tâches seront maintenant comptées.\
+Vous pouvez activer un chat exclusif uniquement pour les Amoureux.
 
-**NOTE:**
-In a 2 Crewmates vs 2 Impostors (or 2 members of team Jackal) and the Lovers are not in the same team, the game is not automatically over since the Lovers can still achieve a solo win. E.g. if there are the following roles Impostor + ImpLover + Lover + Crewmate left, the game will not end and the next kill will decide if the Impostors or Lovers win.
+**REMARQUE:**
+Dans un 2 Crewmates vs 2 Impostors (ou 2 membres de l'équipe Chacal) et que les Amoureux ne sont pas dans la même équipe, la partie n'est pas automatiquement terminée puisque les Amoureux peuvent toujours remporter une victoire en solo. Par exemple. s'il reste les rôles suivants Imposteur + ImpAmoureux + Amoureux + Crewmate, le jeu ne se terminera pas et la prochaine mise à mort décidera si les Imposteurs ou les Amoureux gagnent.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Lovers Spawn Chance | -
-| Chance That One Lover Is Impostor | -
-| Both Lovers Die | Whether the second Lover suicides, if the first one dies
-| Enable Lover Chat | -
+| Taux d'Apparition des Amoureux | -
+| Chance qu'un Amoureux Soit Imposteur | -
+| Les Deux Amoureux Meurent | Le deuxième Amoureux se suicide, si le premier meurt
+| Activer un Chat Entre Amoureux | -
 -----------------------
 
-**NOTE:**
-- The role **Lover** can't be guessed, you'll have to guess the primary role of one of the Lovers, to kill both of them.
+**REMARQUE:**
+- Le rôle **Amoureux** ne peut pas être deviné, vous devrez deviner le rôle principal de l'un des Amoureux, pour les tuer tous les deux.
 
-## Sunglasses
+## lunettes de soleil
 
-The Sunglasses will lower the Crewmate's vision by small percentage. The percentage is configurable in the options.\
-The vision will also be affected when lights out.
+Les lunettes de soleil réduiront la vision du coéquipier d'un petit pourcentage. Le pourcentage est paramétrable dans les options.\
+La vision sera également affectée lorsque les lumières s'éteindront.
 
-**NOTE:**
-- Sunglasses only affects Crewmates.
-- If you have the Sunglasses modifier and get sidekicked, you lose the modifier.
+**REMARQUE:**
+- Les lunettes de soleil n'affectent que les coéquipiers.
+- Si vous avez le modificateur Lunettes de soleil et que vous êtes acolyte, vous perdez le modificateur.
 
 ### Game Options
-| Name | Description
+| Nom | Description
 |----------|:-------------:|
-| Sunglasses Spawn Chance | -
-| Sunglasses Quantity | -
-| Vision with sunglasses | -
+| Taux d'Apparition des Lunettes de Soleil | -
+| Quantité de Lunettes de Soleil | -
+| Vision avec les Lunettes de Soleil | -
 -----------------------
 
 ## Mini
 
-The Mini's character is smaller and hence visible to everyone in the game.\
-The Mini cannot be killed until it turns 18 years old, however it can be voted out.
+Le personnage Mini est plus petit et donc visible par tout le monde dans le jeu.\
+Le Mini ne peut pas être tué avant l'âge de 18 ans, mais il peut être éjecté.
 
-**Impostor/Jackal Mini:**
-- While growing up the kill cooldown is doubled. When it's fully grown up its kill cooldown is 2/3 of the default one.
-- If it gets thrown out of the ship, everything is fine.
+**Mini Imposteur/Chacal:**
+- En grandissant, le cooldown de kill est doublé. Lorsqu'il est complètement adulte, son temps de recharge est de 2/3 de celui par défaut.
+- S'il est éjecté, tout va bien.
 
-**Crewmate Mini:**
-- The Crewmate Mini aims to play out the strength its invincibility in the early game.
-- If it gets thrown out of the ship before it turns 18, everyone loses. So think twice before you vote out a Mini.
+**Mini Crewmate:**
+- Le Mini Crewmate vise à jouer la force de son invincibilité en début de partie.
+- S'il est éjecté avant ses 18 ans, tout le monde est perdant. Réfléchissez donc à deux fois avant de voter pour une Mini.
 
-**Neutral Mini:**
-- The cooldown is not effected, except for the Team Jackal/Sidekick.
-- If it gets thrown out of the ship, everything is fine except for the Jester.
-- If the Jester Mini gets voted out the game will end in a Jester win.
+**Mini Neutre:**
+- Le cooldown n'est pas affecté, sauf pour l'équipe Chacal.
+- S'il est éjecté , tout va bien sauf le Bouffon.
+- Si le Mini Bouffon est éliminé, le jeu se terminera par une victoire du Bouffon.
 
-**NOTE:**
-- If the Sheriff tries to kill the Mini before it's fully grown, nothing happens.
-- The Sheriff can kill the Impostor/Neutral Mini, but only if it's fully grown up.
-- If the Mini's primary role is guessed correctly, it dies like every other role and nothing further happens.
+**REMARQUE:**
+- Si le Shérif essaie de tuer le Mini avant qu'il ne soit adulte, rien ne se passe.
+- Le Shérif peut tuer le Mini Imposteur/Neutre, mais seulement s'il est complètement adulte.
+- Si le rôle principal du Mini est correctement deviné, il meurt comme tous les autres rôles et rien d'autre ne se passe.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Mini Spawn Chance | -
-| Mini  | Mini Growing Up Duration
+| Taux d'Apparition du Mini | -
+| Durée étant Mini | Durée de croissance du Mini
 -----------------------
 
 ## VIP
 
-An Impostor, Jackal or Crewmate can be affected by the VIP (Very Important Player) Modifier.\
-The VIP will show everyone when he dies with a flash similar to the Seer Flash.\
-If the option Show Team Color is On, then everyone will get a flash in the color of the team the player was part of.
+Un Imposteur, un Chacal ou un Crewmate peut être affecté par le modificateur VIP (Very Important Player).\
+Le VIP montrera à tout le monde quand il meurt avec un flash similaire au Flash du Voyant.\
+Si l'option Afficher la couleur de l'équipe est activée, tout le monde recevra un flash de la couleur de l'équipe dont le joueur faisait partie
 
-Teams:
-- Impostor = Red
-- Neutral = Blue
-- Crewmate = White
+Equipes:
+- Imposteur = Rouge
+- Neutre = Bleu
+- Crewmate = Blanc
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| VIP Spawn Chance | -
-| VIP Quantity | -
-| Show Team Color | -
+| Taux d'Apparition de VIP | -
+| Quantité de VIP | -
+| Afficher la Couleur de l'Equipe | -
 -----------------------
 
-## Invert
+## Inversion
 
-The Invert Modifier inverts your controls (no matter if keyboard or mouse).\
-The Invert can affect all teams (Impostor, Neutral, Crewmate).
+Le modificateur Inversion inverse vos commandes (qu'il s'agisse d'un clavier ou d'une souris).\
+L'Inversion peut affecter toutes les équipes (Imposteur, Neutre, Crewmate).
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Invert Spawn Chance | -
-| Invert Quantity | -
+| Taux d'Apparition d'Inversion | -
+| Quantité d'Inversion | -
 -----------------------
 
 # Source code
