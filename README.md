@@ -1019,7 +1019,7 @@ Selon les options, le Devin ne peut pas deviner le joueur protégé et selon les
 | Nombre de Tirs par Parti | -
 | Le Devin Peut Tirer Plusieurs Fois par Meeting |  -
 | Les Suppositioons sont Visible dans le Chat Fantômes | -
-| Les Suppositions ignorent le Bouclier du Médecin | -
+| Les Suppositions ignorent le Bouclier Médical | -
 | Le Devin Maléfique Peut Deviner l'Espion | -
 | Taux d'Apparition des Deux Devins | -
 | Le Devin ne Peut pas Deviner le Mouchard Quand il a Fini ses Tâches | -
@@ -1172,7 +1172,7 @@ Comment l'Avocat gagne:
 ### **Team: Neutres**
 Le Poursuivant est toujours un rôle neutre, mais a un objectif différent pour gagner la partie ; Il doit être en vie lorsque la partie se termine et que les Crewmates gagnent.\
 Afin d'atteindre cet objectif, le Poursuivant a une capacité appelée "Blank", où il peut remplir une arme de tueur (cela inclut également le shérif) avec une balle à blanc. Ainsi, si le tueur tente de tuer quelqu'un, il ratera sa cible et son Cooldown sera déclenché comme d'habitude.\
-Si le tueur tire le "Blank", les boucliers (par exemple, le bouclier Medic ou le bouclier Time Master) ne seront pas déclenchés.\
+Si le tueur tire le "Blank", les boucliers (par exemple, le bouclier Medical ou le bouclier du Maître du Temps) ne seront pas déclenchés.\
 Le poursuivant a des tâches (qui peuvent déjà être effectuées en tant qu'avocat), qui comptent pour la victoire des Crewmates. Si le Poursuivant meurt, ses tâches ne seront plus comptées.
 
 -----------------------
@@ -1291,75 +1291,74 @@ Le Briquet peut allumer son briquet de temps en temps, ce qui augmente sa vision
 | Durée du Briquet | -
 -----------------------
 
-## Détéctive
+## Détective
 ### **Team: Crewmates**
-The Detective can see footprints that other players leave behind.\
-The Detective's other feature shows when they report a corpse: they receive clues about the killer's identity. The type of information they get is based on the time it took them to find the corpse.
+Le Détective peut voir les empreintes laissées par les autres joueurs.\
+L'autre caractéristique du détective montre quand ils signalent un cadavre : ils reçoivent des indices sur l'identité du tueur. Le type d'informations qu'ils obtiennent est basé sur le temps qu'il leur a fallu pour trouver le cadavre.
 
-**NOTE:**
-- When people change their colors (because of a morph or camouflage), all the footprints also change their colors (also the ones that were already on the ground). If the effects are over, all footprints switch back to the original color.
-- The Detective does not see footprints of players that sit in vents
-- More information about the [colors](#colors)
+**REMARQUE:**
+- Lorsque les gens changent de couleur (à cause d'une métamorphose ou d'un camouflage), toutes les empreintes changent également de couleur (y compris celles qui étaient déjà au sol). Si les effets sont terminés, toutes les empreintes reviennent à la couleur d'origine.
+- Le détective ne voit pas les empreintes des joueurs dans les vents
+- Plus d'informations sur les [Couleurs](#couleurs)
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Detective Spawn Chance | -
-| Anonymous Footprints | If set to true, all footprints will have the same color. Otherwise they will have the color of the respective player.
-| Footprint Interval | The interval between two footprints
-| Footprint Duration | Sets how long the footprints remain visible.
-| Time Where Detective Reports Will Have Name | The amount of time that the Detective will have to report the body since death to get the killer's name.  |
-| Time Where Detective Reports Will Have Color Type| The amount of time that the Detective will have to report the body since death to get the killer's color type. |
+| Taux d'Apparition du Détective | -
+| Empreintes Anonymes | Si cette option est activée, toutes les empreintes de pas ont la même couleur. Sinon elles ont la couleur de leur joueur respectif.
+| Intervalle des Empreintes | L'intervalle entre deux empreintes
+| Durée des Empreintes | Défini combien de temps les empreintes restent visibles.
+| Temps Où Les Reports de Détective Auront le Nom | Le temps que les Détective aura pour report le cadavre depuis la mort pour avoir le nom du tueur.  |
+| Temps Où Les Reports de Détective Auront le Type de Couleur | Le temps que les Détective aura pour report le cadavre depuis la mort pour avoir le type de couleur du tueur. |
 -----------------------
 
-## Time Master
+## Maître du Temps
 ### **Team: Crewmates**
-The Time Master has a time shield which they can activate. The time shield remains active for a configurable amount of time.\
-If a player tries to kill the Time Master while the time shield is active, the kill won't happen and the
-time will rewind for a set amount of time.\
-The kill cooldown of the killer won't be reset, so the Time Master
-has to make sure that the game won't result in the same situation.\
-The Time Master won't be affected by the rewind.
+Le Maître du Temps a un bouclier temporel qu'il peut activer. Le bouclier temporel reste actif pendant une durée configurable.\
+Si un joueur essaie de tuer le Maître du Temps alors que le bouclier temporel est actif, la mise à mort ne se produira pas et le
+le temps rembobinera pendant un laps de temps défini.\
+Le coooldown du tueur ne sera pas réinitialisé, donc le Maître du Temps doit s'assurer que le jeu n'aboutira pas à la même situation.\
+Le Maître du Temps ne sera pas affecté par le rembobinage.
 
-**NOTE:**
-- Only the movement is affected by the rewind.
-- A Vampire bite will trigger the rewind. If the Time Master misses shielding the bite, they can still shield the kill which happens a few seconds later.
-- If the Time Master was bitten and has their shield active before when a meeting is called, they survive but the time won't be rewound.
-- If the Time Master has a Medic shield, they won't rewind.
-- The shield itself ends immediately when triggered. So the Time Master can be attacked again as soon as the rewind ends.
+**REMARQUE:**
+- Seul le mouvement est affecté par le rembobinage.
+- Une morsure de vampire déclenchera le rembobinage. Si le Maître du Temps manque de protéger la morsure, il peut toujours protéger la mise à mort qui se produit quelques secondes plus tard.
+- Si le Maître du Temps a été mordu et que son bouclier est actif avant qu'un meeting ne soit convoquée, il survit mais le temps ne sera pas rembobiné.
+- Si le Maître du Temps a un bouclier Médical, il ne rembobinera pas.
+- Le bouclier lui-même se termine immédiatement lorsqu'il est déclenché. Ainsi, le Maître du Temps peut être attaqué à nouveau dès la fin du rembobinage.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Time Master Spawn Chance | - |
-| Time Master Cooldown | - |
-| Rewind Duration | How much time to rewind |
-| Time Master Shield Duration |
+| Taux d'Apparition du Maître du Temps | - |
+| Cooldown du Maître du Temps | - |
+| Durée de Rembobinage | Temps rembobiné en cas d'activation |
+| Durée du Bouclier du Maître du Temps |
 -----------------------
 
-## Medic
+## Médecin
 ### **Team: Crewmates**
-The Medic can shield (highlighted by an outline around the player) one player per game, which makes the player unkillable.\
-The shielded player can still be voted out and might also be an Impostor.\
-If set in the options, the shielded player and/or the Medic will get a red flash on their screen if someone (Impostor, Sheriff, ...) tried to murder them.\
-If the Medic dies, the shield disappears with them.\
-The Sheriff will not die if they try to kill a shielded Crewmate and won't perform a kill if they try to kill a shielded Impostor.\
-Depending on the options, guesses from the Guesser will be blocked by the shield and the shielded player/medic might be notified.\
-The Medic's other feature shows when they report a corpse: they will see how long ago the player died.
+Le Médecin peut protéger (mis en évidence par un contour autour du joueur) un joueur par partie, ce qui le rend impossible à tuer.\
+Le joueur protégé peut toujours être éliminé et peut également être un Imposteur.\
+Si défini dans les options, le joueur protégé et/ou le Médecin auront un flash rouge sur leur écran si quelqu'un (Imposteur, Shérif, ...) a tenté de les assassiner.\
+Si le Médicin meurt, le bouclier disparaît avec lui.\
+Le Shérif ne mourra pas s'il essaie de tuer un Crewmate protégé et ne tuera pas s'il essaie de tuer un Imposteur protégé.\
+Selon les options, les suppositions du Devin seront bloquées par le bouclier et le joueur/médecin protégé pourra en être averti.\
+L'autre fonctionnalité du Médecin montre quand il signale un cadavre : il verra depuis combien de temps le joueur est mort.
 
-**NOTE:**
-- If the shielded player is a Lover and the other Lover dies, they nevertheless kill themselves.
-- If the Shifter has a shield or their target has a Shield, the shielded player switches.
-- Shields set after the next meeting, will be set before a possible shift is being performed.
+**REMARQUE:**
+- Si le joueur protégé est un Amoureux et que l'autre Amoureux meurt, il meurt néanmoins.
+- Si le Shifter a un bouclier ou si sa cible a un bouclier, le joueur protégé change.
+- Les boucliers fixés après le prochain meeting, seront fixés avant qu'un éventuel changement ne soit effectué.
 
-### Game Options
-| Name | Description | Options |
+### Options de jeu
+| Nom | Description | Options |
 |----------|:-------------:|:-------------:|
-| Medic Spawn Chance | - | -
-| Show Shielded Player | Sets who sees if a player has a shield | "Everyone", "Shielded + Medic", "Medic"
-| Shielded Player Sees Murder Attempt| Whether a shielded player sees if someone tries to kill them | True/false |
-| Shield Will Be Activated | Sets when the shield will be active | "Instantly", "Instantly, Visible After Meeting", "After Meeting"
-| Medic Sees Murder Attempt On Shielded Player | - | If anyone tries to harm the shielded player (Impostor, Sheriff, Guesser, ...), the Medic will see a red flash
+| Taux d'Apparition du Médecin | - | -
+| Afficher les Joueurs Protégés | Défini qui voit si un joueur a un bouclier | "Tout le monde", "Protégés + Médecin", "Médecin"
+| Les Joueurs Proyégés Voient les Tentatives de Meurtres | Les joueurs protégés voient si quelqu'un essait de les tuer | Oui/Non |
+| Le Bouclier Sera Actif | Défini quand le bouclier sera actif | "Instantanément", "Instantanément, Visible après un Meeting", "Après un Meeting"
+| Le Médecin Voit les Tentatives de Meurtre sur un Joueur Protégé | Si quelqu'un essaie de blesser un joueur protégé (Imposteur, Shérif, Devin, ...), le Médecin verra un flash rouge| Oui/Non
 -----------------------
 
 ## Swapper
