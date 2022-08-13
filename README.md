@@ -1092,7 +1092,7 @@ Si il reste un Imposteur et un Chacal dans le jeu, le jeu continue même si tous
 | Cooldown de Création d'Acolyte par le Chacal | Cooldown avant qu'un Acolyte puisse être créé |
 | Le Chacal Peut Utiliser les Vents | Oui/Non |
 | Le Chacal Peut créer un Acolyte | Oui/Non |
-| Les Chacal promus par les Acolytes peuvent créer un Acolyte | Oui/Non (pour éviter que l'équipe Chacal ne grandisse trop) |
+| Les Chacals promu par un Acolyte peuvent créer un Acolyte | Oui/Non (pour éviter que l'équipe Chacal ne grandisse trop) |
 | Les Chacals peuvent transformer un Imposteur en son Acolyte | Oui/Non (pour éviter qu'un Chacal ne transforme un Imposteur en son Acolyte, si il utilise l'abilité sur un Imposteur il verra l'Imposteur comme un Acolyte, mais l'Imposteur ne sera pas convertis en Acolyte. Si cette option est réglée sur "Non" les Chacals et les Acolyte peuvent s'entre-tuer.) |
 | Les Chacals et les Acolytes ont la vision des Imposteurs | - |
 -----------------------
