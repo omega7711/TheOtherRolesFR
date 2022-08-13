@@ -15,27 +15,27 @@ Plus de rôles sont en cours de développement. :)
 
 | Imposteurs | Crewmates | Neutres | Modificateurs |
 |----------|-------------|-----------------|----------------|
-| [Godfather (Mafia)](#mafia) | [Shifter](#shifter) | [Jester](#jester) | [Bloody](#bloody) |
-| [Mafioso (Mafia)](#mafia) | [Mayor](#mayor) | [Arsonist](#arsonist) | [Anti Teleport](#anti-teleport) |
-| [Janitor (Mafia)](#mafia) | [Engineer](#engineer) | [Jackal](#jackal) | [Tie Breaker](#tie-breaker) |
+| [Parrain (Mafia)](#mafia) | [Shifter](#shifter) | [Jester](#jester) | [Bloody](#bloody) |
+| [Mafieux (Mafia)](#mafia) | [Mayor](#mayor) | [Arsonist](#arsonist) | [Anti Teleport](#anti-teleport) |
+| [Concierge (Mafia)](#mafia) | [Engineer](#engineer) | [Jackal](#jackal) | [Tie Breaker](#tie-breaker) |
 | [Morphling](#morphling) | [Sheriff](#sheriff) | [Sidekick](#sidekick) | [Bait](#bait) |
-| [Camouflager](#camouflager) | [Deputy](#deputy) | [Vulture](#vulture) | [Lovers](#lovers) |
+| [Camoufleur](#camoufleur) | [Deputy](#deputy) | [Vulture](#vulture) | [Lovers](#lovers) |
 | [Vampire](#vampire) | [Lighter](#lighter) | [Lawyer](#lawyer) | [Sunglasses](#sunglasses) |
-| [Eraser](#eraser) | [Detective](#detective) | [Poursuivant](#Poursuivant)| [Mini](#mini) |
-| [Trickster](#trickster) | [Time Master](#time-master) | | [VIP](#vip) |
-| [Cleaner](#cleaner) | [Medic](#medic) |  | [Invert](#invert) |
-| [Warlock](#warlock) | [Swapper](#swapper) |
+| [Effaceur](#effaceur) | [Detective](#detective) | [Poursuivant](#Poursuivant)| [Mini](#mini) |
+| [Filou](#filou) | [Time Master](#time-master) | | [VIP](#vip) |
+| [Nettoyeur](#nettoyeur) | [Medic](#medic) |  | [Invert](#invert) |
+| [Sorcier](#sorcier) | [Swapper](#swapper) |
 | [Mandalorian](#Mandalorian) | [Seer](#seer) |  |
-| [Witch](#witch) | [Hacker](#hacker) |  |  |
+| [Sorcière](#sorcière) | [Hacker](#hacker) |  |  |
 | [Ninja](#ninja) | [Tracker](#tracker) |  |  |
-| [Evil Guesser](#guesser) | [Snitch](#snitch) |  |  |
-|  | [Spy](#spy) |  |  |
+| [Devin Maléfique](#Devin) | [Snitch](#snitch) |  |  |
+|  | [Espion](#Espion) |  |  |
 |  | [Portalmaker](#portalmaker) |  |  |
 |  | [Security Guard](#security-guard) |  |  |
 |  | [Medium](#medium) |  |  |
 |  | [Nice Guesser](#guesser) |  |
 
-La section [Assignement des rôles](#role-assignment) explique comment les rôles sont distribués parmis les joueurs.
+La section [Assignement des rôles](#assignement-des-rôles) explique comment les rôles sont distribués parmis les joueurs.
 
 # Versions
 | Among Us - Version| Version du mod | Lien |
@@ -1234,64 +1234,64 @@ En raison des vents, l'Ingénieur peut ne pas être en mesure de démarrer certa
 | Mettre les Vents en Surbrillance pour les Chacals et les Acolytes | -
 -----------------------
 
-## Sheriff
+## Shérif
 ### **Team: Crewmates**
-The Sheriff has the ability to kill Impostors or Neutral roles if enabled.\
-If they try to kill a Crewmate, they die instead.\
+Le shérif a la capacité de tuer les Imposteurs ou les rôles Neutres s'ils sont activés.\
+S'ils essaient de tuer un Crewmate, ils meurent à la place.\
 \
-**NOTE:**
-- If the Sheriff shoots the person the Medic shielded, the Sheriff and the shielded person **both remain unharmed**.
-- If the Sheriff shoots a Mini Impostor while growing up, nothing happens. If it's fully grown, the Mini Impostor dies.
+**REMARQUE:**
+- Si le shérif tire sur la personne protégée par le Médicin, le shérif et la personne protégée **survivent tous les deux**.
+- Si le shérif tire sur un mini Imposteur en grandissant, rien ne se passe. S'il est adulte, le Mini Imposteur meurt.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Sheriff Spawn Chance | -
-| Sheriff Cooldown | -
-| Sheriff Can Kill Neutrals | -
-| Sheriff Has A Deputy | Deputy can not be in game without Sheriff
+| Taux d'Apparition du Shérif | -
+| Cooldown du Shérif | -
+| Le Shérif Peut Tuer les Neutres | -
+| Le Shérif a un Adjoint | L'Adjoint ne peut pas être dans la partie sans Shérif
 -----------------------
 
-## Deputy
+## Adjoint
 ### **Team: Crewmates**
-The Deputy has the ability to handcuff player.\
-Handcuffs will be hidden until the handcuffed player try to use a disabled button/hotkey.\
-Handcuffs disable:
+L'Adjoint a l'abilité de menotter un joueur.\
+Les Menottes seront cachées jusqu'a que le joueur menotté essaye de faire une action bloquée par les Menottes.\
+Les Menottes désactivent:
 - Kill
-- Abilities
+- Abilités
 - Vent
 - Report\
 \
-**NOTE:**
-- Duration starts after the handcuffs become visible.
-- Deputy can not be in game without Sheriff.
+**REMARQUE:**
+- La durée commence après que les menottes deviennent visibles.
+- L'Adjoint ne peut pas être dans la partie sans Shérif.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Deputy Number Of Handcuffs | -
-| Handcuff Cooldown| -
-| Handcuff Duration | -
-| Sheriff And Deputy Know Each Other | -
-| Deputy Gets Promoted To Sheriff | "Off", "On (Immediately)" or "On (After Meeting)"
-| Deputy Keeps Handcuffs When Promoted |-
+| Nombre de Menottes utilisables | -
+| Cooldown de Menottage | -
+| Durée du menottage | -
+| Le Shérif et L'Adjoint Connaissent le rôle de l'autre | -
+| L'adjoint est Promu Shérif | "Off", "On (Immédiatement)" or "On (Après un Meeting)"
+| L'adjoint Garde ses Menottes quand il est Promu | -
 -----------------------
 
-## Lighter
+## Briquet
 ### **Team: Crewmates**
-The Lighter can turn on their Lighter every now and then, which increases their vision by a customizable amount.
+Le Briquet peut allumer son briquet de temps en temps, ce qui augmente sa vision d'un montant personnalisable.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Lighter Spawn Chance | -
-| Lighter Mode Vision On Lights On | The vision the Lighter has when the lights are on and the Lighter mode is on
-| Lighter Mode Vision On Lights Off | The vision the Lighter has when the lights are down and the Lighter mode is on
-| Lighter Cooldown | -
-| Lighter Duration | -
+| Taux d'Apparition du Briquet | -
+| Vision du Joueur Quand Briquet On & Lumières On | La Vision du Joueur quand les lumière sont allumées et que le briquet est allumé
+| Vision du Joueur Quand Briquet On & Lumières Off | La Vision du Joueur quand les lumière sont éteintes et que le briquet est allumé
+| Cooldown du Briquet | -
+| Durée du Briquet | -
 -----------------------
 
-## Detective
+## Détéctive
 ### **Team: Crewmates**
 The Detective can see footprints that other players leave behind.\
 The Detective's other feature shows when they report a corpse: they receive clues about the killer's identity. The type of information they get is based on the time it took them to find the corpse.
