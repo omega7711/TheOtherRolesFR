@@ -1116,25 +1116,25 @@ Est assigné à un joueur pendant le jeu par l'action "Créer un Acolyte" du Cha
 | L'Acolyte peut utiliser les vents | Oui/Non |
 -----------------------
 
-## Vulture
-### **Team: Neutral**
+## Vautour
+### **Team: Neutre**
 
-The Vulture does not have any tasks, they have to win the game as a solo.\
-The Vulture is a neutral role that must eat a specified number of corpses (depending on the options) in order to win.\
-Depending on the options, when a player dies, the Vulture gets an arrow pointing to the corpse.\
-If there is a Vulture in the game, there can't be a Cleaner.
+Le Vautour n'a aucune tâche, il doit gagner la partie en solo.\
+Le Vautour est un rôle neutre qui doit manger un nombre spécifié de cadavres (selon les options) pour gagner.\
+Selon les options, lorsqu'un joueur meurt, le Vautour reçoit une flèche pointant vers le cadavre.\
+S'il y a un Vautour dans le jeu, il ne peut pas y avoir de Nettoyeur.
 
-**NOTE**
-- If the corpse is on a different floor on Submerged, the arrow will always point to the elevator
+**REMARQUE**
+- Si le corps est à un étage différent sur Submerged, la flèche pointera toujours vers l'ascenseur
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Vulture Spawn Chance | -
-| Vulture Countdown | -
-| Number Of Corpses Needed To Be Eaten | Corpes needed to be eaten to win the game
-| Vulture Can Use Vents | -
-| Show Arrows Pointing Towards The Corpes | -
+| Taux d'Apparition du Vautour | -
+| Compte à rebours du Vautour | -
+| Nombre de Corps Mangés Nécessaire | Le nombre de cadavres devant être mangés pour gagner la partie
+| Le Vautour Peut Utiliser les Vents | -
+| Montrer les Flèches Pointant Vers les Corps | -
 -----------------------
 
 ## Lawyer
