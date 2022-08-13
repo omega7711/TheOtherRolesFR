@@ -1416,31 +1416,31 @@ Lorsqu'il accède à ces gadgets mobiles, le Hacker ne peut pas se déplacer.
 | Taux d'Apparition du Hacker | -
 | Cooldown du Hacker | -
 | Durée du Hack | Défini combien de temps le "Mode Hack" reste actif
-| Hacker Only Sees Color Type | Sets if the Hacker sees the player colors on the admin table or only white/gray (for Lighter and darker colors)
-| Max Mobile Gadget Charges | -
-| Number Of Tasks Needed For Recharging | Number of tasks to get a charge
-| Can't Move During Cam Duration | -
+| Le Hacker Voit Uniquement le Type de Couleur | Défini si le Hacker voit les couleurs sur la table admin ou seulement blanc/gris (pour les couleurs Claires ou Foncées)
+| Nombre Max de Charges au Gadget Mobile | -
+| Nombre de Tâches Nécessaire pour Recharger | Nombre de Tâches pour avoir une Charge
+| Ne Peut pas Bouger Pendant le Hacking | -
 -----------------------
 
-## Tracker
+## Pisteur
 ### **Team: Crewmates**
-The Tracker can select one player to track. Depending on the options the Tracker can track a different person after each meeting or the Tracker tracks the same person for the whole game.\
-An arrow points to the last tracked position of the player.\
-The arrow updates its position every few seconds (configurable).\
-Depending on the options, the Tracker has another ability: They can track all corpses on the map for a set amount of time. They will keep tracking corpses, even if they were cleaned or eaten by the Vulture.
+Le Pisteur peut sélectionner un joueur à suivre. Selon les options choisies, le Pisteur peut suivre une personne différente après chaque meeting ou suivre la même personne pendant toute la partie.
+Une flèche pointe vers la dernière position suivie du joueur.
+La flèche met à jour sa position à un interval de quelques secondes (configurable).\
+Selon les options, le Pisteur a une autre capacité : Il peut suivre tous les cadavres sur la carte pendant une durée déterminée. Il continuera à suivre les cadavres, même s'ils ont été nettoyés ou mangés par le Vautour.
 
-**NOTE**
-- If the tracked player is on a different floor on Submerged, the arrow will always point to the elevator
+**REMARQUE**
+- Si le joueur suivi se trouve à un autre étage de Submerged, la flèche indiquera toujours l'ascenseur.
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Tracker Spawn Chance | -
-| Tracker Update Interval | Sets how often the position is being updated
-| Tracker Reset Target After Meeting | -
-| Tracker Can Track Corpses | -
-| Corpses Tracking Cooldown | -
-| Corpses Tracking Duration | -
+| Taux d'Apparition du Pisteur | -
+| Interval de Mise à Jour du Pisteur | Définit la fréquence à laquelle la position est mise à jour
+| Le Pisteur Réinitialise la Cible Après un Meeting | -
+| Le Pisteur Peut Pister les Corps | -
+| Cooldown Pour Pister les Corps | -
+| Durée De Pistage des Corps | -
 -----------------------
 
 ## Snitch
