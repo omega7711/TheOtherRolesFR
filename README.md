@@ -15,25 +15,25 @@ Plus de rôles sont en cours de développement. :)
 
 | Imposteurs | Crewmates | Neutres | Modificateurs |
 |----------|-------------|-----------------|----------------|
-| [Parrain (Mafia)](#mafia) | [Shifter](#shifter) | [Jester](#jester) | [Bloody](#bloody) |
-| [Mafieux (Mafia)](#mafia) | [Mayor](#mayor) | [Arsonist](#arsonist) | [Anti Teleport](#anti-teleport) |
-| [Concierge (Mafia)](#mafia) | [Engineer](#engineer) | [Jackal](#jackal) | [Tie Breaker](#tie-breaker) |
-| [Morphling](#morphling) | [Sheriff](#sheriff) | [Sidekick](#sidekick) | [Bait](#bait) |
-| [Camoufleur](#camoufleur) | [Deputy](#deputy) | [Vulture](#vulture) | [Lovers](#lovers) |
-| [Vampire](#vampire) | [Lighter](#lighter) | [Lawyer](#lawyer) | [Sunglasses](#sunglasses) |
-| [Effaceur](#effaceur) | [Detective](#detective) | [Poursuivant](#Poursuivant)| [Mini](#mini) |
-| [Filou](#filou) | [Time Master](#time-master) | | [VIP](#vip) |
-| [Nettoyeur](#nettoyeur) | [Medic](#medic) |  | [Invert](#invert) |
-| [Sorcier](#sorcier) | [Swapper](#swapper) |
-| [Mandalorian](#Mandalorian) | [Seer](#seer) |  |
+| [Parrain (Mafia)](#mafia) | [Shifter](#shifter) | [Bouffon](#bouffon) | [Sanglant](#sanglant) |
+| [Mafieux (Mafia)](#mafia) | [Maire](#Maire) | [Incendiaire](#incendiaire) | [Anti Teleport](#anti-teleport) |
+| [Concierge (Mafia)](#mafia) | [Ingénieur](#ingénieur) | [Chacal](#chacal) | [Casseur d'égalité](#casseur-dégalité) |
+| [Morphling](#morphling) | [Shérif](#shérif) | [Acolyte](#acolyte) | [Appât](#appât) |
+| [Camoufleur](#camoufleur) | [Adjoint](#adjoint) | [Vautour](#vautour) | [Amoureux](#amoureux) |
+| [Vampire](#vampire) | [Briquet](#briquet) | [Avocat](#avocat) | [Lunettes de Soleil](##lunettes-de-soleil) |
+| [Effaceur](#effaceur) | [Détective](#détective) | [Poursuivant](#Poursuivant)| [Mini](#mini) |
+| [Filou](#filou) | [Time Master](#maître-du-temps) | | [VIP](#vip) |
+| [Nettoyeur](#nettoyeur) | [Médecin](#médecin) |  | [Inversion](#inversion) |
+| [Sorcier](#sorcier) | [Swapeur](#swapeur) |
+| [Mandalorian](#Mandalorian) | [Voyant](#voyant) |  |
 | [Sorcière](#sorcière) | [Hacker](#hacker) |  |  |
-| [Ninja](#ninja) | [Tracker](#tracker) |  |  |
-| [Devin Maléfique](#Devin) | [Snitch](#snitch) |  |  |
+| [Ninja](#ninja) | [Pisteur](#pisteur) |  |  |
+| [Devin Maléfique](#Devin) | [Mouchard](#mouchard) |  |  |
 |  | [Espion](#Espion) |  |  |
-|  | [Portalmaker](#portalmaker) |  |  |
-|  | [Security Guard](#security-guard) |  |  |
-|  | [Medium](#medium) |  |  |
-|  | [Nice Guesser](#guesser) |  |
+|  | [Dieur du Portail](#dieuèdu-portail) |  |  |
+|  | [Agent de Sécurité](#agent-de-sécurité) |  |  |
+|  | [Médium](#médium) |  |  |
+|  | [Gentil Devin](#devin) |  |
 
 La section [Assignement des rôles](#assignement-des-rôles) explique comment les rôles sont distribués parmis les joueurs.
 
@@ -1728,6 +1728,10 @@ Vous pouvez utiliser des parties du code, mais ne copiez-collez pas le tout. Vei
 
 # Bugs, suggestions et demandes
 Si vous avez trouvé des bugs, si vous avez une idée pour un nouveau rôle ou toute autre demande, rejoignez notre [Serveur Discord](https://discord.gg/77RkMJHWsM).
+
+# Traduction
+La traduction à été effectuée par [omega7711](https://github.com/omega7711)
+Remerciements à cahty12, AKONE et Shadhow pour leur aide! 🙂
 
 # Copyedit
 Thanks for fixing our typos [jacktose](https://github.com/jacktose) ✌️
