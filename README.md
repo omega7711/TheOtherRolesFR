@@ -774,7 +774,7 @@ Le Godfather fonctionne comme un imposteur normal.\
 Le Mafioso est un imposteur qui ne peut pas tuer tant que le parrain n'est pas mort.\
 Le Janitor est un imposteur qui ne peut pas tuer, mais il peut cacher des cadavres à la place.\
 \
-**NOTE:**
+**REMARQUES:**
 - Il doit y avoir 3 Imposteurs activé pour que la Mafia puiss apparaître.
 
 ### Options de jeu
@@ -788,7 +788,7 @@ Le Janitor est un imposteur qui ne peut pas tuer, mais il peut cacher des cadavr
 ### **Team: Imposteurs**
 Le Morphling est un Imposteur qui peut en plus scanner l'apparence d'un joueur. Après un temps arbitraire il peut prendre son apprence pendant 10s.\
 \
-**NOTE:**
+**REMARQUE:**
 - Ils rétrécissent à la taille du Mini lorsqu'ils copient son look.
 - Le Hacker voit la nouvelle couleur sur la table d'administration.
 - La couleur des empreintes change en conséquence (également celles qui étaient déjà au sol).
@@ -810,7 +810,7 @@ Le Camouflager est un Imposteur qui peut en plus activer un mode camouflage.\
 Le mode camouflage dure 10s et tant qu'il est actif, tous les noms de joueurs/animaux/chapeaux\
 sont cachés et tous les joueurs ont la même couleur.\
 \
-**NOTE:**
+**REMARQUE:**
 - Le Mini ressemblera à tous les autres joueurs
 - La couleur des empreintes devient grise (également celles qui étaient déjà au sol).
 - Le Hacker voit des icônes grises sur la table d'administration
@@ -831,7 +831,7 @@ Le vampire est un Imposteur, qui peut mordre un autre joueur. Les joueurs mordus
 Si la chance d'apparition du vampire est supérieure à 0 (même s'il n'y a pas de vampire dans le jeu), tous les joueurs peuvent placer un ail.\
 Si une victime est près d'un ail, le "Bite Button" se transforme en "Kill Button" par défaut et le vampire ne peut effectuer qu'une mise à mort normale.\
 \
-**NOTE:**
+**REMARQUE:**
 - Si un joueur mordu est toujours en vie lorsqu'un meeting est convoquée, il meurt au début du meeting.
 - Le temps de recharge est le même que le temps de recharge par défaut (+ le délai de mise à mort si le vampire mord la cible).
 - S'il y a un vampire dans le jeu, il ne peut pas y avoir de Warlock.
@@ -854,7 +854,7 @@ L'effacement sera effectué, même si l'effaceur ou sa cible meurt avant la proc
 Par défaut, la gomme peut effacer tout le monde sauf l'espion et les autres imposteurs.\
 Selon les options, ils peuvent également les effacer (les imposteurs perdront leur capacité spéciale d'imposteur).\
 \
-**NOTE:**
+**REMARQUE:**
 - Le changement du Shifter sera toujours déclenché avant l'effacement (donc soit le nouveau rôle du Shifter sera effacé, soit le Shifter enregistre le rôle de sa cible, en fonction de qui l'Eraser a effacé)
 - Effacer un amant efface automatiquement l'autre amant également (si le deuxième amant est un ImpLover, il se transformera en imposteur)
 - Effacer un Jackal qui a un Sidekick, déclenche la promotion Sidekick si elle est activée dans les paramètres
@@ -875,7 +875,7 @@ Le Filou est un Imposteur qui peut placer 3 jack-in-the-box qui sont d'abord inv
 Si le Filou a placé toutes ses boîtes, elles seront converties en un réseau de vents utilisable uniquement par le Filou lui-même, mais les boîtes sont révélées aux autres.\
 Si les boîtes sont converties en un réseau de vents, le Filou gagne une nouvelle capacité "Lights out" pour limiter la visibilité des non-imposteurs, qui ne peut pas être corrigée par les autres joueurs. Les lumières sont automatiquement restaurées après un certain temps.\
 \
-**NOTE:**
+**REMARQUE:**
 - Les imposteurs recevront un indicateur de texte en bas de l'écran pour les avertir si les lumières sont éteintes en raison de la capacité du Filou, car il n'y a pas de flèches de sabotage ou de tâche pour saboter le texte pour les en informer autrement.
 
 ### Options de jeu
@@ -891,7 +891,7 @@ Si les boîtes sont converties en un réseau de vents, le Filou gagne une nouvel
 ### **Team: Imposteurs**
 Le Nettoyeur est un Imposteur que a l'abilité de nettoyer les cadavres.\
 \
-**NOTE:**
+**REMARQUE:**
 - Le cooldown de Kill et de Nettoyage sont paratagés, pour éviter qu'ils nettoient immédiatement leur kills.
 - Si il y a un Cleaner dans la partie, il ne peut pas il y avoir de Vulture.
 
@@ -909,7 +909,7 @@ Si la personne maudite se tient à côté d'un autre joueur, le Sorcier est capa
 Effectuer une mise à mort avec l'aide d'un joueur maudit lèvera la malédiction et empêchera le Sorcier de bouger pendant un laps de temps configurable.\
 Le Sorcier peut toujours effectuer des éliminations normales, mais les deux boutons partagent le même temps de recharge.\
 \
-**NOTE:**
+**REMARQUE:**
 - Le Sorcier peut toujours tuer ses compagnons imposteurs (et même lui-même) en utilisant le "tueur maudit"
 - S'il y a un Sorcier dans le jeu, il ne peut pas y avoir de vampire
 - Effectuer une mise à mort normale, ne lève pas la malédiction
@@ -931,7 +931,7 @@ Si le Mandalorian tue sa cible, son temps de recharge sera beaucoup moins import
 Tuer un joueur qui n'est pas sa cible actuelle entraîne une augmentation du temps de recharge.\
 Selon les options, il y aura une flèche pointant vers la cible actuelle.\
 \
-**NOTE:**
+**REMARQUE:**
 - La cible ne sera pas un Imposteur, un Spy ou l'amoureux du Mandalorian.
 - Tuer la cible réinitialise le chronomètre et une nouvelle cible sera sélectionnée.
 
@@ -956,7 +956,7 @@ Cela peut faire en sorte que les joueurs soient marqués comme épelés pendant 
 Si la sorcière meurt avant le début de la réunion ou si la sorcière est devinée pendant la réunion, les joueurs envoûtés seront mis en évidence mais ils survivront dans tous les cas.\
 En fonction des options, vous pouvez choisir si le fait de rejeter la Sorcière sauvera ou non tous les joueurs envoûtés.\
 \
-**NOTE:**
+**REMARQUE:**
 - Les joueurs envoûtés mourront avant que le joueur élu ne meure (ce qui pourrait déclencher, par exemple, une condition de victoire d'imposteur, même si la sorcière est celle qui est votée)
 
 ### Options de jeu
@@ -979,7 +979,7 @@ Selon les options, vous savez où se trouve votre joueur marqué.\
 Si le Ninja utilise sa capacité, il laissera une trace (feuilles) pendant une durée configurable où il a activé la capacité et en plus où il a tué le joueur marqué auparavant.\
 Lors de l'exécution d'une capacité de ninja, le ninja peut être invisible pendant quelques secondes (selon les options)\
 \
-**NOTE:**
+**REMARQUE:**
 - Le Ninja a un cooldown de 5 secondes après avoir marqué un joueur
 - La trace a une couleur plus foncée (noir) ou plus claire (blanc) selon la couleur des joueurs qui passera au vert
 - La marque sur le joueur marqué sera réinitialisée après un meeting ou après avoir utilisé la capacité de tuer le joueur marqué. Effectuer une mise à mort normale ne réinitialisera **PAS** la marque
@@ -1007,7 +1007,7 @@ Les suppositions Imposteur et Crewmate ne sont justes que si le joueur fait part
 Vous ne pouvez tirer que pendant le vote.\
 Selon les options, le Devin ne peut pas deviner le joueur protégé et selon les options Medic, le Medic/le joueur protégé peut être notifié (personne ne mourra, indépendamment de ce que le Devin a deviné).\
 \
-**NOTE:**
+**REMARQUE:**
 - Si un joueur se fait tirer dessus, vous retournez au vote
 - La victoire du Bouffon ne sera pas déclenchée si le Devin tire sur le Bouffon avant que le Bouffon ne soit éjecté
 
@@ -1037,83 +1037,83 @@ Le Bouffon n'a aucune tâche. Ils finissent la partie en solo, si ils sont éjec
 | Le Bouffon Peut Faire des de Meetings d'Urgence | Option pour désactiver le bouton de meeting d'urgence pour le Bouffon
 -----------------------
 
-## Arsonist
-### **Team: Neutral**w
-The Arsonist does not have any tasks, they have to win the game as a solo.\
-The Arsonist can douse other players by pressing the douse button and remaining next to the player for a few seconds.\
-If the player that the Arsonist douses walks out of range, the cooldown will reset to 0.\
-After dousing everyone alive the Arsonist can ignite all the players which results in an Arsonist win.
+## Incendiaire
+### **Team: Neutre**
+L'Incendiaire n'a aucune tâche, il doit gagner la partie en solo.\
+L'Incendiaire peut asperger les autres joueurs en appuyant sur le bouton "arroser" et en restant à côté du joueur pendant quelques secondes.\
+Si le joueur que l'Incendiaire asperge sort de sa portée, le cooldown sera réinitialisé à 0.\
+Après avoir arrosé tout le monde vivant, l'Incendiaire peut enflammer tous les joueurs, ce qui se traduit par une victoire de l'Incendiaire.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Arsonist Spawn Chance | -
-| Arsonist Countdown | -
-| Arsonist Douse Duration | The time it takes to douse a player
+| Taux d'Apparition de l'Incendiaire | -
+| Compte à rebours du L'Incendiaire | -
+| Durée d'Arrosage de l'Incendiaire | Le temps que cela prends pour arroser un joueur
 -----------------------
 
-## Jackal
-### **Team: Jackal**
-The Jackal is part of an extra team, that tries to eliminate all the other players.\
-The Jackal has no tasks and can kill Impostors, Crewmates and Neutrals.\
-The Jackal (if allowed by the options) can select another player to be their Sidekick.
-Creating a Sidekick removes all tasks of the Sidekick and adds them to the team Jackal. The Sidekick loses their current role (except if they're a Lover, then they play in two teams).
-The "Create Sidekick Action" may only be used once per Jackal or once per game (depending on the options).
-The Jackal can also promote Impostors to be their Sidekick, but depending on the options the Impostor will either really turn into the Sidekick and leave the team Impostors or they will just look like the Sidekick to the Jackal and remain as they were.\
-Also if a Spy or Impostor gets sidekicked, they still will appear red to the Impostors.
+## Chacal
+### **Team: Chacal**
+Le Chacal fait partie d'une équipe supplémentaire, qui essaie d'éliminer tous les autres joueurs.\
+Le Chacal n'a aucune tâche et peut tuer des Imposteurs, des Crewmates et des Neutres.\
+Le Chacal (si autorisé par les options) peut sélectionner un autre joueur pour être son Acolyte.
+La création d'un Acolyte supprime toutes les tâches de l'Acolyte et les ajoute à l'équipe Chacal. L'Acolyte perd son rôle actuel (sauf s'il est Amoureux, alors il joue en deux équipes).
+L'action "Créer un Acolyte" ne peut être utilisée qu'une seule fois par Chacal ou une fois par partie (selon les options).
+Le Chacal peut également promouvoir des Imposteurs pour qu'ils soient leur Acolyte, mais selon les options, l'Imposteur se transformera vraiment en Acolyte et quittera l'équipe d'Imposteurs ou alors ils ressembleront simplement à l'Acolyte du Chacal et resteront tels qu'ils étaient.\
+De plus, si un Espion ou un Imposteur est acolyté, il apparaîtra toujours en rouge pour les Imposteurs.
 
-The team Jackal enables multiple new outcomes of the game, listing some examples here:
-- The Impostors could be eliminated and then the crew plays against the team Jackal.
-- The Crew could be eliminated, then the Team Jackal fight against the Impostors (The Crew can still make a task win in this scenario)
+L'équipe Jackal permet plusieurs nouveaux résultats du jeu, en énumérant quelques exemples ici :
+- Les Imposteurs pourraient être éliminés puis l'équipage joue contre l'équipe Chacal.
+- Les Crewmates pourraient être éliminé, puis la l'équipe Chacal se bat contre les Imposteurs (les Crewmates peuvent toujours faire leurs tâches pour gagner dans ce scénario)
 
-The priority of the win conditions is the following:
-1. Crewmate Mini lose by vote
-2. Jester wins by vote
-3. Arsonist win
-4. Team Impostor wins by sabotage
-5. Team Crew wins by tasks (also possible if the whole Crew is dead)
-6. Lovers among the last three players win
-7. Team Jackal wins by outnumbering (When the team Jackal contains an equal or greater amount of players than the Crew and there are 0 Impostors left and team Jackal contains no Lover)
-8. Team Impostor wins by outnumbering (When the team Impostors contains an equal or greater amount of players than the Crew and there are 0 players of the team Jackal left and team Impostors contains no Lover)
-9. Team Crew wins by outnumbering (When there is no player of the team Jackal and the team Impostors left)
+La priorité des conditions de victoire est la suivante :
+1. le Mini Crewmate gagne en étant voté
+2. Le Bouffon gagne en étant voté
+3. Victoire de l'Incendiaire
+4. L'equipe des Imposteurs gagne par sabotage
+5. Les Crewmates gagnent par tâches (également possible si tous les Crewmates sobt morts)
+6. Les Amoureux parmi les trois derniers joueurs gagnent
+7. L'équipe Chacal gagne en étant plus nombreuse (lorsque l'équipe Chacal contient un nombre égal ou supérieur de joueurs étant Crewmates et qu'il reste 0 Imposteur et que l'équipe Chacal ne contient aucun Amoureux)
+8. L'équipe d'Imposteurs gagne en infériorité numérique (lorsque l'équipe d'Imposteurs contient un nombre égal ou supérieur de joueurs étant Crewmates et qu'il reste 0 joueur de l'équipe Chacal et que l'équipe d'Imposteurs ne contient aucun Amoureux)
+9. Les Crewmates gagnent en infériorité numérique (quand il n'y a plus de joueur de l'équipe Chacal ni de l'équipe Imposteurs)
 
-**NOTE:**
-- The Jackal (and their Sidekick) may be killed by a Sheriff.
-- A Jackal cannot target the Mini, while it's growing up. After that they can kill it or select it as its Sidekick.
-- The Crew can still win, even if all of their members are dead, if they finish their tasks fast enough (That's why converting the last Crewmate with tasks left into a Sidekick results in a task win for the crew.)
+**REMARQUE:**
+- Le Chacal (et son Acolyte) peuvent être tué par un Shérif.
+- Un Chacal ne peut pas tuer le Mini, pendant qu'il grandit. Après cela, il peut le tuer ou le sélectionner comme Acolyte.
+- Les Crewmates peuvent toujours gagner, même si tous ses membres sont morts, s'ils terminent leurs tâches assez rapidement (c'est pourquoi la conversion du dernier Crewmate avec des tâches restantes en Acolyte entraîne une victoire de tâche pour les Crewmates.)
 
-If both Impostors and Jackals are in the game, the game continues even if all Crewmates are dead. Crewmates may still win in this case by completing their tasks. Jackal and Impostor have to kill each other.
+Si il reste un Imposteur et un Chacal dans le jeu, le jeu continue même si tous les Crewmates sont morts. Les Crewmates peuvent toujours gagner dans ce cas en accomplissant leurs tâches. Le Chacal et l'Imposteur doivent s'entre-tuer.
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Jackal Spawn Chance | - |
-| Jackal/Sidekick Kill Cooldown | Kill cooldown |
-| Jackal Create Sidekick Cooldown | Cooldown before a Sidekick can be created |
-| Jackal can use vents | Yes/No |
-| Jackal can create a Sidekick | Yes/No |
-| Jackals promoted from Sidekick can create a Sidekick | Yes/No (to prevent the Jackal team from growing) |
-| Jackals can make an Impostor to their Sidekick | Yes/No (to prevent a Jackal from turning an Impostor into a Sidekick, if they use the ability on an Impostor they see the Impostor as Sidekick, but the Impostor isn't converted to Sidekick. If this option is set to "No" Jackal and Sidekick can kill each other.) |
-| Jackal and Sidekick have Impostor vision | - |
+| Taux d'Apparition du Chacal | - |
+| Cooldown de Kill du Chacal/Acolyte | cooldown de Kill |
+| Cooldown de Création d'Acolyte par le Chacal | Cooldown avant qu'un Acolyte puisse être créé |
+| Le Chacal Peut Utiliser les Vents | Oui/Non |
+| Le Chacal Peut créer un Acolyte | Oui/Non |
+| Les Chacal promus par les Acolytes peuvent créer un Acolyte | Oui/Non (pour éviter que l'équipe Chacal ne grandisse trop) |
+| Les Chacals peuvent transformer un Imposteur en son Acolyte | Oui/Non (pour éviter qu'un Chacal ne transforme un Imposteur en son Acolyte, si il utilise l'abilité sur un Imposteur il verra l'Imposteur comme un Acolyte, mais l'Imposteur ne sera pas convertis en Acolyte. Si cette option est réglée sur "Non" les Chacals et les Acolyte peuvent s'entre-tuer.) |
+| Les Chacals et les Acolytes ont la vision des Imposteurs | - |
 -----------------------
 
-## Sidekick
-### **Team: Jackal**
-Gets assigned to a player during the game by the "Create Sidekick Action" of the Jackal and joins the Jackal in their quest to eliminate all other players.\
-Upon the death of the Jackal (depending on the options), they might get promoted to Jackal themself and potentially even assign a Sidekick of their own.\
+## Acolyte
+### **Team: Chacal**
+Est assigné à un joueur pendant le jeu par l'action "Créer un Acolyte" du Chacal et rejoint le Chacal dans sa quête d'éliminer tous les autres joueurs.\
+À la mort du Chacal (selon les options), il pourrait être promu Chacal lui-même et potentiellement même assigner son propre Acolyte.\
 \
-**NOTE:**
-- A player that converts into a Sidekick loses their previous role and tasks (if they had one).
-- The Sidekick may be killed by a Sheriff.
-- The Sidekick cannot target the Mini, while it's growing up.
+**REMARQUE:**
+- Un joueur qui se transforme en Acolyte perd son rôle et ses tâches précédentes (s'il en avait).
+- L'Acolyte peut être tué par un Shérif.
+- L'Acolyte ne peut pas cibler le Mini pendant qu'il grandit.
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Jackal/Sidekick Kill Cooldown | Uses the same kill cooldown setting as the Jackal |
-| Sidekick gets promoted to Jackal on Jackal death |  Yes/No |
-| Sidekick can kill | Yes/No |
-| Sidekick can use vents | Yes/No |
+| Cooldown de Kill du Chacal/Acolyte | Utilise le même paramètre de cooldown que le Chacal |
+| L'Acolyte est promu Chacal à la mort du Chacal | Oui/Non |
+| L'Acolyte peut tuer | Oui/Non |
+| L'Acolyte peut utiliser les vents | Oui/Non |
 -----------------------
 
 ## Vulture
