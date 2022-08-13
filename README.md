@@ -21,7 +21,7 @@ Plus de rôles sont en cours de développement. :)
 | [Morphling](#morphling) | [Sheriff](#sheriff) | [Sidekick](#sidekick) | [Bait](#bait) |
 | [Camouflager](#camouflager) | [Deputy](#deputy) | [Vulture](#vulture) | [Lovers](#lovers) |
 | [Vampire](#vampire) | [Lighter](#lighter) | [Lawyer](#lawyer) | [Sunglasses](#sunglasses) |
-| [Eraser](#eraser) | [Detective](#detective) | | [Mini](#mini) |
+| [Eraser](#eraser) | [Detective](#detective) | [Poursuivant](#Poursuivant)| [Mini](#mini) |
 | [Trickster](#trickster) | [Time Master](#time-master) | | [VIP](#vip) |
 | [Cleaner](#cleaner) | [Medic](#medic) |  | [Invert](#invert) |
 | [Warlock](#warlock) | [Swapper](#swapper) |
@@ -120,10 +120,10 @@ La section [Assignement des rôles](#role-assignment) explique comment les rôle
 - Correction d'un bug où le zoom pour les fantômes zoomait trop loin
 - Correction d'un bug où les couleurs de noms personnalisés ne fonctionnait pas (TOR est maintenant compatible avec le mode daltonien)
 - Correction d'un bug où le nom de la couleur des ninjas ne devenait pas invisible en mode daltonien
-- Correction d'un bug où Morphling & Camouflager ne fonctionnait pas correctement pour les skins avec une couleur personnalisée
+- Correction d'un bug où Morphling & Camoufleur ne fonctionnait pas correctement pour les skins avec une couleur personnalisée
 - Correction d'un bug où le premier bouclier de mise à mort était donné au mauvais Lover
-- Correction d'un bug où Pursuer apparaissait dans le UI du Guesser même lorsque Lawyer était désactivé
-- Correction d'un bug où un Guesser deviné pouvait encore deviner s'il avait le UI du Guesser ouverte
+- Correction d'un bug où le Poursuivant apparaissait dans le UI du Devin même lorsque l'Avocat était désactivé
+- Correction d'un bug où un Devin éjecté pouvait encore deviner s'il avait le UI du Devin ouverte
 - Correction d'un bug où l'attribution des rôles ne fonctionnait pas correctement (doigts croisés)
 
 **Version 4.1.5**
@@ -1027,7 +1027,7 @@ Selon les options, le Devin ne peut pas deviner le joueur protégé et selon les
 -----------------------
 
 ## Bouffon
-### **Team: Neutre**
+### **Team: Neutres**
 Le Bouffon n'a aucune tâche. Ils finissent la partie en solo, si ils sont éjectés pendant un meeting.
 
 ### Game Options
@@ -1038,7 +1038,7 @@ Le Bouffon n'a aucune tâche. Ils finissent la partie en solo, si ils sont éjec
 -----------------------
 
 ## Incendiaire
-### **Team: Neutre**
+### **Team: Neutres**
 L'Incendiaire n'a aucune tâche, il doit gagner la partie en solo.\
 L'Incendiaire peut asperger les autres joueurs en appuyant sur le bouton "arroser" et en restant à côté du joueur pendant quelques secondes.\
 Si le joueur que l'Incendiaire asperge sort de sa portée, le cooldown sera réinitialisé à 0.\
@@ -1117,7 +1117,7 @@ Est assigné à un joueur pendant le jeu par l'action "Créer un Acolyte" du Cha
 -----------------------
 
 ## Vautour
-### **Team: Neutre**
+### **Team: Neutres**
 
 Le Vautour n'a aucune tâche, il doit gagner la partie en solo.\
 Le Vautour est un rôle neutre qui doit manger un nombre spécifié de cadavres (selon les options) pour gagner.\
@@ -1137,102 +1137,101 @@ S'il y a un Vautour dans le jeu, il ne peut pas y avoir de Nettoyeur.
 | Montrer les Flèches Pointant Vers les Corps | -
 -----------------------
 
-## Lawyer
-### **Team: Neutral**
-The Lawyer is a neutral role that has a client.\
-The client might be an Impostor or Jackal which is no Lover.\
-Depending on the options, the client can also be a Jester.\
-The Lawyer needs their client to win in order to win the game.\
-Their client doesn't know that it is their client.\
-If their client gets voted out, the Lawyer dies with the client.\
-If their client dies, the Lawyer changes their role and becomes the [Pursuer](#pursuer), which has a different goal to win the game.\
+## Avocat
+### **Team: Neutre**
+L'Avocat est un rôle neutre qui a un Client.\
+Le Client peut être un Imposteur ou un Chacal qui n'est pas un Amoureux.\
+Selon les options, le Client peut également être un Bouffon.\
+L'Avocat a besoin que son Client gagne pour gagner la partie.\
+Leur Client ne sait pas qu'il son le Client.\
+Si leur Client est éjecté, l'avocat meurt avec le Client.\
+Si son Client est tué, l'avocat change de rôle et devient [Poursuivant](#poursuivant), qui a un objectif différent de gagner la partie.\
 \
-How the Lawyer wins:
-- Lawyer dead/alive, client alive and client wins: The Lawyer wins together with the team of the client.
-- If their client is Jester and the Jester gets voted out, the Lawyer wins together with the Jester.
+Comment l'Avocat gagne:
+- L'Avocat mort/vivant, si le Client est vivant et que le Client gagne: L'Avocat gagne avec l'équipe du Client.
+- Si son Client est le Bouffon et que le Bouffon se fait éjecter, l'Avocat et le Bouffon gagnent ensemble.
 
-**NOTE:**
-- If the client disconnects, the Lawyer will also turn into the Pursuer
-- The Lawyer needs to figure out the role of their client depending on the options
+**REMARQUE:**
+- Si le Client se déconnecte, l'Avocat deviendra également le Poursuivant
+- L'Avocat peut connaître le rôle de son Client en fonction des options
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Lawyer Spawn Chance | -
-| Lawyer Target Can Be The Jester | -
-| Lawyer Wins After Meetings | If set to true, the Lawyer wins after a configurable amount of meetings (can't start meetings himself)
-| Lawyer Needed Meetings To Win | -
-| Lawyer Vision | Pursuer has normal vision
-| Lawyer Knows Target Role | -
-| Pursuer Blank Cooldown | -
-| Pursuer Number Of Blanks | -
+| Taux d'Apparition de l'Avocat | -
+| Le Client de l'Avocat peut être le Bouffon | -
+| L'Avocat gagne après les meetings | Si cette option est activée, l'Avocat gagne après un nombre configurable de meetings (il ne peut pas lancer de meetings lui-même)
+| Nombre de meetings nécessaire | -
+| Vision de l'Avocat | Le Poursuivant a une vision normale
+| L'Avocat connaît le rôle de son Client | -
+| Cooldown de remplissage à blanc | -
+| Nombre de balles à blanc | -
 -----------------------
 
-## Pursuer
-### **Team: Neutral**
-The Pursuer is still a neutral role, but has a different goal to win the game; they have to be alive when the game ends and the Crew wins.\
-In order to achieve this goal, the Pursuer has an ability called "Blank", where they can fill a killers (this also includes the Sheriff) weapon with a blank. So, if the killer attempts to kill someone, the killer will miss their target, and their cooldowns will be triggered as usual.\
-If the killer fires the "Blank", shields (e.g. Medic shield or Time Master shield) will not be triggered.\
-The Pursuer has tasks (which can already be done while being a Lawyer), that count towards the task win for the Crewmates. If the Pursuer dies, their tasks won't be counted anymore.
+## Poursuivant
+### **Team: Neutres**
+Le Poursuivant est toujours un rôle neutre, mais a un objectif différent pour gagner la partie ; Il doit être en vie lorsque la partie se termine et que les Crewmates gagnent.\
+Afin d'atteindre cet objectif, le Poursuivant a une capacité appelée "Blank", où il peut remplir une arme de tueur (cela inclut également le shérif) avec une balle à blanc. Ainsi, si le tueur tente de tuer quelqu'un, il ratera sa cible et son Cooldown sera déclenché comme d'habitude.\
+Si le tueur tire le "Blank", les boucliers (par exemple, le bouclier Medic ou le bouclier Time Master) ne seront pas déclenchés.\
+Le poursuivant a des tâches (qui peuvent déjà être effectuées en tant qu'avocat), qui comptent pour la victoire des Crewmates. Si le Poursuivant meurt, ses tâches ne seront plus comptées.
 
 -----------------------
 
 ## Shifter
 ### **Team: Crewmates**
-The Shifter can take over the role of another Crewmate, the other player will transform into a Crewmate.\
-The Shift will always be performed at the end of the next meeting right before a player is exiled. The target needs to be chosen during the round.\
-Even if the Shifter or the target dies before the meeting, the Shift will still be performed.\
-Swapping roles with an Impostor or Neutral fails and the Shifter commits suicide after the next meeting (there won't be any body).\
-The Shifter aims to save roles from leaving the game, by e.g. taking over a Sheriff or Medic that is known to the Impostors.\
-This works especially well against the Eraser, but also gives the Eraser the possibility to act like a Shifter.\
-The **special interactions** with the Shifter are noted in the chapters of the respective roles.\
+Le Shifter peut prendre le rôle d'un autre Crewmate, l'autre joueur se transformera en simple Crewmate.\
+Le changement sera toujours effectué à la fin du prochain meeting juste avant qu'un joueur ne soit exilé. La cible doit être choisie pendant le tour.\
+Même si le Shifter ou la cible meurt avant la réunion, le changement sera toujours effectué.\
+L'échange de rôles avec un Imposteur ou un Neutre échoue et le Shifter se suicide après le prochain meeting (il n'y aura pas de corps).\
+Le Shifter vise à empêcher les rôles de quitter le jeu, par ex. prendre le contrôle d'un shérif ou d'un médecin connu des Imposteurs.\
+Cela fonctionne particulièrement bien contre l'Effaceur, mais donne également à l'Effaceur la possibilité d'agir comme un Shifter.\
+Les **interactions spéciales** avec le Shifter sont notées dans les chapitres des rôles respectifs.\
 \
-**NOTE:**
-- The Shifter shift will always be triggered before the Erase (hence either the new role of the Shifter will be erased or the Shifter saves the role of their target, depending on whom the Eraser erased)
-- If the Shifter takes over a role, their new cooldowns will start at the maximum cooldown of the ability
-- One time use abilities (e.g. shielding a player or Engineer sabotage fix) can only used by one player in the game (i.e. the Shifter
-can only use them, if the previous player did not use them before)
+**REMARQUE:**
+- Le changement du Shifter sera toujours déclenché avant l'Effacement (donc soit le nouveau rôle du Shifter sera effacé, soit le Shifter enregistre le rôle de sa cible, en fonction de qui l'Effaceur a effacé)
+- Si le Shifter reprend un rôle, leurs nouveaux cooldown commenceront au cooldown maximum de la capacité
+- Les capacités à usage unique (par exemple, protéger un joueur ou réparer le sabotage de l'Ingénieur) ne peuvent être utilisées que par un seul joueur dans le jeu (c'est-à-dire le Shifter ne peut les utiliser, que si le joueur précédent ne les a pas utilisés auparavant)
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Shifter Spawn Chance | -
-| Shifter Shifts Modifiers | Sets if Lovers and/or Medic Shield will be shifted
+| Taux d'Apparition du Shifter | -
+| Le Shifter change les Modificateurs | Défini si les Amoureux et/ou le Bouclier Médical sera changé
 -----------------------
 
-## Mayor
+## Maire
 ### **Team: Crewmates**
-The Mayor leads the Crewmates by having a vote that counts twice.\
-The Mayor can always use their meeting, even if the maximum number of meetings was reached.\
-The Mayor has a portable Meeting Button, depending on the options.\
-The Mayor can see the vote colors after completing a configurable amount of tasks, depending on the options.
+Le Maire dirige les coéquipiers en ayant un vote qui compte deux fois.\
+Le Maire peut toujours utiliser son meeting, même si le nombre maximum de réunions a été atteint.\
+Le Maire dispose d'un bouton de meeting portable, selon les options.\
+Le Maire peut voir les couleurs du vote après avoir terminé un nombre configurable de tâches, en fonction des options.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Mayor Spawn Chance | -
-| Mayor Can See Vote Colors | -
-| Completed Tasks Needed To See Vote Colors | -
-| Mobile Emergency Button | -
+| Taux d'Apparition du Maire | -
+| Le Maire Peut Voir la Couleur des Votes | -
+| Nombre de Tâches Nécessaire Pour Voir la Couleur des Votes | -
+| Bouton d'Urgence Mobile | -
 -----------------------
 
-## Engineer
+## Ingénieur
 ### **Team: Crewmates**
-The Engineer (if alive) can fix a certain amount of sabotages per game from anywhere on the map.\
-The Engineer can use vents.\
-If the Engineer is inside a vent, depending on the options the members of the team Jackal/Impostors will see a blue outline around all vents on the map (in order to warn them).\
-Because of the vents the Engineer might not be able to start some tasks using the "Use" button, you can double-click on the tasks instead.
+L'Ingénieur (s'il est vivant) peut réparer un certain nombre de sabotages par partie depuis n'importe où sur la carte.\
+L'Ingénieur peut utiliser des vents.\
+Si l'Ingénieur est à l'intérieur d'une vent, selon les options les membres de l'équipe Chacal/Imposteurs verront un contour bleu autour de toutes les vents sur la carte (afin de les avertir).\
+En raison des vents, l'Ingénieur peut ne pas être en mesure de démarrer certaines tâches à l'aide du bouton "Utiliser", vous pouvez double-cliquer sur les tâches à la place.
 
 **NOTE:**
-- The kill button of Impostors activates if they stand next to a vent where the Engineer is. They can also kill them there. No other action (e.g. Morphling sample, Shifter shift, ...) can affect players inside vents.
+- Le bouton de kill des Imposteurs s'active s'ils se tiennent à côté d'une vent où se trouve l'Ingénieur. Ils peuvent aussi les tuer à l'intérieur. Aucune autre action (par exemple scan du Morphling, Ciblage du Shifter, ...) ne peut affecter les joueurs à l'intérieur des évents.
 
-### Game Options
-| Name | Description |
+### Options de jeu
+| Nom | Description |
 |----------|:-------------:|
-| Engineer Spawn Chance | -
-| Number Of Sabotage Fixes| -
-| Impostors See Vents Highlighted | -
-| Jackal and Sidekick See Vents Highlighted | -
+| Taux d'Apparition de l'Ingénieur | -
+| Nombre de Réparations de Sabotage | -
+| Mettre les Vents en Surbrillance pour les Imposteurs  | -
+| Mettre les Vents en Surbrillance pour les Chacals et les Acolytes | -
 -----------------------
 
 ## Sheriff
