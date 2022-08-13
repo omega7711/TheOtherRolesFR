@@ -1461,26 +1461,26 @@ Lorsqu'il ne lui reste plus qu'une tâche à accomplir (configurable), le Moucha
 | Le Mouchard ne Peut pasÊtre Deviné Après Avoir Fini Toutes ses Tâches | -
 -----------------------
 
-## Spy
+## Espion
 ### **Team: Crewmates**
-The Spy is a Crewmate, which has no special abilities.\
-The Spy looks like an additional Impostor to the Impostors, they can't tell the difference.\
-There are two possibilities (depending on the set options):
-- The Impostors can't kill the Spy (because otherwise their kill button would reveal, who the Spy is)
-- The Impostors can kill the Spy but they can also kill their Impostor partner (if they mistake another Impostor for the Spy)
-You can set whether the Sheriff can kill the Spy or not (in order to keep the lie alive).
+L'espion est un Crewmate, qui n'a pas de capacités spéciales.
+L'espion ressemble à un Imposteur supplémentaire pour les Imposteurs, ils ne peuvent pas faire la différence.
+Il existe deux possibilités (en fonction des options du jeu) :
+- Les Imposteurs ne peuvent pas tuer l'Espion (car sinon leur bouton "tuer" révélerait qui est l'espion).
+- Les Imposteurs peuvent tuer l'espion mais ils peuvent aussi tuer leur partenaire Imposteur (s'ils confondent un autre Imposteur avec l'Espion).
+Vous pouvez décider si le Shérif peut tuer l'espion ou non (afin de préserver le mensonge).
 
-**NOTE:**
-- If the Spy gets sidekicked, it still will appear red to the Impostors.
+**REMARQUE:**
+- Si l'Espion devient Acolyte, il apparaîtra toujours rouge aux yeux des Imposteurs.
 
 ### Options de jeu
 | Nom | Description
 |----------|:-------------:|
-| Spy Spawn Chance |
-| Spy Can Die To Sheriff |
-| Impostors Can Kill Anyone If There Is A Spy | This allows the Impostors to kill both the Spy and their Impostor partners
-| Spy Can Enter Vents | Allow the Spy to enter/exit vents (but not actually move to connected vents)
-| Spy Has Impostor Vision | Give the Spy the same vision as the Impostors have
+| Taux d'Apparition de l'Espion |
+| Le Shérif Peut Tuer l'Espion |
+| Les Imposteurs Peuvent Tuer Tout le Monde si il y a un Espion | Cela permet aux Imposteurs de tuer à la fois l'Espion et leurs partenaires Imposteurs.
+| L'Espion Peut Entrer Dans les Vents | Autorise l'Espion à Entrer/Sortir des vents (mais sans se déplacer vers les vents connectées)
+| L'Espion a la Vision d'un Imposteur | Donner à l'Espion la même vision que celle des Imposteurs.
 -----------------------
 
 ## Dieu du Portail
@@ -1723,11 +1723,11 @@ L'Inversion peut affecter toutes les équipes (Imposteur, Neutre, Crewmate).
 | Quantité d'Inversion | -
 -----------------------
 
-# Source code
-You can use parts of the code but don't copy paste the whole thing. Make sure you give credits to the other developers, because some parts of the code are based on theirs.
+# Code Source
+Vous pouvez utiliser des parties du code, mais ne copiez-collez pas le tout. Veillez à créditer les autres développeurs, car certaines parties du code sont basées sur le leur.
 
-# Bugs, suggestions and requests
-If you found any bugs, have an idea for a new role or any other request, join our [Discord server](https://discord.gg/77RkMJHWsM).
+# Bugs, suggestions et demandes
+Si vous avez trouvé des bugs, si vous avez une idée pour un nouveau rôle ou toute autre demande, rejoignez notre [Serveur Discord](https://discord.gg/77RkMJHWsM).
 
 # Copyedit
 Thanks for fixing our typos [jacktose](https://github.com/jacktose) ✌️
