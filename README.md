@@ -1443,22 +1443,22 @@ Selon les options, le Pisteur a une autre capacité : Il peut suivre tous les ca
 | Durée De Pistage des Corps | -
 -----------------------
 
-## Snitch
+## Mouchard
 ### **Team: Crewmates**
-When the Snitch finishes all the tasks, arrows will appear (only visible to the Snitch) that point to the Impostors (depending on the options also to members of team Jackal).\
-When the Snitch has one task left (configurable) the Snitch will be revealed to the Impostors (depending on the options also to members of team Jackal) with an arrow pointing to the Snitch.
+Lorsque le Mouchard a terminé toutes ses tâches, des flèches apparaissent (visibles uniquement par le Mouchard) qui pointent vers les Imposteurs (selon les options, également vers les membres de l'équipe Chacal).
+Lorsqu'il ne lui reste plus qu'une tâche à accomplir (configurable), le Mouchard est révélé aux Imposteurs (ainsi qu'aux membres de l'équipe Chacal, selon les options) par une flèche pointant vers le Mouchard.
 
 **NOTE**
-- If the Impostor(s)/Jackal(s) is/are on a different floor on Submerged when the Snitch finished their tasks, the arrow will always point to the elevator
+- Si le(s) Imposteur(s)/Chacal(s) se trouve(nt) à un autre étage de Submerged lorsque le Mouchard a terminé ses tâches, la flèche indiquera toujours l'ascenseur.
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Snitch Spawn Chance | -
-| Task Count Where The Snitch Will Be Revealed | -
-| Include Team Jackal | -
-| Use Different Arrow Color For Team Jackal | -
-| Snitch can't be guessed after finishing all their tasks | -
+| Taux d'Apparition du Mouchard | -
+| Compte des Tâches où le Mouchard Sera Révélé | -
+| Inclus l'équipe Chacal | -
+| Utiliser Une Couleur Différente de Flèche Pour l'Équipe Chacal | -
+| Le Mouchard ne Peut pasÊtre Deviné Après Avoir Fini Toutes ses Tâches | -
 -----------------------
 
 ## Spy
@@ -1473,8 +1473,8 @@ You can set whether the Sheriff can kill the Spy or not (in order to keep the li
 **NOTE:**
 - If the Spy gets sidekicked, it still will appear red to the Impostors.
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
 | Spy Spawn Chance |
 | Spy Can Die To Sheriff |
@@ -1483,78 +1483,78 @@ You can set whether the Sheriff can kill the Spy or not (in order to keep the li
 | Spy Has Impostor Vision | Give the Spy the same vision as the Impostors have
 -----------------------
 
-## Portalmaker
+## Dieu du Portail
 ### **Team: Crewmates**
-The Portalmaker is a Crewmate that can place two portals on the map.\
-These two portals are connected to each other.\
-Those portals will be visible after the next meeting and can be used by everyone.\
-Additionally to that, the Portalmaker gets information about who used the portals and when in the chat during each meeting, depending on the options.
+Le Dieu du Portail est un Crewmate qui peut placer deux portails sur la carte.\
+Ces deux portails sont connectés l'un à l'autre.\
+Ces portails seront visibles après le prochain meeting et pourront être utilisés par tout le monde.\
+En plus de cela, le Dieu du Portail obtient des informations sur qui a utilisé les portails et quand dans le chat lors de chaque meeting, en fonction des options.
 
-**NOTE:**
-- The extra button to use a portal will appear after the Portalmaker set his portals and a meeting/body report was called.
-- While one player uses a portal, it is blocked for any other player until the player got teleported.
-- All ghosts can still use the portals, but won't block any living player from using it and the Portalmaker won't get any information about it in chat.
-- If a morphed person uses a portal it will show the morphed name/color depending on the options.
-- If a camouflaged person uses a portal it will show "A comouflaged person used the portal."
+**REMARQUE:**
+- Le bouton supplémentaire pour utiliser un portail apparaîtra après que le créateur de portails ait défini ses portails et qu'un meeting/report ait été appelé.
+- Lorsqu'un joueur utilise un portail, il est bloqué pour tout autre joueur jusqu'à ce que le joueur soit téléporté.
+- Tous les fantômes peuvent toujours utiliser les portails, mais n'empêcheront aucun joueur vivant de l'utiliser et le créateur de portails n'obtiendra aucune information à ce sujet dans le chat.
+- Si une personne transformée utilise un portail, il affichera le nom/la couleur transformés en fonction des options.
+- Si une personne camouflée utilise un portail, il affichera "Une personne camouflée a utilisé le portail."
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Portalmaker Spawn Chance | -
-| Portalmaker Cooldown | -
+| Taux d'Apparition du Dieu du Portail | -
+| Cooldown du Dieu du Portail | -
 | Use Portal Cooldown | -
-| Portalmaker Log Only Shows Color Type | -
-| Log Shows Time | -
+| Les logs Dieu du Portail n'Affichent que le Type de Couleur | -
+| Temps d'Affichage des Logs | -
 -----------------------
 
-## Security Guard
+## Agent de Sécurité
 ### **Team: Crewmates**
-The Security Guard is a Crewmate that has a certain number of screws that they can use for either sealing vents or for placing new cameras.\
-Placing a new camera and sealing vents takes a configurable amount of screws. The total number of screws that a Security Guard has can also be configured.\
-The new camera will be visible after the next meeting and accessible by everyone.\
-The vents will be sealed after the next meeting, players can't enter or exit sealed vents, but they can still "move to them" underground.
+Le gardien de sécurité est un Crewmate qui possède un certain nombre de vis qu'il peut utiliser pour sceller les vents ou pour placer de nouvelles caméras.\
+Placer une nouvelle caméra et sceller les vents nécessite un nombre configurable de vis. Le nombre total de vis dont dispose un Agent de sécurité peut également être configuré.\
+La nouvelle caméra sera visible après le prochain meeting et accessible à tous.\
+Les vents seront scellés après le prochain meeting, les joueurs ne peuvent pas entrer ou sortir des vents scellées, mais ils peuvent toujours "se déplacer vers elles" sous terre.
 
-**NOTE:**
+**REMARQUE:**
 
-- Trickster boxes can't be sealed
-- The Security Guard can't place cameras on MiraHQ
-- The remaining number of screws can be seen above their special button.
-- On Skeld the four cameras will be replaced every 3 seconds (with the next four cameras). You can also navigate manually using the arrow keys
-- Security Guard can access mobile cameras after placing all screws
-- While accessing the mobile cameras, the Security Guard is not able to move
+- Les boîtes du Filou ne peuvent pas être scellées
+- L'Agent de sécurité ne peut pas placer de caméra sur MiraHQ
+- Le nombre de vis restantes peut être vu au-dessus de leur bouton spécial.
+- Sur Skeld, les quatre caméras seront remplacées toutes les 3 secondes (par les quatre caméras suivantes). Vous pouvez également naviguer manuellement à l'aide des touches fléchées
+- L'Agent de sécurité peut accéder aux caméras mobiles après avoir placé toutes les vis
+- Lors de l'accès aux caméras mobiles, l'Agent de sécurité ne peut pas se déplacer
 
-### Game Options
-| Name | Description
+### Options de jeu
+| Nom | Description
 |----------|:-------------:|
-| Security Guard Spawn Chance |
-| Security Guard Cooldown |
-| Security Guard Number Of Screws | The number of screws that a Security Guard can use in a game
-| Number Of Screws Per Cam | The number of screws it takes to place a camera
-| Number Of Screws Per Vent | The number of screws it takes to seal a vent
-| Security Guard Duration | -
-| Gadget Max Charges | -
-| Number Of Tasks Needed For Recharging | -
-| Can't Move During Cam Duration | -
+| Taux d'Apparition de l'Agent de Sécurité |
+| Cooldown de l'Agent de Sécurité |
+| Nombre de Vis de l'Agent de Sécurité Number Of Screws | Le nombre de vis qu'un Agent de Sécurité peut utiliser dans une partie
+| Nombre de Vis par Cam | Le nombre de vis que cela prends de placer une caméra
+| Nombre de Vis par Vent | Le nombre de vis que cela prends de sceller une vent
+| Durée de l'Agent de Sécurité | -
+| Charges Maximum des Gadgets | -
+| Nombre de Tâches Nécessaire Pour Recharger | -
+| Durée où il est Impossible de Bouger Dans les Cam | -
 -----------------------
 
-## Medium
+## Médium
 ### **Team: Crewmates**
 
-The medium is a crewmate who can ask the souls of dead players for information. Like the Seer, it sees the places where the players have died (after the next meeting) and can question them. It then gets random information about the soul or the killer in the chat. The souls only stay for one round, i.e. until the next meeting. Depending on the options, the souls can only be questioned once and then disappear.\
+Le Médium est un Crewmate qui peut demander des informations aux âmes des joueurs morts. Comme le voyant, il voit les endroits où les joueurs sont morts (après le prochain meeting) et peut les interroger. Il obtient ensuite des informations aléatoires sur l'âme ou le tueur dans le chat. Les âmes ne restent qu'un tour, c'est-à-dire jusqu'au prochain meeting. Selon les options, les âmes ne peuvent être interrogées qu'une seule fois puis disparaissent.\
 
 Questions:
-What is your Role?
-What is your killer's color type?
-When did you die?
-What is your killers role?
+Quel est votre rôle?
+Quel est le type de couleur de votre tueur?
+Quand êtes-vous mort?
+Quel est le rôle de votre tueur?
 
-### Game Options
+### Options de jeu
 | Name | Description
 |----------|:-------------:|
-| Medium Spawn Chance | -
-| Medium Cooldown | -
-| Medium Duration | The time it takes to question a soul
-| Medium Each Soul Can Only Be Questioned Once | If set to true, souls can only be questioned once and then disappear
+| taux d'Apprition du Médium | -
+| Cooldown du Médium | -
+| Durée du Médium | The temps que cela prends pour questionner une âme
+| Chaque Âme ne Peut Être Questionné qu'une Fois | Si cette option est activée, les âmes peuvent seulement questionnées une fois puis disparaissent
 -----------------------
 
 # Modificateurs
