@@ -1730,8 +1730,8 @@ Vous pouvez utiliser des parties du code, mais ne copiez-collez pas le tout. Vei
 Si vous avez trouvé des bugs, si vous avez une idée pour un nouveau rôle ou toute autre demande, rejoignez notre [Serveur Discord](https://discord.gg/77RkMJHWsM).
 
 # Traduction
-La traduction à été effectuée par [omega7711](https://github.com/omega7711)
-Remerciements à cahty12, AKONE et Shadhow pour leur aide! 🙂
+La traduction à été effectuée par [omega7711](https://github.com/omega7711).\
+Remerciements à cahty12, AKONE et Shadhow pour leur aide! 🙂.\
 Si vous trouvez la MOINDRE erreur de traduction, n'hésitez pas à me le signaler >> omega_7711#2663 OU Faites un [Report](https://github.com/omega7711/TheOtherRolesFR/issues) sur Github!
 
 # Copyedit
