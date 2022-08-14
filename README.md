@@ -40,7 +40,7 @@ La section [Assignement des rôles](#assignement-des-rôles) explique comment le
 # Versions
 | Among Us - Version| Version du mod | Lien |
 |----------|-------------|-----------------|
-| 2022.6.21, 2022.7.12| v4.1.6| [Télécharger](https://github.com/omega7711/TheOtherRolesFR/releases/tag/v4.1.6)
+| 2022.6.21, 2022.7.12| v4.1.6| [Télécharger (Bêta)](https://github.com/omega7711/TheOtherRolesFR/releases/tag/v4.1.6)
 | 2022.6.21, 2022.7.12| v4.1.5| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.5/TheOtherRoles.zip)
 | 2022.3.29| v4.1.4| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.4/TheOtherRoles.zip)
 | 2022.3.29| v4.1.3| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.3/TheOtherRoles.zip)
