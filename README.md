@@ -667,16 +667,16 @@ docker run -d -p 22023:22023/udp --env IMPOSTOR_AntiCheatEnabled=false --env IMP
 - v1.6-v1.8: On a légèrement changé la version par défaut d'Essentials. Les changements peuvent être trouvés dans la [branche](https://github.com/Eisbison/Reactor-Essentials/tree/feature/TheOtherRoles-Adaption) de notre fork.
 - v2.0.0 et après: Comme on n'utilise plus Reactor, on utilise notre propre implémentation, inspiré de celle de **DorCoMaNdO**
 
-[Jackal and Sidekick](https://www.twitch.tv/dhalucard) - Idée originale du Jackal et du Sidekick vanant de **Dhalucard**\
-[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - Idée des rôles Lovers venant de **Woodi-dev**\
-[Jester](https://github.com/Maartii/Jester) - Idée du rôle Jester venant de **Maartii**\
-[ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - Idée des rôles Engineer et Medic venant de **NotHunter101**. De plus, certains extraits de code issus de l'implémentation ont été utilisés.\
-[Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - Idée du rôle Sheriff venant de **Woodi-dev**\
-[TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - Idée des rôles Detective et Time Master venant de **Hardel-DW**. De plus, certains extraits de code issus de l'implémentation ont été utilisés.\
-[TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idée des rôles Swapper, Shifter, Arsonist et similaire au Mayor venant de **Slushiegoose**\
-[Ottomated](https://twitter.com/ottomated_) - Idée des rôles Morphling, Snitch et Camouflager venant de **Ottomated**\
+[Jackal and Sidekick](https://www.twitch.tv/dhalucard) - Idée originale du Chacal et de l'Acolyte vanant de **Dhalucard**\
+[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - Idée des rôles Amoureux venant de **Woodi-dev**\
+[Jester](https://github.com/Maartii/Jester) - Idée du rôle Bouffon venant de **Maartii**\
+[ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - Idée des rôles Ingénieur et Médecin venant de **NotHunter101**. De plus, certains extraits de code issus de l'implémentation ont été utilisés.\
+[Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - Idée du rôle Shérif venant de **Woodi-dev**\
+[TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - Idée des rôles Détective et Maître du Temps venant de **Hardel-DW**. De plus, certains extraits de code issus de l'implémentation ont été utilisés.\
+[TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idée des rôles Swapeur, Shifter, Incendiaire et similaire au Maire venant de **Slushiegoose**\
+[Ottomated](https://twitter.com/ottomated_) - Idée des rôles Morphling, Mouchard et Camoufleur venant de **Ottomated**\
 [Crowded-Mod](https://github.com/CrowdedMods/CrowdedMod) - Notre implémentation pour les lobby de 10+ joueurs est inspiré de celle de venant de la **Crowded Mod Team**\
-[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idée pour le rôle Vulture venant de **Slushygoose**
+[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idée pour le rôle Vautour venant de **Slushygoose**
 
 # Paramètres
 Le mod ajoute quelques paramètres à Among Us (en plus des paramètres de rôle):
@@ -770,9 +770,9 @@ Remarque : La modification des paramètres sur Hacker : 20 %, Tracker : 60 
 ## Mafia
 ### **Team: Imposteurs**
 La Mafia est un groupe de trois Imposteurs.\
-Le Godfather fonctionne comme un imposteur normal.\
-Le Mafioso est un imposteur qui ne peut pas tuer tant que le parrain n'est pas mort.\
-Le Janitor est un imposteur qui ne peut pas tuer, mais il peut cacher des cadavres à la place.\
+Le Parrain fonctionne comme un imposteur normal.\
+Le Mafieux est un imposteur qui ne peut pas tuer tant que le parrain n'est pas mort.\
+Le Concierge est un imposteur qui ne peut pas tuer, mais il peut cacher des cadavres à la place.\
 \
 **REMARQUES:**
 - Il doit y avoir 3 Imposteurs activé pour que la Mafia puiss apparaître.
@@ -781,7 +781,7 @@ Le Janitor est un imposteur qui ne peut pas tuer, mais il peut cacher des cadavr
 | Nom | Description |
 |----------|:-------------:|
 | Taux d'apparition de la Mafia | -
-| Cooldown du Janitor | -
+| Cooldown du Concierge | -
 -----------------------
 
 ## Morphling
@@ -806,7 +806,7 @@ Le Morphling est un Imposteur qui peut en plus scanner l'apparence d'un joueur. 
 
 ## Camoufleur
 ### **Team: Imposteurs**
-Le Camouflager est un Imposteur qui peut en plus activer un mode camouflage.\
+Le Camoufleur est un Imposteur qui peut en plus activer un mode camouflage.\
 Le mode camouflage dure 10s et tant qu'il est actif, tous les noms de joueurs/animaux/chapeaux\
 sont cachés et tous les joueurs ont la même couleur.\
 \
@@ -820,8 +820,8 @@ sont cachés et tous les joueurs ont la même couleur.\
 ### Game Options
 | Nom | Description |
 |----------|:-------------:|
-| Taux d'apparition du Camouflager | -
-| Cooldown du Camouflager | -
+| Taux d'apparition du Camoufleur | -
+| Cooldown du Camoufleur | -
 | Durée de Camo | Temps où les joueurs restent camouflés
 -----------------------
 
@@ -834,7 +834,7 @@ Si une victime est près d'un ail, le "Bite Button" se transforme en "Kill Butto
 **REMARQUE:**
 - Si un joueur mordu est toujours en vie lorsqu'un meeting est convoquée, il meurt au début du meeting.
 - Le temps de recharge est le même que le temps de recharge par défaut (+ le délai de mise à mort si le vampire mord la cible).
-- S'il y a un vampire dans le jeu, il ne peut pas y avoir de Warlock.
+- S'il y a un vampire dans le jeu, il ne peut pas y avoir de Sorcier.
 
 ### Options de jeu
 | Nom | Description |
@@ -847,7 +847,7 @@ Si une victime est près d'un ail, le "Bite Button" se transforme en "Kill Butto
 
 ## Effaceur
 ### **Team: Imposteurs**
-The Eraser est un Imposteur qui peut effacer le rôle de chaque joueur.\
+The Effaceur est un Imposteur qui peut effacer le rôle de chaque joueur.\
 Les joueurs ciblés perdront leur rôle après la réunion juste avant qu'un joueur ne soit exilé.\
 Après chaque effacement, le temps de recharge augmente de 10 secondes.\
 L'effacement sera effectué, même si l'effaceur ou sa cible meurt avant la prochaine rencontre.\
@@ -855,7 +855,7 @@ Par défaut, la gomme peut effacer tout le monde sauf l'espion et les autres imp
 Selon les options, ils peuvent également les effacer (les imposteurs perdront leur capacité spéciale d'imposteur).\
 \
 **REMARQUE:**
-- Le changement du Shifter sera toujours déclenché avant l'effacement (donc soit le nouveau rôle du Shifter sera effacé, soit le Shifter enregistre le rôle de sa cible, en fonction de qui l'Eraser a effacé)
+- Le changement du Shifter sera toujours déclenché avant l'effacement (donc soit le nouveau rôle du Shifter sera effacé, soit le Shifter enregistre le rôle de sa cible, en fonction de qui l'Effaceur a effacé)
 - Effacer un amant efface automatiquement l'autre amant également (si le deuxième amant est un ImpLover, il se transformera en imposteur)
 - Effacer un Jackal qui a un Sidekick, déclenche la promotion Sidekick si elle est activée dans les paramètres
 - Comme l'effacement est déclenché avant l'éjection d'un joueur, l'effacement et l'élimination d'un Amant dans le même tour entraînerait le
@@ -864,8 +864,8 @@ ex-Lover à survivre, car le partenariat a été effacé auparavant. De plus, un
 ### Options de jeu
 | Nom | Description |
 |----------|:-------------:|
-| Taux d'Apparition de l'Eraser | -
-| Cooldown de l'Eraser | Le cooldown de l'Eraser augmentera de 10 secondes après chaque effacement.
+| Taux d'Apparition de l'Effaceur | -
+| Cooldown de l'Effaceur | Le cooldown de l'Effaceur augmentera de 10 secondes après chaque effacement.
 | L'Effaceur Peut Effacer n'Importe Qui | Si cette option est désactivée, il ne peut pas effacer le Spy ni les autres Imposteurs
 -----------------------
 
@@ -893,7 +893,7 @@ Le Nettoyeur est un Imposteur que a l'abilité de nettoyer les cadavres.\
 \
 **REMARQUE:**
 - Le cooldown de Kill et de Nettoyage sont paratagés, pour éviter qu'ils nettoient immédiatement leur kills.
-- Si il y a un Cleaner dans la partie, il ne peut pas il y avoir de Vulture.
+- Si il y a un Nettoyeur dans la partie, il ne peut pas il y avoir de Vautour.
 
 ### Options de jeu
 | Nom | Description |
@@ -1732,6 +1732,7 @@ Si vous avez trouvé des bugs, si vous avez une idée pour un nouveau rôle ou t
 # Traduction
 La traduction à été effectuée par [omega7711](https://github.com/omega7711)
 Remerciements à cahty12, AKONE et Shadhow pour leur aide! 🙂
+Si vous trouvez la MOINDRE erreur de traduction, n'hésitez pas à me le signaler >> omega_7711#2663 OU Faites un [Report](https://github.com/omega7711/TheOtherRolesFR/issues) sur Github!
 
 # Copyedit
 Thanks for fixing our typos [jacktose](https://github.com/jacktose) ✌️
