@@ -1132,7 +1132,7 @@ S'il y a un Vautour dans le jeu, il ne peut pas y avoir de Nettoyeur.
 | Nom | Description |
 |----------|:-------------:|
 | Taux d'Apparition du Vautour | -
-| Compte à rebours du Vautour | -
+| Cooldown du Vautour | -
 | Nombre de Corps Mangés Nécessaire | Le nombre de cadavres devant être mangés pour gagner la partie
 | Le Vautour Peut Utiliser les Vents | -
 | Montrer les Flèches Pointant Vers les Corps | -
@@ -1231,7 +1231,7 @@ En raison des vents, l'Ingénieur peut ne pas être en mesure de démarrer certa
 |----------|:-------------:|
 | Taux d'Apparition de l'Ingénieur | -
 | Nombre de Réparations de Sabotage | -
-| Mettre les Vents en Surbrillance pour les Imposteurs  | -
+| Mettre les Vents en Surbrillance pour les Imposteurs | -
 | Mettre les Vents en Surbrillance pour les Chacals et les Acolytes | -
 -----------------------
 
@@ -1278,14 +1278,14 @@ Les Menottes désactivent:
 | L'adjoint Garde ses Menottes quand il est Promu | -
 -----------------------
 
-## Briquet
+## Eclaireur
 ### **Team: Crewmates**
-Le Briquet peut allumer son briquet de temps en temps, ce qui augmente sa vision d'un montant personnalisable.
+L'Eclaireur peut allumer son briquet de temps en temps, ce qui augmente sa vision d'un montant personnalisable.
 
 ### Options de jeu
 | Nom | Description |
 |----------|:-------------:|
-| Taux d'Apparition du Briquet | -
+| Taux d'Apparition de l'Eclaireur | -
 | Vision du Joueur Quand Briquet On & Lumières On | La Vision du Joueur quand les lumière sont allumées et que le briquet est allumé
 | Vision du Joueur Quand Briquet On & Lumières Off | La Vision du Joueur quand les lumière sont éteintes et que le briquet est allumé
 | Cooldown du Briquet | -
