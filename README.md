@@ -1732,7 +1732,7 @@ Si vous avez trouvé des bugs, si vous avez une idée pour un nouveau rôle ou t
 
 # Traduction
 La traduction à été effectuée par [omega7711](https://github.com/omega7711).\
-Remerciements à [cahty-12](https://github.com/cahty-12), AKONE et Shadhow pour leur aide! 🙂.\
+Remerciements à [cahty-12](https://github.com/cahty-12), AKONE et [Shadhow](https://github.com/ShadhowGH) pour leur aide! 🙂.\
 Si vous trouvez la MOINDRE erreur de traduction, n'hésitez pas à me le signaler >> omega_7711#2663 OU Faites un [Report](https://github.com/omega7711/TheOtherRolesFR/issues) sur Github!
 
 # Copyedit
