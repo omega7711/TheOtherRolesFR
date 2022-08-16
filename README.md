@@ -1394,7 +1394,7 @@ Le Voyant obtient un flash bleu sur son écran, si un joueur meurt quelque part 
 |----------|:-------------:|
 | Taux d'Apparition du Voyant | -
 | Mode du Voyant | Options: Voir le flash et les âmes, voir les flashs de mort, voir les âmes
-| La vue des Âmes a Une Durée | Défini si les âmes deviennent invisible après un moment
+| Durée de la vue des Âmes | Défini si les âmes deviennent invisible après un moment
 | Durée de vue des Âmes | Défini le temps que cela va prendre aux âmes de devenir invisible
 -----------------------
 
@@ -1420,7 +1420,7 @@ Lorsqu'il accède à ces gadgets mobiles, le Hacker ne peut pas se déplacer.
 | Le Hacker Voit Uniquement le Type de Couleur | Défini si le Hacker voit les couleurs sur la table admin ou seulement blanc/gris (pour les couleurs Claires ou Foncées)
 | Nombre Max de Charges au Gadget Mobile | -
 | Nombre de Tâches Nécessaire pour Recharger | Nombre de Tâches pour avoir une Charge
-| Ne Peut pas Bouger Pendant le Hacking | -
+| Durée où il ne Peut pas Bouger Pendant le Hacking | -
 -----------------------
 
 ## Pisteur
@@ -1459,7 +1459,7 @@ Lorsqu'il ne lui reste plus qu'une tâche à accomplir (configurable), le Moucha
 | Compte des Tâches où le Mouchard Sera Révélé | -
 | Inclus l'équipe Chacal | -
 | Utiliser Une Couleur Différente de Flèche Pour l'Équipe Chacal | -
-| Le Mouchard ne Peut pasÊtre Deviné Après Avoir Fini Toutes ses Tâches | -
+| Le Mouchard ne Peut pas Être Deviné Après Avoir Fini Toutes ses Tâches | -
 -----------------------
 
 ## Espion
@@ -1529,7 +1529,7 @@ Les vents seront scellés après le prochain meeting, les joueurs ne peuvent pas
 |----------|:-------------:|
 | Taux d'Apparition de l'Agent de Sécurité |
 | Cooldown de l'Agent de Sécurité |
-| Nombre de Vis de l'Agent de Sécurité Number Of Screws | Le nombre de vis qu'un Agent de Sécurité peut utiliser dans une partie
+| Nombre de Vis de l'Agent de Sécurité | Le nombre de vis qu'un Agent de Sécurité peut utiliser dans une partie
 | Nombre de Vis par Cam | Le nombre de vis que cela prends de placer une caméra
 | Nombre de Vis par Vent | Le nombre de vis que cela prends de sceller une vent
 | Durée de l'Agent de Sécurité | -
