@@ -1016,7 +1016,7 @@ Selon les options, le Devin ne peut pas deviner le joueur protégé et selon les
 |----------|:-------------:|
 | Taux d'Apparition du Devin | -
 | Chance Que le Devin Soit Un Imposteur | -
-| Nombre de Tirs par Parti | -
+| Nombre de Tirs par Partie | -
 | Le Devin Peut Tirer Plusieurs Fois par Meeting |  -
 | Les Suppositioons sont Visible dans le Chat Fantômes | -
 | Les Suppositions ignorent le Bouclier Médical | -
@@ -1035,6 +1035,7 @@ Le Bouffon n'a aucune tâche. Ils finissent la partie en solo, si ils sont éjec
 |----------|:-------------:|
 | Taux d'Apparition du Bouffon | -
 | Le Bouffon Peut Faire des de Meetings d'Urgence | Option pour désactiver le bouton de meeting d'urgence pour le Bouffon
+| Le Bouffon a la Vision des Imposteurs | -
 -----------------------
 
 ## Incendiaire
@@ -1048,7 +1049,7 @@ Après avoir arrosé tout le monde vivant, l'Incendiaire peut enflammer tous les
 | Nom | Description |
 |----------|:-------------:|
 | Taux d'Apparition de l'Incendiaire | -
-| Compte à rebours du L'Incendiaire | -
+| Cooldown de L'Incendiaire | -
 | Durée d'Arrosage de l'Incendiaire | Le temps que cela prends pour arroser un joueur
 -----------------------
 
@@ -1731,7 +1732,7 @@ Si vous avez trouvé des bugs, si vous avez une idée pour un nouveau rôle ou t
 
 # Traduction
 La traduction à été effectuée par [omega7711](https://github.com/omega7711).\
-Remerciements à cahty12, AKONE et Shadhow pour leur aide! 🙂.\
+Remerciements à [cahty-12](https://github.com/cahty-12), AKONE et Shadhow pour leur aide! 🙂.\
 Si vous trouvez la MOINDRE erreur de traduction, n'hésitez pas à me le signaler >> omega_7711#2663 OU Faites un [Report](https://github.com/omega7711/TheOtherRolesFR/issues) sur Github!
 
 # Copyedit
