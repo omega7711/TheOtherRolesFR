@@ -317,7 +317,7 @@ namespace TheOtherRoles
                 __instance.KillButton.graphic.sprite,
                 new Vector3(0f, 1f, 0),
                 __instance,
-                KeyCode.Q
+                KeyCode.A
             );
 
             // Deputy Handcuff
@@ -563,7 +563,7 @@ namespace TheOtherRoles
                Hacker.getAdminSprite(),
                new Vector3(-1.8f, -0.06f, 0),
                __instance,
-               KeyCode.Q,
+               KeyCode.A,
                true,
                0f,
                () => { 
@@ -624,7 +624,7 @@ namespace TheOtherRoles
                Hacker.getVitalsSprite(),
                new Vector3(-2.7f, -0.06f, 0),
                __instance,
-               KeyCode.Q,
+               KeyCode.A,
                true,
                0f,
                () => { 
@@ -677,7 +677,7 @@ namespace TheOtherRoles
                 Tracker.getTrackCorpsesButtonSprite(),
                 new Vector3(-2.7f, -0.06f, 0),
                 __instance,
-                KeyCode.Q,
+                KeyCode.A,
                 true,
                 Tracker.corpsesTrackingDuration,
                 () => {
@@ -750,7 +750,7 @@ namespace TheOtherRoles
                 Vampire.getButtonSprite(),
                 new Vector3(0, 1f, 0),
                 __instance,
-                KeyCode.Q,
+                KeyCode.A,
                 false,
                 0f,
                 () => {
@@ -878,7 +878,7 @@ namespace TheOtherRoles
                 __instance.KillButton.graphic.sprite,
                 new Vector3(0, 1f, 0),
                 __instance,
-                KeyCode.Q
+                KeyCode.A
             );
             
             // Sidekick Kill
@@ -894,7 +894,7 @@ namespace TheOtherRoles
                 __instance.KillButton.graphic.sprite,
                 new Vector3(0, 1f, 0),
                 __instance,
-                KeyCode.Q
+                KeyCode.A
             );
 
             // Lighter light
@@ -1168,7 +1168,7 @@ namespace TheOtherRoles
                 SecurityGuard.getCamSprite(),
                 new Vector3(-1.8f, -0.06f, 0),
                 __instance,
-                KeyCode.Q,
+                KeyCode.A,
                 true,
                 0f,
                 () => {

@@ -30,7 +30,7 @@ Plus de rôles sont en cours de développement. :)
 | [Ninja](#ninja) | [Pisteur](#pisteur) |  |  |
 | [Devin Maléfique](#Devin) | [Mouchard](#mouchard) |  |  |
 |  | [Espion](#Espion) |  |  |
-|  | [Dieur du Portail](#dieuèdu-portail) |  |  |
+|  | [Dieur du Portail](#dieu-du-portail) |  |  |
 |  | [Agent de Sécurité](#agent-de-sécurité) |  |  |
 |  | [Médium](#médium) |  |  |
 |  | [Gentil Devin](#devin) |  |
@@ -40,8 +40,9 @@ La section [Assignement des rôles](#assignement-des-rôles) explique comment le
 # Versions
 | Among Us - Version| Version du mod | Lien |
 |----------|-------------|-----------------|
-| 2022.6.21, 2022.7.12| v4.1.6| [Télécharger](https://github.com/omega7711/TheOtherRolesFR/releases/tag/v4.1.6)
-| 2022.6.21, 2022.7.12| v4.1.5| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.5/TheOtherRoles.zip)
+| 2022.8.24 | 4.1.7 | [Télécharger](https://github.com/omega7711/TheOtherRolesFR/releases/download/v4.1.7/TheOtherRolesFR.zip)
+| 2022.6.21| v4.1.6| [Télécharger](https://github.com/omega7711/TheOtherRolesFR/releases/download/v4.1.6/TheOtherRolesFR.zip)
+| 2022.6.21| v4.1.5| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.5/TheOtherRoles.zip)
 | 2022.3.29| v4.1.4| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.4/TheOtherRoles.zip)
 | 2022.3.29| v4.1.3| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.3/TheOtherRoles.zip)
 | 2022.3.29| v4.1.2| [Télécharger (Version Anglaise)](https://github.com/Eisbison/TheOtherRoles/releases/download/v4.1.2/TheOtherRoles.zip)
@@ -107,7 +108,10 @@ La section [Assignement des rôles](#assignement-des-rôles) explique comment le
 # Changements
 <details>
   <summary>Cliquez pour voir les infos de mise à jour</summary>
-  
+
+**Version 4.1.7**
+- Mise à jour pour Among Us 2022.8.24
+
 **Version 4.1.6**  
 - Ajout de sons: La plupart des boutons / fonctionnalités de rôles ont maintenant du son!
 - Ajout d'une option de mod: Activer les effets de son  

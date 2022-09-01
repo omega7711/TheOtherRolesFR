@@ -21,6 +21,7 @@ namespace TheOtherRoles.Patches
             new SelectionBehaviour("afficher le résumé des rôles", () => MapOptions.showRoleSummary = TheOtherRolesPlugin.ShowRoleSummary.Value = !TheOtherRolesPlugin.ShowRoleSummary.Value, TheOtherRolesPlugin.ShowRoleSummary.Value),
             new SelectionBehaviour("Afficher Clair/Sombre", () => MapOptions.showLighterDarker = TheOtherRolesPlugin.ShowLighterDarker.Value = !TheOtherRolesPlugin.ShowLighterDarker.Value, TheOtherRolesPlugin.ShowLighterDarker.Value),
             new SelectionBehaviour("Activer les effets de son", () => MapOptions.enableSoundEffects = TheOtherRolesPlugin.EnableSoundEffects.Value = !TheOtherRolesPlugin.EnableSoundEffects.Value, TheOtherRolesPlugin.EnableSoundEffects.Value),
+            new SelectionBehaviour("Debug Mode", () => MapOptions.DebugMode = TheOtherRolesPlugin.DebugMode.Value = !TheOtherRolesPlugin.DebugMode.Value, TheOtherRolesPlugin.DebugMode.Value),
         };
         
         private static GameObject popUp;

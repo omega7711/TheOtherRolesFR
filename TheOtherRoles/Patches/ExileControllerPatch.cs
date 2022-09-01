@@ -251,7 +251,7 @@ namespace TheOtherRoles.Patches {
                     if (id == StringNames.ImpostorsRemainP || id == StringNames.ImpostorsRemainS) {
                         if (Jester.jester != null && player.PlayerId == Jester.jester.PlayerId) __result = "";
                     }
-                    if (Tiebreaker.isTiebreak) __result += " (Casseur D'Egalité)";
+                    if (Tiebreaker.isTiebreak) __result += " (Egalité Cassée)";
                     Tiebreaker.isTiebreak = false;
                 }
             } catch {

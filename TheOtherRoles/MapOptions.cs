@@ -9,6 +9,7 @@ namespace TheOtherRoles{
         public static bool noVoteIsSelfVote = false;
         public static bool hidePlayerNames = false;
         public static bool ghostsSeeRoles = true;
+        public static bool DebugMode = false;
         public static bool ghostsSeeModifier = true;
         public static bool ghostsSeeTasks = true;
         public static bool ghostsSeeVotes = true;
@@ -43,6 +44,7 @@ namespace TheOtherRoles{
         }
 
         public static void reloadPluginOptions() {
+            DebugMode = TheOtherRolesPlugin.DebugMode.Value;
             ghostsSeeRoles = TheOtherRolesPlugin.GhostsSeeRoles.Value;
             ghostsSeeModifier = TheOtherRolesPlugin.GhostsSeeModifier.Value;
             ghostsSeeTasks = TheOtherRolesPlugin.GhostsSeeTasks.Value;

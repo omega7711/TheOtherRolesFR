@@ -4,6 +4,7 @@ using Hazel;
 using InnerNet;
 using TheOtherRoles.Players;
 using TheOtherRoles.Utilities;
+using UnityEngine;
 
 namespace TheOtherRoles.Modules {
     [HarmonyPatch]
@@ -27,12 +28,12 @@ namespace TheOtherRoles.Modules {
                                         FastDestroyableSingleton<GameStartManager>.Instance.LastPlayerCount = LobbyLimit;
                                         CachedPlayer.LocalPlayer.PlayerControl.RpcSyncSettings(PlayerControl.GameOptions);
                                         __instance.AddChat(CachedPlayer.LocalPlayer.PlayerControl, $"Lobby Size changed to {LobbyLimit} players");
-                                    } else {
+                                } else {
                                         __instance.AddChat(CachedPlayer.LocalPlayer.PlayerControl, $"Lobby Size is already {LobbyLimit}");
                                     }
                                 }
                             }
-                        }
+                    }
                 }
                 if (handled) {
                     __instance.TextArea.Clear();

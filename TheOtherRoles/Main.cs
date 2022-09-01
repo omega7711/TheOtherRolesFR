@@ -17,13 +17,13 @@ using TheOtherRoles.Utilities;
 
 namespace TheOtherRoles
 {
-    [BepInPlugin(Id, "The Other Roles FR", VersionString)]
+    [BepInPlugin(Id, "The Other Roles", VersionString)]
     [BepInDependency(SubmergedCompatibility.SUBMERGED_GUID, BepInDependency.DependencyFlags.SoftDependency)]
     [BepInProcess("Among Us.exe")]
     public class TheOtherRolesPlugin : BasePlugin
     {
         public const string Id = "me.eisbison.theotherroles";
-        public const string VersionString = "4.1.6";
+        public const string VersionString = "4.1.7";
 
         public static Version Version = Version.Parse(VersionString);
         internal static BepInEx.Logging.ManualLogSource Logger;
@@ -82,8 +82,6 @@ namespace TheOtherRoles
         public override void Load() {
             Logger = Log;
             Instance = this;
-
-            DebugMode = Config.Bind("Custom", "Active le mode Debug", false);
             GhostsSeeTasks = Config.Bind("Custom", "Les fantômes peuvent voir le nombre de tâches restantes", true);
             GhostsSeeRoles = Config.Bind("Custom", "Les fantômes peuvent voir les rôles", true);
             GhostsSeeModifier = Config.Bind("Custom", "Les fantômes peuvent voir les Modificateurs", true);
@@ -104,7 +102,7 @@ namespace TheOtherRoles
             GameOptionsData.RecommendedImpostors = GameOptionsData.MaxImpostors = Enumerable.Repeat(3, 16).ToArray(); // Max Imp = Recommended Imp = 3
             GameOptionsData.MinPlayers = Enumerable.Repeat(4, 15).ToArray(); // Min Players = 4
 
-            DebugMode = Config.Bind("Custom", "Active le mode Debug", false);
+            DebugMode = Config.Bind("Custom", "Active le Mode Debug", false);
             Harmony.PatchAll();
 
             CustomOptionHolder.Load();
@@ -163,7 +161,7 @@ namespace TheOtherRoles
 
                 bots.Add(playerControl);
                 GameData.Instance.AddPlayer(playerControl);
-                AmongUsClient.Instance.Spawn(playerControl, -2, InnerNet.SpawnFlags.None);
+                AmongUsClient.Instance.Spawn(playerControl, -1, InnerNet.SpawnFlags.None);
                 
                 playerControl.transform.position = CachedPlayer.LocalPlayer.transform.position;
                 playerControl.GetComponent<DummyBehaviour>().enabled = true;

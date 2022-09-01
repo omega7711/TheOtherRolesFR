@@ -32,7 +32,7 @@ namespace TheOtherRoles
         public static RoleInfo engineer = new RoleInfo("Ingénieur",  Engineer.color, "Maintenez les systèmes importants sur le vaisseau", "Réparez le vaisseau", RoleId.Engineer);
         public static RoleInfo sheriff = new RoleInfo("Shérif", Sheriff.color, "Tirez sur les <color=#FF1919FF>Imposteurs</color>", "Tirez sur les Imposteurs", RoleId.Sheriff);
         public static RoleInfo deputy = new RoleInfo("Adjoint", Sheriff.color, "Menottez les <color=#FF1919FF>Imposteurs</color>", "Menottez les Imposteurs", RoleId.Deputy);
-        public static RoleInfo lighter = new RoleInfo("Briquet", Lighter.color, "Votre lumière ne s'éteint jamais", "Votre lumière ne s'éteint jamais", RoleId.Lighter);
+        public static RoleInfo lighter = new RoleInfo("Eclaireur", Lighter.color, "Votre lumière ne s'éteint jamais", "Votre lumière ne s'éteint jamais", RoleId.Lighter);
         public static RoleInfo godfather = new RoleInfo("Parrain", Godfather.color, "Tuez tous les Crewmates", "Tuez tous les Crewmates", RoleId.Godfather);
         public static RoleInfo mafioso = new RoleInfo("Mafieux", Mafioso.color, "Travaille avec la <color=#FF1919FF>Mafia</color> pour tuer les Crewmates", "Tuez tous les Crewmates", RoleId.Mafioso);
         public static RoleInfo janitor = new RoleInfo("Concierge", Janitor.color, "Travaille avec la <color=#FF1919FF>Mafia</color> en cachant les corps", "Cachez les corps", RoleId.Janitor);
@@ -45,7 +45,7 @@ namespace TheOtherRoles
         public static RoleInfo warlock = new RoleInfo("Sorcier", Warlock.color, "Maudissez les autres joueurs et tuez tout le monde", "Maudissez et tuez tout le monde", RoleId.Warlock);
         public static RoleInfo bountyHunter = new RoleInfo("Mandalorian", BountyHunter.color, "Chassez votre prime", "Chassez votre prime", RoleId.BountyHunter);
         public static RoleInfo detective = new RoleInfo("Détéctive", Detective.color, "Trouvez les <color=#FF1919FF>Imposteurs</color> en examinants les empruntes de pas", "Examinez les empruntes de pas", RoleId.Detective);
-        public static RoleInfo timeMaster = new RoleInfo("Maître du temps", TimeMaster.color, "Save yourself with your time shield", "Use your time shield", RoleId.TimeMaster);
+        public static RoleInfo timeMaster = new RoleInfo("Maître du temps", TimeMaster.color, "Sauve toi toi-même avec ton bouclier temporel", "Utilise ton bouclier temporel", RoleId.TimeMaster);
         public static RoleInfo medic = new RoleInfo("Médecin", Medic.color, "Protègez quelqu'un avec votre bouvlier", "Protègez les autres joueurs", RoleId.Medic);
         public static RoleInfo shifter = new RoleInfo("Shifter", Shifter.color, "Changez votre rôle", "Changez votre rôle", RoleId.Shifter);
         public static RoleInfo swapper = new RoleInfo("Swapeur", Swapper.color, "Echangez les votes pour éxiler les <color=#FF1919FF>Imposteurs</color>", "Echangez les votes", RoleId.Swapper);
